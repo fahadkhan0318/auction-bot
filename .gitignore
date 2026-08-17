@@ -1,0 +1,25 @@
+# Secrets — never commit
+.env
+credentials.json
+
+# Python
+venv312/
+venv/
+__pycache__/
+*.pyc
+
+# Debug logs
+*_debug*.log
+*.log
+
+# Local safety-net backups — git history already versions the real files
+*.bak
+*.pre_*_bak
+*.pre_fullcad_bak
+
+# Scraped PDFs (large, regenerable)
+mvba_pdfs/
+
+# Editor/OS
+.vscode/
+.DS_Store

@@ -1,0 +1,1827 @@
+{
+  "SHERIFF_CALDWELL_18147": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "23-T-0095",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_17865": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0017",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_103823": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0026",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_103822": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0026",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_15146": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0074",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_43681": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0084",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_19650": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0089",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_17873": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "25-0018TXC",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7456000220051000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04914",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7456000220022000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04914",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7456000230044000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04914",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7896510050017000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04898",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7475870040022000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-05518",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_0501700050028000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-05683",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_9096500180018000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-03174",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_0221700050002000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2021-DCL-04311",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_5566000020006000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04319",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7706700860030000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7706700860031000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7706700860039000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200010023000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200020033000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200030019000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200040006000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200040008000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200050001200": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200050017000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200060013000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200060018000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200060021000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200060028000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200080003000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200090022000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200090030000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200110043000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200120005000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200120007000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200120025000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200120027000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200120040000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7712200120041000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7513300150017000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7513300200001000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7513300210004000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7513300210012000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7513300230012000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7513300260038000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7513300080001100": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7513300170020000": {
+    "status": "Sold",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06710",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7475410030012000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04492",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_1889100020001000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2018-DCL-04768",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7663210020030000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-06",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2020-DCL-05408",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000026227": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "21184",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000036139": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23079",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000031332": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23127",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000026750": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23144",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000028094": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23145",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000028108": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23145",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000012496": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23072",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000025583": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23055",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000021218": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "22822",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000018942": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "21551",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180705000600093000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,216-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180705000500051000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,216-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180705000600090000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,216-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000026400002010": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,232-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000102600003020": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,246-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000000902019000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,071-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000038102050010": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,498-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000001829016003": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27020-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000006600001020": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26917-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000124705005000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27390-A",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_04151510080000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN22002436",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_03028903010000": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24003602",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_03081604240000": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24003602",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_03050311070000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24004178",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_342000088400": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "18-09-17132",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_2720000100107": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "23-11-17637",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_5480018300301": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "23-11-17646",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_2850000100101": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "23-11-17628",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_3010000000O12": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "25-06-17828",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_5390000401400": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "21-12-17445",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_1040000701500": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "21-12-17445",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_1150000000600": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "21-11-17391",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_5480005000401": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "23-05-17563",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_5200000200800": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "23-11-17650",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_3970000300400": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "23-11-17639",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_2760000500344": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "24-05-17680",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000124705004000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27390-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000124705003000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27390-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000076600047000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27390-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000124705002000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27390-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000006600025000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27442-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000034700015000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26,289-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000045300012010": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26465-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000067004005000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "25,830-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000085200118010": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26787-A",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_7750-0008-0290": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-1824-B",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_5726-0001-0130": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-0620-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_4072-0008-0430": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-3981-F",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_0696-0034-0150": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2023DCV-3193-F",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_3385-0002-0040": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-2521-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_0993-0005-0180": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2025DCV-1896-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_2451-1403-0590": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2011DCV-2190-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9377-0051-0130": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2012DCV-4327-D",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9028-0012-0200": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-1239-H",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_3430-0001-0410": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-4432-H",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_0488-0003-0060": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-5039-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_3020-0003-0350": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2016DCV-5577-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_1585-0004-0430": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-4260-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_6807-0001-0120": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-5281-A",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9377-0049-0051": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-5386-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_6973-0004-0230": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2018DCV-2134-H",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9377-0049-0061": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2018DCV-3712-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9372-0003-0470": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-0349-H",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_6807-0008-0250": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-3132-B",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_0872-0006-0130": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-3165-G",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_2884-0006-0060": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-4332-F",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_8374-0005-0060": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2020DCV-4589-A",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_2132-0006-0200": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-0930-F",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_1512-0017-0150": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-1961-F",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_3020-0002-0140": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-3175-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_2277-0004-0100": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-3226-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_1955-0002-0140": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-3243-F",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_1760-0001-0160": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-4032-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_7435-0002-0220": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-2123-F",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_5135-0001-0060": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-2140-H",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0000430002100": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "23-04-05081",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0000440000180": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "23-12-19056",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0021500403600": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-09-14826",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0021500403700": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-09-14826",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0051720013500": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06282",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0051720013600": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06282",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0051720013700": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06282",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0051720013800": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06282",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0051720013900": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06282",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0003210007900": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-06-09489",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0091200003000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-07-11599",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0079600001210": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-12-19064",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0025000005430": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-12-19202",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0066030008520": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-02-02759",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0035950015200": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06225",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0064400000600": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "23-02-02919",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0061250001305": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "23-03-03121",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0096200204100": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "23-03-04509",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0004194703100": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-04-05688",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0064320279300": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-06-09524",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0069410425700": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-06-09525",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0058500308710": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-07-11631",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0081200100600": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-09-14840",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0027200201600": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-12-19201",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0096200316400": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-03-03391",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0095270421900": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06276",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0074129012600": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06283",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0004194701200": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06364",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0090630114700": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-05-07841",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0088310010200": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-05-08053",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0005400002200": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-06-09262",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0078100510970": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-06-10153",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0062500102200": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-06-10258",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0078100510570": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-06-10153",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0004200002300": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-08-12440",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000682891000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01262",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_42117500100300000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-02233",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000318799000000": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01178",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_50015500000150100": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-19-00117",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000178219000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00580",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_65146334210230000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00632",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000599683000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00990",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000805027000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00189",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000133930000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00652",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000188821000000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-02086",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000693700000000": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00234",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000363676000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00621",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000662202380000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01233",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000770701000000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01699",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000501049000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01556",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000467119000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00160",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000549547000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00556",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_38120460140090000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01809",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_600085000A0170000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01868",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000467122000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00504",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_38213500050070000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00126",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_38078500240070000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00191",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000315055000000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01986",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000315952000000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01986",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000154549000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00568",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000562504000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00568",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000154531000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00568",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000154561000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00568",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000154543000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00568",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000154558000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00568",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_001452000013A0000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00568",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_598600000021000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "18-TX-0503",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_705500000015003": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21TX0716",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_721500060014001": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "22TX0118",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_730500000090000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "19-TX-0526",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_413700010025000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0168",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_505000000046009": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24TX0172",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_109500000334013": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24TX0174",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_122500000014000": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0840",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_122500000055000": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0840",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_407500000037000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0068",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_703001350001000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0734",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_351000922007001": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "22-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_624601010001001": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "22-TX-0301",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_001300190000000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "22-TX-0682",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_277500050900002": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0309",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_277500072800004": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0309",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_440600000032000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0627",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_597500000008000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0700",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_516500000001005": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0775",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_449200010013001": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0221",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_742500080005000": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0468",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_709002120002000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503880007000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503880005000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503880002002": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503870003000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350504470001000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503870013000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503280014000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350502770007001": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503280013001": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_352500000001000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350504470010000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503870007000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_350503870010000": {
+    "status": "Sold",
+    "first_seen": "2026-05-07",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "17-TX-0246",
+    "section": "Closed"
+  }
+  
+}

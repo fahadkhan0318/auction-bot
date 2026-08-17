@@ -1,0 +1,4730 @@
+{
+  "SHERIFF_ARANSAS_56649": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-22-3101-TX-C",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_19502": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-19-3070-TX-B",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_18614": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-22-3002-TX-C",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_35419": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-22-3056-TX-C",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_33249": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-22-3056-TX-C",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_33253": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-22-3056-TX-C",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_23398": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-24-3063-TX-A",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_23418": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-24-3063-TX-A",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_28511": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-24-3036-TX-A",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_19536": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-24-3033-TX-A",
+    "section": "Closed"
+  },
+  "SHERIFF_ARANSAS_13644": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-10-3026-TX-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_12577": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-10-3033-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_13115": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-21-3046-TX-B",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_18637": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-24-3032-TX-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_26305": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-21-3062-TX-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_24236": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25610": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25631": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25639": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25660": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25707": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25733": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25740": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25576": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_25602": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-20-3003-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_32925": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-23-3033-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_ARANSAS_18235": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ARANSAS",
+    "cause_number": "A-22-3081-TX-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_8690000040160100": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2023-DCL-03882",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7896440040009000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-00429",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_6703610000040200": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06404",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_9702000010002000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-00560",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_9066300010004000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-01042",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7501620010011000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-01527",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_8844800390010000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-04520",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_2369700100004100": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-05720",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7912280110029000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2021-DCL-06715",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_8767920010043000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2021-DCL-03327",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_0399950020005000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-03509",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_8707000140011000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2023-DCL-02766",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_0100000430002000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-06543",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_0497000000029000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-05197",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7905000020020000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2018-DCL-02065",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_0333100050007000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-01018",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_0333100050008000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-01018",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_4.85E+11": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00250",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_1.63024E+11": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00682",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_382164600D0190000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01029",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000249901000000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-02125",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000899860180000": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00234",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000252376000000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00600",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_26178710030030100": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-21-01035",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_65085008710250000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00741",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000773986000000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00007",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000335455000000": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01399",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000503698000000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00569",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000216874000000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00184",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000728890000000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01685",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000611158000000": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01559",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000268534000000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01519",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_65017813050300000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-02097",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_600085000B0140000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00425",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_38180500000140200": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00370",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000319285000000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-02367",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000176953000000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00185",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000284203000000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-02126",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000749803000000": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-19-01595",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000558610000000": {
+    "status": "Redeemed",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00020",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000280231000000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01115",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000446080000000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01118",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000301108000000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01558",
+    "section": "Waiting"
+  },
+  "SHERIFF_ELPASO_F43000000100400": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2019DTX0087",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H77909078200080": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2021DTX0038",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H77909078200120": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2021DTX0038",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_L21300000400800": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2021DTX1405",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_R70199900102100": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2022DTX0381",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_A20000000907700": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2022DTX0396",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_M43699902902200": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2022DTX0682",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_S56200405000200": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0077",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_G56999908600100": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0082",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H78100100700020": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0130",
+    "section": "Closed"
+  },
+  "SHERIFF_ELLIS_147585": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELLIS",
+    "cause_number": "22222TX",
+    "section": "Closed"
+  },
+  "SHERIFF_ELLIS_177259": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELLIS",
+    "cause_number": "22340TX",
+    "section": "Closed"
+  },
+  "SHERIFF_ELLIS_171123": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELLIS",
+    "cause_number": "22360TX",
+    "section": "Closed"
+  },
+  "SHERIFF_ELLIS_185471": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELLIS",
+    "cause_number": "22477TX",
+    "section": "Closed"
+  },
+  "SHERIFF_ELLIS_183193": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "ELLIS",
+    "cause_number": "22479TX",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_624001640026000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "16-TX-0466",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_703001710001002": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "18-TX-0245",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_567000000068000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "18-TX-0738",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_188500000095000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "18-TX-0742",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_005500070000000": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "19-TX-0349",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_019700120000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0121",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_271500030018000": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0233",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_341000000019004": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0629",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_289500000027000": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0741",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_522500010007000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0033",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_772500080008000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0041",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_206500000009000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0064",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_234500430001000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0319",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_772700040019000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0364",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_703000030010000": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0130",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_005500220000000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0267",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_200400000016000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0268",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_158500000028000": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0430",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_188000000027000": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0581",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_337000410011000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0224",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_000200320000000": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0365",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_591430000005000": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0409",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_351000370010001": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0112",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_685200080009001": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0529",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_685200080011000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0529",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_772500080009000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0041",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_30532": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "022661-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_48460": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "022765-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_106879": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "022828-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_59713": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "022831-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_59715": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "022831-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_29359": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "022842-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_1160727": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "022960-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_37798": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "022974-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_35911": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023274-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_29638": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023304-CCL2",
+    "section": "Closed"
+  },
+  "SHERIFF_GREGG_40917": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023324-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_40893": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023325-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_40916": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023325-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_40910": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023325-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_40912": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023325-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_40913": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023325-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_40879": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023325-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_40888": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023325-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_GREGG_48655": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "GREGG",
+    "cause_number": "023361-CCL2",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_39254": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17058",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_47357": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17520",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_35667": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17613",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_13804": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17631",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_24620": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17688",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_34396": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17793",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_34397": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17793",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_34430": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17793",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_34431": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17793",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_126414": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17882",
+    "section": "Closed"
+  },
+  "SHERIFF_MATAGORDA_46021": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17943",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_45001": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18029",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_44997": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18029",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_10299": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18043",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_33828": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18072",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_89308": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18140",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0420-0068-0600": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2012DCV-0837-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_0420-0068-0609": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2012DCV-0837-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_0072-0001-0040": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-2444-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_5281-0011-0225": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2018DCV-3673-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_4570-0006-0060": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2018DCV-5530-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_7308-0000-0310": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2020DCV-1768-A",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_7627-0001-0010": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-3350-B",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_3525-0001-0070": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2023DCV-0311-F",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_2451-1403-0590": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2011DCV-2190-E",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9377-0051-0130": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2012DCV-4327-D",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9028-0012-0200": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-1239-H",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3430-0001-0410": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-4432-H",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0488-0003-0060": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-5039-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3020-0003-0350": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2016DCV-5577-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_1585-0004-0430": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-4260-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9377-0049-0051": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-5386-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9377-0049-0061": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2018DCV-3712-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9372-0003-0470": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-0349-H",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_6807-0008-0250": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-3132-B",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0872-0006-0130": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-3165-G",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_8374-0005-0060": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2020DCV-4589-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_2132-0006-0200": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-0930-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3020-0002-0140": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-3175-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_2277-0004-0100": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-3226-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_1760-0001-0160": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-4032-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_5135-0001-0060": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-2140-H",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3385-0002-0040": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-2521-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_SMITH_181040000100032000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26,563-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000001700028007": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26,849-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180705000100147000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26,894-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_181043000000003002": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,343-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000103700020044": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,629-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_181295000000003000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,695-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000144504002210": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,785-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000099300010000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "28,007-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000054500006000": {
+    "status": "Cancelled",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,653-C",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_01767806090000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN23000409",
+    "section": "Waiting"
+  },
+  "SHERIFF_TRAVIS_01827304160000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN23000409",
+    "section": "Waiting"
+  },
+  "SHERIFF_TRAVIS_01827305280000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN23000409",
+    "section": "Waiting"
+  },
+  "SHERIFF_TRAVIS_01827304180000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN23000409",
+    "section": "Waiting"
+  },
+  "SHERIFF_TRAVIS_01827304170000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN23000409",
+    "section": "Waiting"
+  },
+  "SHERIFF_TRAVIS_01827305290000": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN23000409",
+    "section": "Waiting"
+  },
+  "SHERIFF_TRAVIS_02419803210000": {
+    "status": "Paid in Full",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN20004376",
+    "section": "Waiting"
+  },
+  "SHERIFF_TRAVIS_05025307050000": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24004907",
+    "section": "Waiting"
+  },
+  "SHERIFF_WILSON_2710-23000-01900": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "WILSON",
+    "cause_number": "CVW1800486",
+    "section": "Closed"
+  },
+  "SHERIFF_WILSON_2705-00035-00300": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "WILSON",
+    "cause_number": "CVW1900224",
+    "section": "Closed"
+  },
+  "SHERIFF_WILSON_0845-00022-00700": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "WILSON",
+    "cause_number": "CVW1900497",
+    "section": "Closed"
+  },
+  "SHERIFF_WILSON_0845-00027-01000": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "WILSON",
+    "cause_number": "CVW1900498",
+    "section": "Closed"
+  },
+  "SHERIFF_WILSON_2710-01000-01501": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "WILSON",
+    "cause_number": "CVW2000384",
+    "section": "Closed"
+  },
+  "SHERIFF_WILSON_0020-00000-00702": {
+    "status": "Struck Off",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "WILSON",
+    "cause_number": "CVW2000838",
+    "section": "Closed"
+  },
+  "SHERIFF_WILSON_4956-00090-00600": {
+    "status": "Sold",
+    "first_seen": "2026-05-15",
+    "source": "SHERIFF",
+    "county": "WILSON",
+    "cause_number": "CVW2100365",
+    "section": "Closed"
+  },
+  "MVBA_ANDERSON_R19632": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "349-7029",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R36700": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV22-3412-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R26725": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV22-3479-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R10743": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29963": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4676-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R10602": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4740-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R339464-County/849949-CAD": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4758-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R61695": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R70301": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4858-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R382270": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4916-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R31317": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4929-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R32802": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-5067-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R60890": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-5131-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_M306641": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29988": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5230-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R833199": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5385-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29965": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5498-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R17915": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5617-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R17914": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R16593": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-13879",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_M310221": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-13879",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R60155": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14107",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R70481": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14107",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R56470": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14107",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R56472": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14107",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R56473": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14107",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R56474": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14107",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R20913": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14528",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R21753": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14574",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R38100": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14581",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R104960": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14592",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R53233": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14652",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R20278": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14670",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R17287": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14670",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R36645": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14687",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R36277": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14703",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R30497": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14704",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R17389": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14750",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R19156": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14783",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R19600": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14785",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R21549": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14788",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R35596": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14794",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R94527": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14806",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R26200": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14819",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R57172": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14899",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_69930": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "21DCV325692",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_474867": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "22DCV333328",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_112344": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "22DCV333331",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_117452": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "23DCV341303",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_39880": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "23DCV342482",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_34145": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "23DCV342482",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_125015": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "23DCV342746",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_15868": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "23DCV342750",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_12285": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV343890",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_47251": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344192",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24485": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344592",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344840-T12": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344840",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344840-T13": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344840",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_58899": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344840",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_100162": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV345040",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_39223": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV345521",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_60473": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV345523",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_46344": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV346280",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_50982": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV346779",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_46004": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV346781",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_65347": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV346985",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_37034": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV347725",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_51735": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV347725",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_numbers": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV348539",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_102235": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV348541",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_316068": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV348722",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_208014": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV349754",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV349778-T28": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV349778",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_238584": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350082",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_352552": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350132",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV350133-T31": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350133",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_19944": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350377",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_123948": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350549",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_99922": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350655",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_30413": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV351247",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24330": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV351745",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_316288": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV351984",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_46108": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV352446",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_30468": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV352447",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_99467": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV352780",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_69223": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV352782",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_51564": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV352845",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_91985": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV353189",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_54559": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV353341",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_103191": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV353344",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_239279": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV353346",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_486278": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV353346",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_26417": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV353566",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_81395": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV354286",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_470251": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV355842",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_389726": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV355842",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_46565": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "279689",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_207080": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "297631",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_389969": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "297631",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_47502": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "310589",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_345486": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "319683",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_20007268": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-5819",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_20044359": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6578",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_55463": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6596",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_44300": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6685",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_20045738": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6700",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_51293": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6701",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_49508": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6703",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_20002046": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6707",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_43956": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6728",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_12118": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6744",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_52100": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN",
+    "cause_number": "T-6774",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20046310": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6248",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20015478": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6372",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20015107": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6406",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20015500": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6423",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_75841": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6466",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20043526": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6512",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20015435": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6254",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20039213": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6316",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20015487": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6405",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20039403": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6436",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20039399": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6642",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_42762": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6274",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_44014": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6494",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_47409": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6551",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_53232": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6622",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20039313": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6643",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20039476": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6649",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_44630": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6654",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20043615": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6655",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20043657": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6678",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_41641": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6681",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20043613": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6686",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_44122": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6743",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BROWN_TRUST_20046162": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "BROWN_TRUST",
+    "cause_number": "T-6667",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_005240-000750/31691": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "12902T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_007650-006800/37135": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13212T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_006900-002951/44082": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13212T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_001000-004350-0-000000/1594": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13216T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_005350-000750/13600/Account/005350-": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13223T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_005350-002400/13613": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13223T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_003250-013150/20936": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13278T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_002450-000450/28549": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13337T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000888-000160/8129": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13406T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000003-001610/42579": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13409T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_003650-000200/43538": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13457T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_004100-006600/54278": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13457T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_005050-004900/57393": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13532T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000040-000200/57391": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13532T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_005150-000250/18205": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13534T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_001000-003100/44400": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13599T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000033-000151/57460": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13603T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_003750-000200/41356": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13604T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_004150-002300/51735": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13606T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000024-000350/23954": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13618T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000024-008655/31658": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13618T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000016-007500/18838": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13619T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_005850-001850/12707": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13643T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000017-007280/50919/Account/000017-": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13647T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_004050-000560/51661": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "12234T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000031-008550/14636": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13238T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000685-000714-0-000000/29415": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13300T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000002-011401/8167": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13321T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_013350-001000/45284": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13528T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HARDIN_000039-003004/21558": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARDIN",
+    "cause_number": "13617T",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R47727": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX17174",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R17957": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX17631",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R16948": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX17776",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R29042": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX18188",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R42835": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX18213",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R20937": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX18306",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000032748": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX18457",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000011256": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX18491",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000024421": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-24-00013",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000208159": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00017",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000049263": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00104",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000049264": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00104",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000046334": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00105",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R28869": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00115",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000210892": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00116",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000209682": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00116",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000051966": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00214",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000038680": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00215",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000028637": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000645559": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000645648": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000645720": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000645792": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000645864": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000645947": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000646029": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000646112": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000646199": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000646288": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000645472": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00408",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_70400": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42693",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_14483": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42162",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_70569": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV41750",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_27023": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42429",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_12070": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV41807",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_25526": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42272",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_27749": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42272",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_12416": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42681",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_20510338": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42954",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_22934": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42383",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_22752": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42503",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_10565": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV42592",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MILAM_27076": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "MILAM",
+    "cause_number": "CV43004",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_15677": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2006-077",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_15451": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2016-030",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_15671": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2016-032",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_10472": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2017-031",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_14418": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2019-046",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_109123": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2019-046",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_15473": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2019-060",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_15582": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2019-060",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_15358": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2023-059",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_14107": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2024-072",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_14261": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2024-078",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_000000142338/000000015053": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2024-078",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_14807": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2025-047",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_15203": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2025-072",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SHACKELFORD_000000135001/000000015670": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "SHACKELFORD",
+    "cause_number": "2025-085",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CHEROKEE_114527000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2023020069",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_224536000": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2023070267",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_221148020": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2023070267",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_103519000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024060208",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_103404000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024060208",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_103518000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024060208",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_103520000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024060208",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_105782000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025020059",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_430173066": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025040108",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_114514000/115410100/117341000/985950408/115397000/110540000/115391000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025050169",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_533099000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025050169",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_985816908": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025050169",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_115410110": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025050169",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_227158000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025050172",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000021693": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "13-0073-T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000038146": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "23-0125T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000036938": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "23-1121T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000039934": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "23-1125T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000048949": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "24-0591T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000024123": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "24-0741T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000066001": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "24-0871T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000006780": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0009T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000011770/R000071516": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0020T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000028051": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0188T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000028052": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0188T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000035390/R000035391": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0519T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000004903": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0521T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000018406": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0612T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000007113": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0636T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000029399/R000029400": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0655T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000049943": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0660T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000030259": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0732T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000018525": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0733T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000032566": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0734T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000008437": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0736T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000020251/R000034315/R000034316": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0739T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000037157": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0934T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000031584/R000010219/R000010220/R000031583": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-1008T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000010218/R000010222": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-1008T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000045068": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "23-0431T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000024041": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "23-0640T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000045066": {
+    "status": "Pending",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "23-0640T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HARRISON_R000016386": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-15",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0608T",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_62426": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-9997B",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_12654": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10566E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_12657": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10566E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_443213": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10627E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_53266": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10701E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_10340": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10727E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_33780": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10776E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_33781": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10776E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_51910": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10785E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_61744": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10786E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_61785": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10786E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_102147": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10793E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_106992": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10803E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_46002": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10891E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_37241": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10899E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_148902": {
+    "status": "Pending",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10920E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_120421": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10923C",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_20867": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10937C",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_70067": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10937C",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_23675": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10949E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_29163": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11014B",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_12723": {
+    "status": "Withdrawn",
+    "first_seen": "2026-05-19",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11021D",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_TAYLOR_70585": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "12942-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_50485": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13304-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_50623": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13304-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_50884": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13304-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_39807": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13565-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_40013": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13571-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_75056": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13571-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_58775": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13641-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_41679": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13671-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_28173": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "13699-D",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_28431": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "28238-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_74718": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29072-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_48420": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29199-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_19658": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29203-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_56027": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29403-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_56651": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29417-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_14827": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29417-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_59624": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29474-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_28317": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29477-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_10000": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29497-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_12409": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29515-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_63280": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29542-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_16037": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29543-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_32173": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29543-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_37641": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "29590-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_74479": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "51470-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_75401": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "51681-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_56235": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "51784-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_75863": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "51853-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_41043": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "51863-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_41189": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "51863-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_48699": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "51924-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_23765": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "51973-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_53528": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52003-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_53798": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52003-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_32140": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52039-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_64389": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52184-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_53626": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52219-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_54017": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52219-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_24919": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52227-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_11991": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52228-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_19566": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52233-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_61627": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52234-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_32002": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52240-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_74665": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52242-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_50494": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52252-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_40636": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52255-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_40761": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52255-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_37182": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52260-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_72423": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52288-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_12242": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52288-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_66574": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52288-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_TAYLOR_27050": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "TAYLOR",
+    "cause_number": "52294-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HENDERSON_284461": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX23-0268-3",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_289074": {
+    "status": "Withdrawn",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0183-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_245641": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0123-3",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_289077": {
+    "status": "Withdrawn",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0183-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_MVBA-HENDERSON-71135": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0183-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_289601": {
+    "status": "Withdrawn",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0183-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_289652": {
+    "status": "Withdrawn",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0183-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_273996/3745-0000-D310-630": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0243-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_300502": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0275-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_313640": {
+    "status": "Withdrawn",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX25-0045-392",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_245203": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX25-0122-392",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_245202": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX25-0122-392",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_296692": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX16-0403-392",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_261690": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX20-0230-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_2390-0001-3900-300": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX21-0416-3",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_242416": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX21-0430-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_290475": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX21-0457-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_0328-0230-000B-000": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX22-0007-3",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_243867": {
+    "status": "Pending",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX22-0063-173",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_HENDERSON_MVBA-HENDERSON-62485": {
+    "status": "Withdrawn",
+    "first_seen": "2026-06-01",
+    "source": "MVBA",
+    "county": "HENDERSON",
+    "cause_number": "TAX24-0183-173",
+    "section": "MVBA_ONLINE"
+  },
+  "SHERIFF_DALLAS_26343500050120000": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00783",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_65095712110290000": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00837",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_26228500060070000": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00409",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_32559630040070000": {
+    "status": "Redeemed",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-02281",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_26651500060270000": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-02292",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_26057500210170000": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-18-01615",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_65095712210270400": {
+    "status": "Struck Off",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00971",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_26441500070020000": {
+    "status": "P.Arrangement",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00261",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_26624600050110000": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-02341",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_65034660110350000": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01026",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000163030000000": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00372",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_26080500000100000": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00849",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000347770000000": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-20-00457",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H78100100700030": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0130",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H78100100700040": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0130",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_S36399901102300": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0876",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H79301700600210": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0884",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H33399900705700": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0924",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H77905036800050": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX1025",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_P65499905105100": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX1233",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_M79499903302500": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2024DTX0396",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_S36399900706100": {
+    "status": "Cancelled",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2024DTX0419",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_704800030023000": {
+    "status": "Struck Off",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "15-TX-0320",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000023252": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "21579",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000006159": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "21787",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000034867": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23015",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000034855": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23015",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000018779": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23015",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000018763": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23015",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000040377": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23192",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000023742": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23218",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000023750": {
+    "status": "Sold",
+    "first_seen": "2026-06-03",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23218",
+    "section": "Closed"
+  }
+}

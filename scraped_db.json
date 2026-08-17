@@ -1,0 +1,787 @@
+{
+  "17-TX-0074": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13686&bypassPage=1"
+  },
+  "18-TX-0088": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13687&bypassPage=1"
+  },
+  "18-TX-0251": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13688&bypassPage=1"
+  },
+  "18-TX-0284": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13689&bypassPage=1"
+  },
+  "18-TX-0856": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13690&bypassPage=1"
+  },
+  "18-TX-0889": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13691&bypassPage=1"
+  },
+  "20-TX-0118": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13693&bypassPage=1"
+  },
+  "20-TX-0283": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13694&bypassPage=1"
+  },
+  "21-TX-0363": {
+    "status": "Cancelled",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13695&bypassPage=1"
+  },
+  "21-TX-0379": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13696&bypassPage=1"
+  },
+  "22-TX-0135": {
+    "status": "Cancelled",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13697&bypassPage=2"
+  },
+  "22-TX-0313": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13698&bypassPage=2"
+  },
+  "22-TX-0330": {
+    "status": "Cancelled",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13699&bypassPage=2"
+  },
+  "22-TX-0399": {
+    "status": "Cancelled",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13700&bypassPage=2"
+  },
+  "22-TX-0549": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13701&bypassPage=2"
+  },
+  "23-TX-0342": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13704&bypassPage=2"
+  },
+  "23-TX-0334": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13703&bypassPage=2"
+  },
+  "23-TX-0345": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13705&bypassPage=2"
+  },
+  "23-TX-0385": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13706&bypassPage=2"
+  },
+  "23-TX-0410": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13707&bypassPage=2"
+  },
+  "23-TX-0539": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13708&bypassPage=3"
+  },
+  "23-TX-0793": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13709&bypassPage=3"
+  },
+  "24-TX-0035": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13710&bypassPage=3"
+  },
+  "24-TX-0317": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13711&bypassPage=3"
+  },
+  "24-TX-0412": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13712&bypassPage=3"
+  },
+  "23-TX-0232": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13702&bypassPage=3"
+  },
+  "20-TX-0002": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://galveston.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13692&bypassPage=3"
+  },
+  "2022-DCL-01299": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13602&bypassPage=1"
+  },
+  "2022-DCL-03119": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13603&bypassPage=1"
+  },
+  "2022-DCL-05453": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13604&bypassPage=1"
+  },
+  "2022-DCL-05708": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13605&bypassPage=1"
+  },
+  "2024-DCL-01213": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13607&bypassPage=1"
+  },
+  "2024-DCL-03633": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13608&bypassPage=1"
+  },
+  "2024-DCL-07657": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13610&bypassPage=1"
+  },
+  "2023-DCL-03560": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13606&bypassPage=1"
+  },
+  "2021-DCL-03897": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13601&bypassPage=1"
+  },
+  "TX-24-01394": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13742&bypassPage=1"
+  },
+  "TX-20-00679": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13685&bypassPage=1"
+  },
+  "TX-25-00237": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13739&bypassPage=1"
+  },
+  "TX-21-01009": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13506&bypassPage=1"
+  },
+  "TX-23-01758": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13519&bypassPage=1"
+  },
+  "TX-23-01647": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13518&bypassPage=1"
+  },
+  "TX-14-40382": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13736&bypassPage=1"
+  },
+  "TX-23-02127": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13520&bypassPage=1"
+  },
+  "TX-22-00696": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13511&bypassPage=1"
+  },
+  "TX-12-30270": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13503&bypassPage=1"
+  },
+  "TX-24-02327": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13738&bypassPage=2"
+  },
+  "TX-24-00401": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13741&bypassPage=2"
+  },
+  "TX-21-00812": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13505&bypassPage=2"
+  },
+  "TX-22-01335": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13512&bypassPage=2"
+  },
+  "TX-23-00585": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13514&bypassPage=2"
+  },
+  "TX-23-00694": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13515&bypassPage=2"
+  },
+  "TX-23-01479": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13517&bypassPage=2"
+  },
+  "TX-23-01209": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13516&bypassPage=2"
+  },
+  "TX-25-00108": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13525&bypassPage=2"
+  },
+  "TX-22-00574": {
+    "status": "Pulled for no bids",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13510&bypassPage=3"
+  },
+  "TX-25-00515": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13527&bypassPage=3"
+  },
+  "TX-24-01031": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13521&bypassPage=3"
+  },
+  "TX-24-01649": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13523&bypassPage=3"
+  },
+  "TX-22-01614": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13513&bypassPage=3"
+  },
+  "TX-24-02051": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13524&bypassPage=3"
+  },
+  "TX-25-00189": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13526&bypassPage=3"
+  },
+  "TX-19-01141": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13504&bypassPage=4"
+  },
+  "TX-24-01488": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://dallas.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13522&bypassPage=4"
+  },
+  "2024-DCL-07609": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://cameron.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13609&bypassPage=1"
+  },
+  "21708TX": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://ellis.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13713&bypassPage=1"
+  },
+  "22119TX": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://ellis.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13715&bypassPage=1"
+  },
+  "22316TX": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://ellis.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13716&bypassPage=1"
+  },
+  "22390TX": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://ellis.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13717&bypassPage=1"
+  },
+  "22464TX": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://ellis.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13718&bypassPage=1"
+  },
+  "22487TX": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://ellis.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13719&bypassPage=1"
+  },
+  "22583TX": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://ellis.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13720&bypassPage=1"
+  },
+  "108797-CC2": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://kaufman.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13680&bypassPage=1"
+  },
+  "116329-CC2": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://kaufman.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13684&bypassPage=1"
+  },
+  "111537-CC2": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://kaufman.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13735&bypassPage=1"
+  },
+  "112285-CC2": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://kaufman.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13683&bypassPage=1"
+  },
+  "111999-CC2": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://kaufman.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13682&bypassPage=1"
+  },
+  "110732-CC2": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://kaufman.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13681&bypassPage=1"
+  },
+  "118385-CC2": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://kaufman.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13734&bypassPage=1"
+  },
+  "2017DCV-2950-F": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13662&bypassPage=1"
+  },
+  "2011DCV-2190-E": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13656&bypassPage=1"
+  },
+  "2012DCV-4327-D": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13657&bypassPage=1"
+  },
+  "2014DCV-1239-H": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13658&bypassPage=1"
+  },
+  "2014DCV-4432-H": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13659&bypassPage=1"
+  },
+  "2015DCV-2903-E": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13660&bypassPage=1"
+  },
+  "2017DCV-5281-A": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13663&bypassPage=1"
+  },
+  "2018DCV-2064-H": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13665&bypassPage=2"
+  },
+  "2017DCV-5386-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13664&bypassPage=1"
+  },
+  "2019DCV-0349-H": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13668&bypassPage=1"
+  },
+  "2019DCV-3165-G": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13670&bypassPage=2"
+  },
+  "2019DCV-4821-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13671&bypassPage=2"
+  },
+  "2020DCV-4589-A": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13672&bypassPage=2"
+  },
+  "2021DCV-3175-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13674&bypassPage=2"
+  },
+  "2021DCV-4032-E": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13677&bypassPage=3"
+  },
+  "2022DCV-2140-H": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13678&bypassPage=3"
+  },
+  "2024DCV-2055-F": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13679&bypassPage=3"
+  },
+  "2016DCV-5577-E": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13661&bypassPage=1"
+  },
+  "200206-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13611&bypassPage=1"
+  },
+  "210047-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13612&bypassPage=1"
+  },
+  "210048-T": {
+    "status": "Cancelled",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13613&bypassPage=1"
+  },
+  "210067-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13614&bypassPage=1"
+  },
+  "210094-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13615&bypassPage=1"
+  },
+  "220023-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13617&bypassPage=1"
+  },
+  "220031-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13618&bypassPage=1"
+  },
+  "220066-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13619&bypassPage=1"
+  },
+  "230031-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13620&bypassPage=1"
+  },
+  "230048-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13623&bypassPage=2"
+  },
+  "240039-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13624&bypassPage=2"
+  },
+  "240053-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13625&bypassPage=2"
+  },
+  "240057-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13626&bypassPage=2"
+  },
+  "240096-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13627&bypassPage=2"
+  },
+  "A180245-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13628&bypassPage=2"
+  },
+  "A190051-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13629&bypassPage=2"
+  },
+  "A190052-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13630&bypassPage=2"
+  },
+  "A200025-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13631&bypassPage=3"
+  },
+  "A200133-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13632&bypassPage=3"
+  },
+  "A200214-T": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13633&bypassPage=3"
+  },
+  "A210006-T": {
+    "status": "Cancelled",
+    "first_seen": "2026-04-10",
+    "link": "https://orange.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13635&bypassPage=3"
+  },
+  "26,088-C": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13721&bypassPage=1"
+  },
+  "26,158-A": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13722&bypassPage=1"
+  },
+  "26,249-B": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13723&bypassPage=1"
+  },
+  "26,279-C": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13724&bypassPage=1"
+  },
+  "26,473-B": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13725&bypassPage=1"
+  },
+  "26,836-A": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13727&bypassPage=1"
+  },
+  "27,281-C": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13728&bypassPage=1"
+  },
+  "27,482-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13729&bypassPage=1"
+  },
+  "27,569-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13730&bypassPage=1"
+  },
+  "27,572-C": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13731&bypassPage=1"
+  },
+  "27,576-A": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13732&bypassPage=2"
+  },
+  "27,599-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13733&bypassPage=2"
+  },
+  "27470-C": {
+    "status": "Paid in Full",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13743&bypassPage=2"
+  },
+  "27779-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13744&bypassPage=2"
+  },
+  "26,649-A": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13726&bypassPage=2"
+  },
+  "21936TX": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://ellis.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13714&bypassPage=1"
+  },
+  "115824-CC2": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://kaufman.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13760&bypassPage=1"
+  },
+  "2018DCV-2134-H": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13666&bypassPage=2"
+  },
+  "2018DCV-3712-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13667&bypassPage=2"
+  },
+  "2019DCV-3132-B": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13669&bypassPage=2"
+  },
+  "2021DCV-0930-F": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13673&bypassPage=2"
+  },
+  "2021DCV-3226-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13675&bypassPage=2"
+  },
+  "2021DCV-3243-F": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://nueces.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13676&bypassPage=3"
+  },
+  "27812-C": {
+    "status": "Sold",
+    "first_seen": "2026-04-10",
+    "link": "https://smith.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13745&bypassPage=2"
+  },
+  "23-T-0095": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://caldwell.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13752&bypassPage=1"
+  },
+  "DCTAX-24-0017": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://caldwell.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13754&bypassPage=1"
+  },
+  "DCTAX-24-0026": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://caldwell.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13756&bypassPage=1"
+  },
+  "DCTAX-24-0074": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://caldwell.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13757&bypassPage=1"
+  },
+  "DCTAX-24-0084": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://caldwell.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13758&bypassPage=1"
+  },
+  "DCTAX-24-0089": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://caldwell.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13759&bypassPage=1"
+  },
+  "25-0018TXC": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://caldwell.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13753&bypassPage=1"
+  },
+  "23079": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://llano.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13747&bypassPage=1"
+  },
+  "23127": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://llano.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13748&bypassPage=1"
+  },
+  "23144": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://llano.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13749&bypassPage=1"
+  },
+  "23145": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://llano.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13750&bypassPage=1"
+  },
+  "23072": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://llano.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13764&bypassPage=1"
+  },
+  "23055": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://llano.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13763&bypassPage=1"
+  },
+  "22822": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://llano.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13762&bypassPage=1"
+  },
+  "21551": {
+    "status": "Pending",
+    "first_seen": "2026-04-10",
+    "link": "https://llano.texas.sheriffsaleauctions.com/index.cfm?zaction=auction&zmethod=details&AID=13761&bypassPage=1"
+  }
+}
