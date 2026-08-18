@@ -576,7 +576,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000679504000000": {
-    "status": "Sold",
+    "status": "Struck Off",
     "first_seen": "2026-07-09",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -584,7 +584,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000751990000000": {
-    "status": "Cancelled",
+    "status": "Redeemed",
     "first_seen": "2026-07-09",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -600,7 +600,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000445846000000": {
-    "status": "Sold",
+    "status": "Struck Off",
     "first_seen": "2026-07-10",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -608,7 +608,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000615601000000": {
-    "status": "Cancelled",
+    "status": "Redeemed",
     "first_seen": "2026-07-10",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -624,7 +624,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000728890000000": {
-    "status": "Struck Off",
+    "status": "Pulled for no bids",
     "first_seen": "2026-07-10",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -640,7 +640,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000342292000000": {
-    "status": "Cancelled",
+    "status": "Redeemed",
     "first_seen": "2026-07-10",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2128,7 +2128,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_4069-0000-0201": {
-    "status": "Sold",
+    "status": "Struck Off",
     "first_seen": "2026-07-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2136,7 +2136,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_3020-0005-0230": {
-    "status": "Sold",
+    "status": "Struck Off",
     "first_seen": "2026-07-16",
     "source": "SHERIFF",
     "county": "NUECES",
