@@ -364,8 +364,13 @@ def ask_target_month():
     now = datetime.now()
 
     if AUTO_MODE:
-        month_num = now.month
+        # Auctions get listed ~30 days out, so the automated run always
+        # targets next month (Aug run -> September, Sep run -> October, ...).
+        month_num = now.month + 1
         year      = now.year
+        if month_num > 12:
+            month_num = 1
+            year     += 1
         mn        = MONTH_NUM_TO_NAME[month_num].lower()
         MAIN_CSV  = f"data_{mn}_{year}.csv"
         DB_FILE   = f"scraped_db_{mn}_{year}.json"
