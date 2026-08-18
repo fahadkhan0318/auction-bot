@@ -784,7 +784,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_TRAVIS_01435504620000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-07",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -792,7 +792,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_01688611010000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-07",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -800,7 +800,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_02421503180000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-07",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -808,7 +808,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_05500701060000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-07",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -1904,7 +1904,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_CAMERON_9786400030038000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1952,7 +1952,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_7697500010002000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1976,7 +1976,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_9316100060005000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1984,7 +1984,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_9396400030021000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -2088,7 +2088,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000177142000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2096,7 +2096,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000172327000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2104,7 +2104,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000565699000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2112,7 +2112,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000182032000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2120,7 +2120,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000285619000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2128,7 +2128,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000478981000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2136,7 +2136,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000697129000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2144,7 +2144,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_26047150010190000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2152,7 +2152,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000561340000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2160,7 +2160,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000266806000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2168,7 +2168,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000454534000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2480,7 +2480,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_GALVESTON_337000160004000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2488,7 +2488,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_624000420021000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2496,7 +2496,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_017500170001000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2504,7 +2504,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_596001640019000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2512,7 +2512,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_442000540004000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2520,7 +2520,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_438200000147000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2528,7 +2528,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_596005520003000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2536,7 +2536,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_337000340002000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2544,7 +2544,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_350501480012000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2552,7 +2552,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_565000000096000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2560,7 +2560,7 @@
     "section": "Closed"
   },
   "SHERIFF_ORANGE_014862-000520": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -2608,7 +2608,7 @@
     "section": "Closed"
   },
   "SHERIFF_ORANGE_000498-002001": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -2616,7 +2616,7 @@
     "section": "Closed"
   },
   "SHERIFF_ORANGE_000003-001101": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -2624,7 +2624,7 @@
     "section": "Closed"
   },
   "SHERIFF_ORANGE_005665-000565": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -2632,7 +2632,7 @@
     "section": "Closed"
   },
   "SHERIFF_ORANGE_005042-000180": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -2712,7 +2712,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ORANGE_014474-000140": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -2768,7 +2768,7 @@
     "section": "Waiting"
   },
   "SHERIFF_VICTORIA_1610000200600": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2776,7 +2776,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_1560000800800": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2784,7 +2784,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_5760001901500": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2792,7 +2792,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_3660000300300": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2800,7 +2800,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_993000100100": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2808,7 +2808,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_2760000500335": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2832,7 +2832,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_2830000200336": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2840,7 +2840,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_1160000005100": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -3112,7 +3112,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_S16199900103300": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3120,7 +3120,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_E36900401900100": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3128,7 +3128,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_H93500003001000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3136,7 +3136,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_S54000000030600": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3144,7 +3144,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_G68699910205600": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3152,7 +3152,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_V92799903000400": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3160,7 +3160,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_M63000000150031": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3168,7 +3168,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_H79302100600030": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3216,7 +3216,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_596004010010000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3224,7 +3224,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_286700000049000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3272,7 +3272,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_296501620016000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3296,7 +3296,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GREGG_70154": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GREGG",
@@ -3304,7 +3304,7 @@
     "section": "Closed"
   },
   "SHERIFF_GREGG_53351": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GREGG",
@@ -3312,7 +3312,7 @@
     "section": "Closed"
   },
   "SHERIFF_GREGG_34811": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GREGG",
@@ -3360,7 +3360,7 @@
     "section": "Closed"
   },
   "SHERIFF_GREGG_29359": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GREGG",
@@ -3368,7 +3368,7 @@
     "section": "Closed"
   },
   "SHERIFF_GREGG_11216": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GREGG",
@@ -4014,5 +4014,61 @@
     "county": "BOWIE",
     "cause_number": "25C0430-102",
     "section": "MVBA_ONLINE"
+  },
+  "SHERIFF_DALLAS_00000258409000000": {
+    "status": "Pending",
+    "first_seen": "2026-08-18",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01003",
+    "section": "Waiting"
+  },
+  "MVBA_BELL_24DCV350340-T39": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-18",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350340",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV350340-T40": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-18",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350340",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV350972-T44": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-18",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV350972",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV350972-T45": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-18",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV350972",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV350972-T46": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-18",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV350972",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV358149-T68": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-18",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV358149",
+    "section": "MVBA_PDF"
   }
 }
