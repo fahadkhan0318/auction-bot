@@ -42,10 +42,19 @@ jobs:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
         run: echo "$GOOGLE_CREDENTIALS_JSON" > credentials.json
 
+      - name: Check VPN secret present
+        id: vpncheck
+        env:
+          WG_CONF: ${{ secrets.SURFSHARK_WG_CONF }}
+        run: echo "has_secret=${{ env.WG_CONF != '' }}" >> "$GITHUB_OUTPUT"
+
       # Sheriff sale sites geo-block non-US traffic, so the runner's own
       # (non-US) IP won't load them — tunnel through Surfshark (US server)
-      # for just the scraper step, then drop the tunnel again.
+      # for just the scraper step, then drop the tunnel again. Skipped (with
+      # a warning) if SURFSHARK_WG_CONF isn't set yet, so the rest of the
+      # pipeline can still be test-run — Sheriff will just fail to load.
       - name: Connect Surfshark VPN (US)
+        if: steps.vpncheck.outputs.has_secret == 'true'
         env:
           WG_CONF: ${{ secrets.SURFSHARK_WG_CONF }}
         run: |
@@ -58,6 +67,10 @@ jobs:
           echo "Public IP is now:"
           curl -s https://ifconfig.co
 
+      - name: Warn if VPN not configured
+        if: steps.vpncheck.outputs.has_secret != 'true'
+        run: echo "::warning::SURFSHARK_WG_CONF secret not set — running without VPN, Sheriff (geo-blocked) will likely fail this run."
+
       - name: Run scraper (unattended)
         env:
           AUTO_RUN: '1'
@@ -66,7 +79,7 @@ jobs:
         run: xvfb-run -a python main.py
 
       - name: Disconnect VPN
-        if: always()
+        if: always() && steps.vpncheck.outputs.has_secret == 'true'
         run: sudo wg-quick down wg0 || true
 
       - name: Remove credentials file
