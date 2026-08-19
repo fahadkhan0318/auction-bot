@@ -2608,7 +2608,7 @@
     "section": "Closed"
   },
   "SHERIFF_ORANGE_000498-002001": {
-    "status": "Struck Off",
+    "status": "Paid in Full",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -2640,7 +2640,7 @@
     "section": "Closed"
   },
   "SHERIFF_ORANGE_010845-000030": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -3432,7 +3432,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GREGG_14509": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GREGG",
@@ -4024,7 +4024,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_367900020007000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -4032,7 +4032,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_108000020001003": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -4040,7 +4040,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_062100200000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -4048,7 +4048,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_233000000004000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -4056,7 +4056,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_109500000446003": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
