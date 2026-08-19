@@ -2,13 +2,13 @@ name: Scheduled Tax Sale Scrape
 
 on:
   schedule:
-    # Starts 1 hour before the target 8 AM / 2 PM / 8 PM Central times, so the
+    # Starts 1 hour before the target 6 AM / 12 PM / 6 PM Central times, so the
     # run has finished BY that hour instead of just starting then. Central is
     # UTC-5 (CDT, Mar-Nov) or UTC-6 (CST, Nov-Mar) — set for CDT, so during
     # CST (winter) the actual run lands ~1 hour earlier locally.
-    - cron: '0 12 * * *'   # ~7 AM Central (done by 8 AM)
-    - cron: '0 18 * * *'   # ~1 PM Central (done by 2 PM)
-    - cron: '0 0 * * *'    # ~7 PM Central (done by 8 PM)
+    - cron: '0 10 * * *'   # ~5 AM Central (done by 6 AM)
+    - cron: '0 16 * * *'   # ~11 AM Central (done by 12 PM)
+    - cron: '0 22 * * *'   # ~5 PM Central (done by 6 PM)
   workflow_dispatch: {}    # lets you trigger a run manually from the Actions tab
 
 permissions:
