@@ -153,6 +153,9 @@ TRAVIS_BASE_URL = "https://travis.prodigycad.com"
 # McLennan CAD — True Prodigy engine (same API shape as Travis)
 MCLENNAN_BASE_URL = "https://mclennancad.org"
 
+# Bowie CAD — True Prodigy engine (same API shape as Travis/McLennan)
+BOWIE_BASE_URL = "https://bowieappraisal.com"
+
 # Midland CAD — ISW / Southwest Data Solutions portal
 MIDLAND_SEARCH_URL = "https://iswdataclient.azurewebsites.net/webindex.aspx?dbkey=MIDLANDCAD"
 
@@ -4230,255 +4233,133 @@ def _scrape_leon_property(page, account_number):
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# BOWIE CAD — bowieappraisal.com (AG Grid / React SPA)
-# Search: https://bowieappraisal.com/property-search
-# Flow  : enter account/GEO ID → click search → click PropID link → detail
+# BOWIE CAD — bowieappraisal.com (True Prodigy engine, same API as Travis/
+# McLennan — confirmed by its own "Powered by: True Prodigy" footer).
+# Search: {base}/property-search → open the "Search type" dropdown (default
+#         is "Compound Text Search", which returns "No Rows To Show" for a
+#         Tax Office ID search term even when the record exists — MVBA's
+#         account numbers, e.g. 01580011000, only match under "Tax Office
+#         ID") → select it → fill #searchInput → Enter → read the property
+#         record straight out of the site's own JSON search API response
+#         (public/property/search), same as Travis/McLennan. Avoids scraping
+#         the detail page's own DOM, whose LOCATION/OWNER panel values render
+#         blank client-side (same True-Prodigy quirk fixed for Ellis CAD) and
+#         whose generic "Address:" fallback previously matched the CAD
+#         office's own footer address instead of the property's.
 # ═══════════════════════════════════════════════════════════════════════════
 
+def _bowie_clean_id(raw):
+    """Strip leading R/r from Bowie account numbers (Tax Office ID is numeric)."""
+    return re.sub(r'^[Rr]', '', raw.strip())
+
+
 def _scrape_bowie_property(page, account_number):
-    clean = re.sub(r'^[Rr]', '', account_number.strip())
+    clean = _bowie_clean_id(account_number)
+    if not clean:
+        print(f"    ⚠️  Could not parse Bowie account: {account_number}")
+        return None
     print(f"    🔍 Bowie account: {clean}")
 
+    captured = {}
+
+    def _on_response(resp):
+        if "public/property/search" in resp.url and resp.request.method == "POST":
+            try:
+                captured["data"] = resp.json()
+            except Exception:
+                pass
+
+    page.on("response", _on_response)
     try:
-        page.goto(
-            "https://bowieappraisal.com/property-search",
-            timeout=60000,
-            wait_until="domcontentloaded",
-        )
-        try:
-            page.wait_for_load_state("networkidle", timeout=15000)
-        except Exception:
-            pass
-        page.wait_for_timeout(2500)
-
-        # ── Find and fill the search text input ──────────────────────────
-        # Angular SPA — use JS native setter so Angular change detection fires
-        filled = page.evaluate("""
-            (val) => {
-                var inputs = [...document.querySelectorAll('input[type="text"], input:not([type])')];
-                var inp = inputs.find(i => i.offsetParent !== null && i.offsetWidth > 100);
-                if (!inp) inp = inputs.find(i => i.offsetParent !== null);
-                if (!inp) return false;
-                inp.focus();
-                var setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
-                setter.call(inp, val);
-                inp.dispatchEvent(new Event('input',  { bubbles: true }));
-                inp.dispatchEvent(new Event('change', { bubbles: true }));
-                return true;
-            }
-        """, clean)
-        if not filled:
-            print(f"    ⚠️  Bowie: JS fill failed — trying Playwright fill")
-            inp_loc = page.locator("input[type='text'], input:not([type])")
-            visible = [inp_loc.nth(i) for i in range(inp_loc.count())
-                       if inp_loc.nth(i).is_visible()]
-            if not visible:
-                print(f"    ⚠️  Bowie: no search input found")
-                return None
-            visible[0].click()
-            visible[0].fill(clean)
-        print(f"    ✏️  Entered: {clean}")
-        page.wait_for_timeout(500)
-
-        # ── Click the search (magnifying glass) button ───────────────────
-        # Try JS click on the button with a search icon
-        btn_clicked = page.evaluate("""
-            () => {
-                var btns = [...document.querySelectorAll('button')];
-                // prefer button that contains an svg or mat-icon or search-related class
-                var b = btns.find(b => b.offsetParent !== null && (
-                    b.querySelector('svg, mat-icon, [class*="search" i], [class*="magnif" i]') ||
-                    (b.getAttribute('aria-label') || '').toLowerCase().includes('search') ||
-                    (b.className || '').toLowerCase().includes('search')
-                ));
-                if (!b) b = btns.find(b => b.offsetParent !== null && b.type === 'submit');
-                if (!b) return false;
-                b.click();
-                return true;
-            }
-        """)
-        if btn_clicked:
-            print(f"    🖱️  Search button clicked (JS)")
-        else:
-            page.keyboard.press("Enter")
-            print(f"    ⌨️  Enter pressed (no button found)")
-
-        try:
-            page.wait_for_load_state("networkidle", timeout=10000)
-        except Exception:
-            page.wait_for_load_state("domcontentloaded")
-        page.wait_for_timeout(2000)
-
-        # ── Wait for AG Grid results rows ─────────────────────────────────
-        try:
-            page.wait_for_selector(
-                ".ag-row, table tbody tr, [class*='ag-row']",
-                timeout=10000
-            )
-        except Exception:
-            print(f"    ⚠️  Bowie: no results appeared for: {clean}")
-            return None
-
-        # ── Click the first PropID link in the results ────────────────────
-        prop_link = page.locator(
-            ".ag-cell a, [col-id='propId'] a, "
-            "table tbody td a, .ag-row a"
-        )
-        if prop_link.count() == 0:
-            # Fallback: any anchor in the grid/table area
-            prop_link = page.locator(".ag-center-cols-container a, tbody a")
-        if prop_link.count() == 0:
-            print(f"    ⚠️  Bowie: no PropID link found in results")
-            return None
-
-        prop_id_text = ""
-        try:
-            prop_id_text = prop_link.first.inner_text().strip()
-        except Exception:
-            pass
-        prop_link.first.click()
-        print(f"    🖱️  Clicked PropID: {prop_id_text}")
-
-        try:
-            page.wait_for_load_state("networkidle", timeout=15000)
-        except Exception:
-            page.wait_for_load_state("domcontentloaded")
-        page.wait_for_timeout(2000)
-
-        # Scroll to trigger lazy-loaded sections
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        page.wait_for_timeout(1000)
-        page.evaluate("window.scrollTo(0, 0)")
-        page.wait_for_timeout(500)
-
-        final_url = page.url
-        text = page.inner_text("body")
-        print(f"    🔗 Detail URL: {final_url}")
-
-        # ── Owner ─────────────────────────────────────────────────────────
-        owner = ""
-        owner_m = re.search(r'(?:Owner\s+Name|Owner(?!\s*ID\b))[ \t:]+([A-Z][^\n]{2,80})', text, re.IGNORECASE)
-        if owner_m:
-            owner = re.split(r'\s{3,}|\bMailing\b|\bAddress\b', owner_m.group(1))[0].strip()
-            if len(owner) < 3:
-                owner = ""
-        if not owner:
+        for attempt in range(3):
             try:
-                owner = page.evaluate("""
-                    () => {
-                        for (var el of document.querySelectorAll('td, th, span, div, label')) {
-                            var t = (el.innerText || '').trim().toLowerCase();
-                            if (t === 'owner name' || t === 'owner') {
-                                var nx = el.nextElementSibling;
-                                if (nx) return (nx.innerText || '').trim();
-                                var row = el.closest('tr');
-                                if (row) {
-                                    var tds = row.querySelectorAll('td');
-                                    if (tds.length >= 2) return (tds[tds.length-1].innerText||'').trim();
-                                }
-                            }
-                        }
-                        return '';
-                    }
-                """) or ""
-                if len(owner) < 3:
-                    owner = ""
-            except Exception:
-                pass
-        if owner:
-            print(f"    👤 Owner: {owner}")
-
-        # ── Address ───────────────────────────────────────────────────────
-        address = ""
-        for pat in [
-            r'(?:Situs|Property)\s+Address[:\s]+([^\n]{5,120})',
-            r'\bAddress[:\s]+(\d[^\n]{5,120})',
-        ]:
-            m = re.search(pat, text, re.IGNORECASE)
-            if m:
-                address = m.group(1).strip().rstrip(',')
-                address = re.sub(r'\s+USA\b', '', address, flags=re.IGNORECASE)
-                address = re.sub(r',?\s*(TX|Texas)\s*\d*\s*$', ', TX', address, re.IGNORECASE).strip()
-                break
-        if not address:
-            try:
-                address = page.evaluate("""
-                    () => {
-                        for (var el of document.querySelectorAll('td, th, span, div, label')) {
-                            var t = (el.innerText || '').trim().toLowerCase();
-                            if (t.includes('situs address') || t.includes('property address') || t === 'address') {
-                                var nx = el.nextElementSibling;
-                                if (nx) return (nx.innerText || '').trim();
-                                var row = el.closest('tr');
-                                if (row) {
-                                    var tds = row.querySelectorAll('td');
-                                    if (tds.length >= 2) return (tds[tds.length-1].innerText||'').trim();
-                                }
-                            }
-                        }
-                        return '';
-                    }
-                """) or ""
-                if address:
-                    address = re.sub(r',?\s*(TX|Texas)\s*\d*\s*$', ', TX', address, re.IGNORECASE).strip()
-                if len(address) < 4:
-                    address = ""
-            except Exception:
-                pass
-        if address:
-            print(f"    🏠 Address: {address}")
-
-        # ── Values ────────────────────────────────────────────────────────
-        market_value = extract_market_value(text)
-        if market_value:
-            print(f"    💰 Value: {market_value}")
-
-        def _val(label):
-            m = re.search(label + r'[:\s]+\$?([\d,]+)', text, re.IGNORECASE)
-            if m:
-                raw = m.group(1).replace(',', '')
+                page.goto(f"{BOWIE_BASE_URL}/property-search", timeout=30000, wait_until="domcontentloaded")
                 try:
-                    return f"${int(raw):,}"
+                    page.wait_for_load_state("networkidle", timeout=15000)
                 except Exception:
                     pass
-            return ""
+                page.wait_for_timeout(1500)
 
-        imp_homesite     = _val(r'Improvement\s+Homesite(?:\s+Value)?')
-        imp_nonhomesite  = _val(r'Improvement\s+Non-?Homesite(?:\s+Value)?')
-        land_homesite    = _val(r'Land\s+Homesite(?:\s+Value)?')
-        land_nonhomesite = _val(r'Land\s+Non-?Homesite(?:\s+Value)?')
-        ag_market        = _val(r'Ag(?:ricultural)?\s+Market\s+Val(?:uation)?')
+                page.locator('[aria-label="Search type"]').click(timeout=8000, force=True)
+                page.wait_for_timeout(500)
+                page.get_by_role("option", name="Tax Office ID", exact=True).click(timeout=8000, force=True)
+                page.wait_for_timeout(500)
 
-        google_maps_url = build_google_maps_url(address) if address else ""
-        zillow_url      = build_zillow_url(address) if address else ""
-        realtor_url     = build_realtor_search_url(address) if address else ""
+                search_input = page.locator("#searchInput")
+                search_input.wait_for(state="visible", timeout=10000)
+                search_input.click()
+                search_input.fill(clean)
+                page.wait_for_timeout(300)
+                page.keyboard.press("Enter")
+                page.wait_for_timeout(3000)
+                if captured.get("data") is not None:
+                    break
+            except Exception as e:
+                print(f"    ⚠️  Bowie search attempt {attempt + 1} failed: {e}")
+    finally:
+        try:
+            page.remove_listener("response", _on_response)
+        except Exception:
+            pass
 
-        if google_maps_url:
-            print(f"    🗺️  Google Maps: {google_maps_url[:80]}")
-        if zillow_url:
-            print(f"    🏡 Zillow: {zillow_url[:80]}")
-
-        return {
-            "Property Address":           address,
-            "Owner Name":                 owner,
-            "Adjusted Value":             market_value,
-            "Appraisal District":         final_url,
-            "Property Map":               google_maps_url,
-            "Interactive Map":            "",
-            "Satellite View":             google_maps_url,
-            "Zillow":                     zillow_url,
-            "Realtor":                    realtor_url,
-            "Improvement Homesite Value": imp_homesite,
-            "Improvement Non-Homesite":   imp_nonhomesite,
-            "Land Homesite Value":        land_homesite,
-            "Land Non-Homesite Value":    land_nonhomesite,
-            "Ag Market Valuation":        ag_market,
-        }
-
-    except Exception as e:
-        print(f"    ❌ Bowie scrape error: {e}")
-        import traceback; traceback.print_exc()
+    results = ((captured.get("data") or {}).get("results")) or []
+    if not results:
+        print(f"    ❌ Bowie property not found: {account_number}")
         return None
+
+    entry = next((r for r in results if str(r.get("taxOfficeRef", "")) == clean), results[0])
+
+    pid  = entry.get("pid")
+    year = entry.get("pYear", CURRENT_YEAR)
+    detail_url = f"{BOWIE_BASE_URL}/property-detail/{pid}/{year}"
+
+    owner = (entry.get("displayName") or entry.get("name") or "").strip()
+
+    address = (entry.get("fullSitus") or "").strip()
+    address = re.sub(r'\s*,\s*TX\s*,\s*', ', TX ', address, flags=re.IGNORECASE)
+    address = re.sub(r'\s+', ' ', address).strip(', ').strip()
+    if address:
+        print(f"    🏠 Bowie address: {address}")
+    if owner:
+        print(f"    👤 Bowie owner: {owner}")
+
+    land_value  = entry.get("landValue") or 0
+    imp_value   = entry.get("improvementValue") or 0
+    land_hs_pct = float(entry.get("landHomesitePct") or 0) / 100
+    imp_hs_pct  = float(entry.get("structureHomesitePct") or 0) / 100
+
+    land_homesite    = _travis_money(land_value * land_hs_pct)
+    land_nonhomesite = _travis_money(land_value * (1 - land_hs_pct))
+    imp_homesite     = _travis_money(imp_value * imp_hs_pct)
+    imp_nonhomesite  = _travis_money(imp_value * (1 - imp_hs_pct))
+    market_value     = _travis_money(entry.get("appraisedValue") or entry.get("marketValue") or 0)
+
+    lat, lon = entry.get("latitude"), entry.get("longitude")
+    if lat and lon:
+        google_maps_url = f"https://maps.google.com/maps?q={lat},{lon}"
+    else:
+        google_maps_url = build_google_maps_url(address) if address else ""
+
+    zillow_url  = build_zillow_url(address) if address else ""
+    realtor_url = build_realtor_search_url(address) if address else ""
+
+    print(f"    🔗 Canonical: {detail_url}")
+    return {
+        "Property Address":           address,
+        "Owner Name":                 owner,
+        "Adjusted Value":             market_value,
+        "Appraisal District":         detail_url,
+        "Property Map":               google_maps_url,
+        "Interactive Map":            "",
+        "Satellite View":             google_maps_url,
+        "Zillow":                     zillow_url,
+        "Realtor":                    realtor_url,
+        "Improvement Homesite Value": imp_homesite,
+        "Improvement Non-Homesite":   imp_nonhomesite,
+        "Land Homesite Value":        land_homesite,
+        "Land Non-Homesite Value":    land_nonhomesite,
+        "Ag Market Valuation":        "",
+    }
 
 
 # ═══════════════════════════════════════════════════════════════════════════

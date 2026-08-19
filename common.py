@@ -473,6 +473,17 @@ def smart_save(data, db, csv_rows, section_label=""):
         and data.get("Item Number", "") != existing_row.get("Item Number", "")
     )
 
+    has_new_min_bid   = bool(data.get("Min Bid", "").strip())
+    min_bid_changed   = (
+        has_new_min_bid
+        and data.get("Min Bid", "") != existing_row.get("Min Bid", "")
+    )
+    has_new_adj_val   = bool(data.get("Adjusted Value", "").strip())
+    adj_val_changed   = (
+        has_new_adj_val
+        and data.get("Adjusted Value", "") != existing_row.get("Adjusted Value", "")
+    )
+
     needs_update = (
         old_status != new_status
         or (missing_buyer  and has_new_buyer)
@@ -481,6 +492,8 @@ def smart_save(data, db, csv_rows, section_label=""):
         or (missing_owner  and has_new_owner)
         or (missing_item_num and has_new_item_num)
         or item_num_changed
+        or min_bid_changed
+        or adj_val_changed
         or (not existing_row.get("Zillow", "")             and data.get("Zillow"))
         or (not existing_row.get("Realtor", "")            and data.get("Realtor"))
         or (not existing_row.get("Satellite View", "")     and data.get("Satellite View"))
@@ -499,6 +512,11 @@ def smart_save(data, db, csv_rows, section_label=""):
             winning_bid = ""
         existing.update({
             "Status":             new_status,
+            # Min Bid / Adjusted Value grow over time as interest and costs
+            # accrue before the sale date, so a freshly re-scraped figure
+            # must always win over whatever was stored previously.
+            "Min Bid":            data.get("Min Bid", "")            or existing.get("Min Bid", ""),
+            "Adjusted Value":     data.get("Adjusted Value", "")     or existing.get("Adjusted Value", ""),
             # Just an ordering hint for renumber_item_numbers() — prefer the
             # freshest raw number since it best reflects the site's current
             # sequence; the real displayed Item Number is always recomputed

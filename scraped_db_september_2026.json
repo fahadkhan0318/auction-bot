@@ -4023,6 +4023,46 @@
     "cause_number": "TX-25-01003",
     "section": "Waiting"
   },
+  "SHERIFF_GALVESTON_367900020007000": {
+    "status": "Pending",
+    "first_seen": "2026-08-19",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25TX0213",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_108000020001003": {
+    "status": "Pending",
+    "first_seen": "2026-08-19",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23TX0255",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_062100200000000": {
+    "status": "Pending",
+    "first_seen": "2026-08-19",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23TX0678",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_233000000004000": {
+    "status": "Pending",
+    "first_seen": "2026-08-19",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24TX0790",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_109500000446003": {
+    "status": "Pending",
+    "first_seen": "2026-08-19",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23TX0833",
+    "section": "Closed"
+  },
   "MVBA_BELL_24DCV350340-T39": {
     "status": "Withdrawn",
     "first_seen": "2026-08-18",
