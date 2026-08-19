@@ -1200,7 +1200,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R031379": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -4069,6 +4069,94 @@
     "source": "MVBA",
     "county": "BELL",
     "cause_number": "25DCV358149",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_23DCV341797-T9": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "23DCV341797",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV348812-T35": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV348812",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV349751-T36": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV349751",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV357246-T62": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV357246",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV357246-T63": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV357246",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV357246-T64": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV357246",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV357246-T65": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV357246",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_296180-T70": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "296180",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_318656-T72": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "318656",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R16364": {
+    "status": "Pending",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "15-07-23170-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_25-10-29967-CV-T19": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-19",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-10-29967-CV",
     "section": "MVBA_PDF"
   }
 }
