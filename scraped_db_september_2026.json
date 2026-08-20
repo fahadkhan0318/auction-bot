@@ -800,7 +800,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_02421503180000": {
-    "status": "Struck Off",
+    "status": "Paid in Full",
     "first_seen": "2026-08-07",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -2136,7 +2136,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000697129000000": {
-    "status": "Cancelled",
+    "status": "Pending",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
