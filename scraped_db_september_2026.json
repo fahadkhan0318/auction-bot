@@ -1912,7 +1912,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_3792000000004000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1920,7 +1920,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_3792000000006000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1928,7 +1928,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_3790000000034000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -2184,7 +2184,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000521020000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2752,7 +2752,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ORANGE_002331-000020": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -2760,7 +2760,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ORANGE_002331-000090": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -3152,7 +3152,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_V92799903000400": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
