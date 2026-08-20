@@ -1358,22 +1358,7 @@ def scrape_mvba_online_auction(page, auction_url, county, auction_date):
 
                         detail_text = page.inner_text("body")
                         prop = parse_mvba_online_detail(detail_text, href, county, auction_date, lot_number=lot_num)
-                        if prop is not None:
-                            break
-                        # Page loaded with no exception but "Account No." never
-                        # showed up in the captured text — this used to fall
-                        # straight out of the retry loop via an unconditional
-                        # break right after computing prop, so a lot whose
-                        # detail content just rendered slowly (not a real
-                        # navigation error) was silently dropped with no
-                        # retry, indistinguishable from a genuinely-missing
-                        # account. Retry once more like the exception path
-                        # below does, instead of giving up on the first look.
-                        if detail_attempt == 0:
-                            print(f"\n      ⚠️ No Account No. found yet — retrying...")
-                            page.wait_for_timeout(2000)
-                            continue
-                        print(f"\n      ❌ No Account No. found after retry — skipping lot")
+                        break
                     except Exception as e:
                         prop = None
                         if detail_attempt == 0:
