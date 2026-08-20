@@ -1283,7 +1283,7 @@ def _refresh_item_number_only(csv_rows, uk, position):
 
 def apply_lightweight_status_update(page, uk, cause_number, card_data, db, csv_rows,
                                      index_url, p_list_val, pg, page_input_id, section_base_url,
-                                     site_seq=None):
+                                     site_seq=None, section_name=None):
     """Update Status (+ Buyer/Amount if newly Sold) for a listing we already
     have full data for — never opens the detail page. Cancelled/Struck Off/etc.
     are a pure status flip (nobody bids on those); Sold pulls buyer+amount from
@@ -1322,6 +1322,24 @@ def apply_lightweight_status_update(page, uk, cause_number, card_data, db, csv_r
         # `amount`, which used to be read as "this sold" and got written out
         # as a fake Sold Amount equal to the minimum bid, with no buyer.
         new_status = "Sold" if buyer else (new_status or "Struck Off")
+
+    # Same future-date guard as process_listing_url / scrape_section's skip
+    # check, applied at the end so it catches every branch above uniformly
+    # (blank card defaulting to Struck Off, a real "Cancelled"/"Struck Off"
+    # keyword match on the card, everything) — not just one of them. A
+    # Closed-tab card can carry a stale non-Pending Auction Status label on a
+    # relisted property whose Auction Date has already moved to the next
+    # future sale date; this is the path that was still re-stamping
+    # "Struck Off"/"Cancelled" on every run even after the other two guards
+    # were added, because it resolves independently of both.
+    if (section_name == "Closed" and new_status != "Pending"
+            and auction_date_is_future(row.get("Auction Date", ""))):
+        new_status = "Pending"
+        buyer      = ""
+        amount     = ""
+        row["Buyer Name"]  = ""
+        row["Sold Amount"] = ""
+        row["Winning Bid"] = ""
 
     row["Status"] = new_status
     if new_status in SOLD_STATUSES:
@@ -1427,7 +1445,7 @@ def scrape_section(page, county_name, db, csv_rows, section_base_url,
             result = apply_lightweight_status_update(
                 page, uk, cause_number, card, db, csv_rows,
                 index_url, p_list_val, pg, page_input_id, section_base_url,
-                site_seq=i + 1,
+                site_seq=i + 1, section_name=section_name,
             )
             if result is None:
                 # DB knows this uk but the CSV row is missing — rebuild it safely.
