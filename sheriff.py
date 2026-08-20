@@ -133,6 +133,20 @@ def navigate_to_month(page, target_month, target_year):
 # STATUS EXTRACTION
 # ═══════════════════════════════════════════════════════════════════════════
 
+def auction_date_is_future(date_str):
+    """True if `date_str` (e.g. 'Auction Date' field text) names a date after
+    today. Used to distrust a Closed-tab outcome for a sale that hasn't
+    happened yet — see the [FUTURE CLOSED] guard in process_listing_url."""
+    try:
+        m = re.search(r'(\d{1,2})/(\d{1,2})/(\d{4})', date_str or "")
+        if not m:
+            return False
+        mo, dy, yr = (int(x) for x in m.groups())
+        return datetime(yr, mo, dy) > datetime.now()
+    except Exception:
+        return False
+
+
 def extract_status(full_text):
     try:
         section = full_text.split("Auction Status")[1]
@@ -1098,14 +1112,25 @@ def process_listing_url(
         # "Struck Off"/"Sold" (only saved by the Waiting-section pass running
         # afterward and overwriting it back). If the auction date is still in
         # the future, there is nothing to resolve — trust "Pending" as-is.
-        auction_is_future = False
-        try:
-            m_date = re.search(r'(\d{1,2})/(\d{1,2})/(\d{4})', data.get("Auction Date", ""))
-            if m_date:
-                mo, dy, yr = (int(x) for x in m_date.groups())
-                auction_is_future = datetime(yr, mo, dy) > datetime.now()
-        except Exception:
-            pass
+        auction_is_future = auction_date_is_future(data.get("Auction Date", ""))
+
+        # Same guard, but for cards/detail pages that report a non-Pending
+        # outcome (e.g. "Struck Off") directly instead of going through the
+        # "Pending" fallback above — e.g. Cameron cause 2024-DCL-02917 carried
+        # a stale "Struck Off" Auction Status label on its detail page from a
+        # prior sale cycle while the page's own Auction Date had already been
+        # moved to the next resale date, weeks out. A Closed-tab result can
+        # never be trusted before its auction date has actually passed, no
+        # matter which field it came from. See the matching guard in
+        # scrape_section()'s "update" mode — without it, a wrong non-Pending
+        # status here would stick indefinitely: once card["status"] stops
+        # changing run to run, scrape_section's own "nothing changed" skip
+        # would never let this function run again for that cause number.
+        if section_name == "Closed" and auction_is_future and final_status != "Pending":
+            print(f"    [FUTURE CLOSED] Reverting '{final_status}' → Pending — auction date "
+                  f"{data.get('Auction Date','')} hasn't happened yet for {cause_number}")
+            final_status   = "Pending"
+            data["Status"] = "Pending"
 
         if final_status == "Pending" and section_name == "Closed" and auction_is_future:
             print(f"    [PENDING RESOLVE] Skipped — auction date {data.get('Auction Date','')} "
@@ -1366,6 +1391,33 @@ def scrape_section(page, county_name, db, csv_rows, section_base_url,
                     stats["skipped"] = stats.get("skipped", 0) + 1
                     continue
             elif card["status"] and card["status"] == old_status:
+                # A Closed-tab status that repeats run to run would otherwise
+                # skip forever — including a wrong one. If it's still
+                # non-Pending for a sale date that hasn't happened yet (the
+                # site can carry a stale Auction Status label on a relisted
+                # property — see the matching guard in process_listing_url),
+                # correct it back to Pending instead of trusting the same
+                # stale card text again; this is the only path that ever
+                # revisits an already-known Closed-tab cause number whose
+                # card text stops changing, so without it a bad status here
+                # never self-corrects.
+                row = csv_rows.get(uk)
+                if old_status != "Pending" and auction_date_is_future((row or {}).get("Auction Date", "")):
+                    print(f"\n  [{i+1}/{total}] {section_name}: {cause_number} "
+                          f"({old_status} → Pending, auction date not yet reached)")
+                    if row is not None:
+                        row["Status"]       = "Pending"
+                        row["Buyer Name"]   = ""
+                        row["Sold Amount"]  = ""
+                        row["Winning Bid"]  = ""
+                        row["Item Number"]  = str(i + 1)
+                        row["Last Updated"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+                        csv_rows[uk] = row
+                        update_google_sheet(row)
+                    db[uk]["status"] = "Pending"
+                    save_db(db)
+                    stats["updated"] = stats.get("updated", 0) + 1
+                    continue
                 _refresh_item_number_only(csv_rows, uk, i + 1)
                 stats["skipped"] = stats.get("skipped", 0) + 1
                 continue
