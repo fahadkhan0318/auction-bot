@@ -1403,6 +1403,40 @@ def scrape_section(page, county_name, db, csv_rows, section_base_url,
             old_status = db[uk].get("status", "")
 
             if section_name == "Waiting":
+                # A blank Waiting-tab card (no status keyword at all) plus a
+                # stale non-Pending old_status (e.g. "Struck Off" left over
+                # from an earlier bug, or a relisted property carrying its
+                # prior cycle's outcome) is always wrong and must self-correct
+                # — being listed in Waiting with nothing on the card backing
+                # up that status already proves the auction hasn't closed.
+                # Only the blank-card case, though: if the card itself still
+                # shows a matching keyword (e.g. a genuine "to be rescheduled"
+                # / "over 65" hold that legitimately predates the auction),
+                # that's a reconfirmed current status, not stale data — leave
+                # it alone and fall through to the ordinary skip below.
+                # Without this, a blank card always satisfied
+                # `not card["status"]` in the skip check below and took that
+                # path unconditionally — so a wrong stored status here never
+                # got rechecked again, same class of bug as the Closed section
+                # branch below (already fixed there).
+                if not card["status"] and old_status not in ("", "Pending"):
+                    print(f"\n  [{i+1}/{total}] {section_name}: {cause_number} "
+                          f"({old_status} → Pending, still in Waiting tab)")
+                    row = csv_rows.get(uk)
+                    if row is not None:
+                        row["Status"]       = "Pending"
+                        row["Buyer Name"]   = ""
+                        row["Sold Amount"]  = ""
+                        row["Winning Bid"]  = ""
+                        row["Item Number"]  = str(i + 1)
+                        row["Last Updated"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+                        csv_rows[uk] = row
+                        update_google_sheet(row)
+                    db[uk]["status"] = "Pending"
+                    save_db(db)
+                    stats["updated"] = stats.get("updated", 0) + 1
+                    continue
+
                 # Still pending (no status keyword on the card) → nothing changed.
                 if not card["status"] or card["status"] == old_status:
                     _refresh_item_number_only(csv_rows, uk, i + 1)
