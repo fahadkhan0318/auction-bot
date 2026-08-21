@@ -2536,7 +2536,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_337000340002000": {
-    "status": "Struck Off",
+    "status": "Pending",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2544,7 +2544,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_350501480012000": {
-    "status": "Struck Off",
+    "status": "Pending",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2552,7 +2552,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_565000000096000": {
-    "status": "Struck Off",
+    "status": "Pending",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3216,7 +3216,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_596004010010000": {
-    "status": "Struck Off",
+    "status": "Pending",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3224,7 +3224,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_286700000049000": {
-    "status": "Struck Off",
+    "status": "Pending",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GALVESTON",
