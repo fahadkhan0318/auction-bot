@@ -1176,7 +1176,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R044233": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1240,7 +1240,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R036298": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1248,7 +1248,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R091524": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1264,7 +1264,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R464776": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1280,7 +1280,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R015453": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1288,7 +1288,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R016533": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -2032,7 +2032,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_7395000010010000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -2232,7 +2232,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000336424000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -4469,6 +4469,70 @@
     "source": "MVBA",
     "county": "MEDINA",
     "cause_number": "23-09-28668-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344590-T23": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344590",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344590-T24": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344590",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344590-T25": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344590",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344590-T26": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344590",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV345742-T28": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV345742",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV357253-T66": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV357253",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV358203-T69": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV358203",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_24-09-29302-CV-T13": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "24-09-29302-CV",
     "section": "MVBA_PDF"
   }
 }
