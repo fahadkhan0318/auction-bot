@@ -1152,7 +1152,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R016595": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1216,7 +1216,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R382991": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -2768,7 +2768,7 @@
     "section": "Waiting"
   },
   "SHERIFF_VICTORIA_1610000200600": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -4197,6 +4197,278 @@
     "source": "MVBA",
     "county": "MEDINA",
     "cause_number": "25-10-29967-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R17888": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV18-296-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33187": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV21-2639-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29976": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV23-3835-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29013": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV23-3879-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29428": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4609-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R38720": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4674-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R38229": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4678-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R68491": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4906-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33945": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5231-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R24994": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5297-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R38160": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5313-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R26518": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5420-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R359832": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5421-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33343": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5505-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R10751": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5616-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33926": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5757-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R35962": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5824-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R28922": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5831-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R36720": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-6055-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33795": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-6058-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R28629": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "349-6603",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R825163": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV16-741-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29727": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV21-2562-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R28636": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV22-3524-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29686": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV22-3571-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R35924": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV22-3629-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29694": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV23-4374-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29733": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV23-4445-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R58799": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4515-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R38670": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4675-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R36011": {
+    "status": "Pending",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4787-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_15-07-23170-CV-T1": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "15-07-23170-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_22-11-28049-CV-T8": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "22-11-28049-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_23-09-28668-CV-T12": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-21",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "23-09-28668-CV",
     "section": "MVBA_PDF"
   }
 }
