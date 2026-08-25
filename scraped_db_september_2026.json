@@ -1128,7 +1128,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R419767": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1152,7 +1152,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R016595": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1168,7 +1168,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R086155": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1176,7 +1176,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R044233": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1208,7 +1208,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R033811": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1216,7 +1216,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R382991": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1240,7 +1240,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R036298": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1248,7 +1248,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R091524": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1264,7 +1264,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R464776": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1280,7 +1280,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R015453": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1288,7 +1288,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R016533": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -3392,7 +3392,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HENDERSON_285444": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-17",
     "source": "MVBA",
     "county": "HENDERSON",
@@ -3966,5 +3966,573 @@
     "county": "BELL",
     "cause_number": "318656",
     "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R17888": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV18-296-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33187": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV21-2639-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29976": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV23-3835-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29013": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV23-3879-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29428": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4609-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R38720": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4674-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R38229": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4678-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R68491": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4906-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33945": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5231-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R24994": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5297-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R38160": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5313-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R26518": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5420-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R359832": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5421-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33343": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5505-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R10751": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5616-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33926": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5757-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R35962": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5824-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R28922": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-5831-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R36720": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-6055-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R33795": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV25-6058-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R28629": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "349-6603",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R825163": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV16-741-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29727": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV21-2562-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R28636": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV22-3524-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29686": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV22-3571-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R35924": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV22-3629-3",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29694": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV23-4374-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R29733": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV23-4445-349",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R58799": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4515-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R38670": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4675-87",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_ANDERSON_R36011": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "ANDERSON",
+    "cause_number": "DCCV24-4787-369",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_23DCV338150-T7": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "23DCV338150",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV343755-T15": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV343755",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344590-T23": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344590",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344590-T24": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344590",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344590-T25": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344590",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV344590-T26": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV344590",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV345742-T28": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV345742",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV351254-T49": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV351254",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV357253-T66": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV357253",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV358203-T69": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV358203",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_296180-T71": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "296180",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_15-07-23170-CV-T1": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "15-07-23170-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R17294": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R57040": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "19-02-25536-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R65098": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "20-04-26430-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R6390": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "22-01-27524-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R1771": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "22-01-27525-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R7816": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "22-08-27907-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_22-11-28049-CV-T8": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "22-11-28049-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R52454": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "23-03-28286-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_23-03-28289-CV-T10": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "23-03-28289-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_23-04-28336-CV-T11": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "23-04-28336-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_23-09-28668-CV-T12": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "23-09-28668-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_24-09-29302-CV-T13": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "24-09-29302-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R83546": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R1165": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "24-09-29308-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R89302": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-10-29933-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R18929": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-10-29961-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R25199": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-10-29963-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_25-10-29967-CV-T19": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-10-29967-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R57840": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-10-29969-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_25-10-29970-CV-T21": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-10-29970-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_T22": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R23347": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-10-29972-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R58485": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-11-30011-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R58486": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R58616": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R92304": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-12-30021-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BOWIE_01580035900": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BOWIE",
+    "cause_number": "24C0147-102",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_BOWIE_10560000600": {
+    "status": "Pending",
+    "first_seen": "2026-08-25",
+    "source": "MVBA",
+    "county": "BOWIE",
+    "cause_number": "24C0980-102",
+    "section": "MVBA_ONLINE"
   }
 }
