@@ -888,17 +888,47 @@ def scrape_property_detail(page, county_name, cause_number):
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _get_max_pages(page, preferred_id):
-    try:
-        el = page.locator(f"#{preferred_id}")
-        if el.count() > 0:
-            val = el.first.inner_text().strip()
-            if val.isdigit(): return int(val)
-    except Exception: pass
+    # The #{preferred_id} counter element can exist in the DOM before the
+    # AJAX call that fills it in with the real page count has resolved —
+    # reading it immediately after the listing grid appears sometimes catches
+    # it still empty/"0", which silently collapses pagination to 1 page and
+    # drops every item past whatever page 1 shows. Poll briefly for a
+    # non-empty digit value before trusting it or falling back.
+    for attempt in range(6):
+        try:
+            el = page.locator(f"#{preferred_id}")
+            if el.count() > 0:
+                val = el.first.inner_text().strip()
+                if val.isdigit() and int(val) > 0:
+                    return int(val)
+        except Exception:
+            pass
+        page.wait_for_timeout(300)
     try:
         body = page.inner_text("body")
-        m    = re.search(r'page\s+\d+\s+of\s+(\d+)', body, re.IGNORECASE)
-        if m: return int(m.group(1))
-    except Exception: pass
+        for pat in [
+            r'page\s+\d+\s+of\s+(\d+)',
+            r'\bof\s+(\d+)\s+pages\b',
+            r'page\s*\d+\s*/\s*(\d+)',
+        ]:
+            m = re.search(pat, body, re.IGNORECASE)
+            if m:
+                return int(m.group(1))
+        # "X - Y of Z" / "X-Y of Z results" results-counter — derive page
+        # count from the per-page size implied by the first range shown.
+        m = re.search(r'(\d+)\s*-\s*(\d+)\s+of\s+(\d+)', body, re.IGNORECASE)
+        if m:
+            first, last, total = (int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            per_page = max(1, last - first + 1)
+            if total > last:
+                pages = -(-total // per_page)  # ceil
+                print(f"    ℹ️ #{preferred_id} not found/empty — derived {pages} "
+                      f"pages from results counter '{m.group(0)}'")
+                return pages
+    except Exception:
+        pass
+    print(f"    ⚠️ #{preferred_id} gave no usable page count after retries — "
+          f"defaulting to 1 page (items beyond page 1 will be missed if more exist)")
     return 1
 
 
@@ -1013,6 +1043,14 @@ def collect_all_listing_urls(page, section_base_url, page_input_id, max_pages_id
     max_pages = _get_max_pages(page, max_pages_id)
     print(f"  📄 Section pages: {max_pages}  (id=#{max_pages_id})")
 
+    expected_total = None
+    try:
+        m = re.search(r'\d+\s*-\s*\d+\s+of\s+(\d+)', page.inner_text("body"), re.IGNORECASE)
+        if m:
+            expected_total = int(m.group(1))
+    except Exception:
+        pass
+
     for pg in range(1, max_pages + 1):
         print(f"  🔗 Collecting page {pg}/{max_pages}...")
         if pg > 1:
@@ -1061,6 +1099,11 @@ def collect_all_listing_urls(page, section_base_url, page_input_id, max_pages_id
                 print(f"  ⚠️ Error collecting index {i}: {e}")
 
     print(f"  ✅ Total listings collected: {len(all_entries)}")
+    if expected_total is not None and len(all_entries) < expected_total:
+        print(f"  ⚠️ MISMATCH: site's own results counter said {expected_total} items, "
+              f"only {len(all_entries)} were collected — pagination likely stopped early "
+              f"(max_pages detected as {max_pages}). Check the '📄 Section pages' and "
+              f"'Found N listings on page' lines above.")
     return all_entries
 
 
