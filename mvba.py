@@ -1578,10 +1578,20 @@ def _get_mvba_total_pages(page):
 
 
 def _dismiss_popups(page):
+    # Exact text match (:text-is), not substring (:has-text) — a substring
+    # match on short words like "OK" or "Continue" also matches real lot
+    # links whose full property-description text happens to contain that
+    # substring (e.g. "OK" inside "Hooks Addition"), silently clicking away
+    # from the gallery mid-pagination. This was the actual cause of the
+    # gallery "stalling" after page 1: not a site-side anti-bot cooldown as
+    # previously suspected, but this function navigating off the gallery to
+    # a lot's item-detail page, after which the results counter and card
+    # count never make sense (see scrape_mvba_online_auction pagination loop).
     for txt in ["By continuing", "I acknowledge", "Continue", "OK", "Accept", "I AGREE"]:
         try:
+            safe = txt.replace('"', '\\"')
             btn = page.locator(
-                f"button:has-text('{txt}'), input[value='{txt}'], a:has-text('{txt}')"
+                f'button:text-is("{safe}"), input[value="{txt}"], a:text-is("{safe}")'
             )
             if btn.count() > 0 and btn.first.is_visible():
                 btn.first.click()
