@@ -1536,7 +1536,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_HAYS_R14665": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-10",
     "source": "MVBA",
     "county": "HAYS",
@@ -4534,5 +4534,29 @@
     "county": "BOWIE",
     "cause_number": "24C0980-102",
     "section": "MVBA_ONLINE"
+  },
+  "MVBA_MEDINA_R11451": {
+    "status": "Pending",
+    "first_seen": "2026-08-26",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "22-11-28049-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R64642": {
+    "status": "Pending",
+    "first_seen": "2026-08-26",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "23-09-28668-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_R61960": {
+    "status": "Pending",
+    "first_seen": "2026-08-26",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "24-09-29302-CV",
+    "section": "MVBA_PDF"
   }
 }
