@@ -2984,7 +2984,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_S36399900706100": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3280,7 +3280,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BOWIE_10560024800": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-17",
     "source": "MVBA",
     "county": "BOWIE",
@@ -3336,7 +3336,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BOWIE_04840001901": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-17",
     "source": "MVBA",
     "county": "BOWIE",
@@ -3384,7 +3384,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HENDERSON_303633": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-17",
     "source": "MVBA",
     "county": "HENDERSON",
@@ -3456,7 +3456,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HENDERSON_308220": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-17",
     "source": "MVBA",
     "county": "HENDERSON",
@@ -3816,7 +3816,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_108000020001003": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3824,7 +3824,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_062100200000000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
