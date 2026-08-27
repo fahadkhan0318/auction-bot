@@ -11,11 +11,11 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 import common
 
-common.MAIN_CSV = "data_july_2026.csv"
-common.DB_FILE  = "scraped_db_july_2026.json"
+common.MAIN_CSV = "data_september_2026.csv"
+common.DB_FILE  = "scraped_db_september_2026.json"
 
 print("Connecting to Google Sheet...")
-common.sheet = common.init_sheet("July")
+common.sheet = common.init_sheet("September")
 
 print("Loading CSV...")
 csv_rows = common.load_csv_rows()

@@ -3,7 +3,7 @@ common.py — Shared utilities: DB, CSV, Google Sheet, constants
 Used by sheriff.py, mvba.py, govease.py and main.py
 """
 
-import os, csv, json, re, time, shutil
+import os, csv, json, re, time, shutil, collections
 from datetime import datetime
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -205,7 +205,7 @@ def load_csv_rows():
     if not os.path.isfile(MAIN_CSV):
         print(f"  📄 New CSV will be created: {MAIN_CSV}")
         return rows
-    with open(MAIN_CSV, "r", encoding="utf-8") as f:
+    with open(MAIN_CSV, "r", newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
             uk = row.get("Unique Key", "").strip()
             if uk:
@@ -652,6 +652,30 @@ def update_google_sheet(row_data):
         print(f"  ❌ Sheet error: {e}")
 
 
+# Proactive write throttle: Google's default Sheets API quota is ~60 write
+# requests per minute per user. During a fast run with many new/changed rows,
+# smart_save() fires one update_google_sheet() call per row as it's scraped —
+# without this, that queue of individual writes blows through the quota and
+# every write past #60 pays a 20s/40s/60s retry penalty instead of a small
+# proactive wait. Kept well under 60 to leave headroom for other quota users
+# (e.g. reorder_google_sheet's chunked writes) in the same rolling window.
+_write_timestamps = collections.deque()
+_WRITE_LIMIT       = 50
+_WRITE_WINDOW_SEC  = 60.0
+
+
+def _throttle_sheet_write():
+    now = time.time()
+    while _write_timestamps and now - _write_timestamps[0] > _WRITE_WINDOW_SEC:
+        _write_timestamps.popleft()
+    if len(_write_timestamps) >= _WRITE_LIMIT:
+        wait = _WRITE_WINDOW_SEC - (now - _write_timestamps[0]) + 0.5
+        if wait > 0:
+            print(f"  ⏳ Throttling sheet writes ({len(_write_timestamps)} in last 60s) — waiting {wait:.1f}s...")
+            time.sleep(wait)
+    _write_timestamps.append(time.time())
+
+
 def _sheet_write_retry(fn, retries=4):
     """Call a gspread write operation with retry on connection errors.
 
@@ -663,6 +687,7 @@ def _sheet_write_retry(fn, retries=4):
     delay = 3
     for attempt in range(1, retries + 1):
         try:
+            _throttle_sheet_write()
             fn()
             return
         except Exception as e:
@@ -726,38 +751,37 @@ def reorder_google_sheet(csv_rows):
 
         all_data = [sheet_headers] + [make_row(r) for r in sorted(csv_rows.values(), key=sort_key)]
 
-        # Clear sheet first
-        for attempt in range(1, 4):
-            try:
-                sheet.clear()
-                break
-            except Exception as e:
-                if attempt < 3:
-                    print(f"  ⚠️  Clear attempt {attempt} failed ({e}) — retrying in {attempt*3}s...")
-                    time.sleep(attempt * 3)
-                else:
-                    raise
+        # Remember how many rows currently exist so we can trim leftovers
+        # AFTER the new data is safely written, instead of clear()-ing first.
+        # Clearing first left a window where, if the rewrite below then
+        # failed (e.g. write-quota 429), the sheet stayed permanently empty
+        # until the next successful reorder — that's what happened on
+        # 2026-08-25. Writing new data over old data in place means a failed
+        # rewrite leaves stale-but-present rows, never a blank sheet.
+        try:
+            old_row_count = len(sheet.get_all_values())
+        except Exception:
+            old_row_count = len(all_data)
 
-        time.sleep(1)
-
-        # Upload in chunks of 200 rows to avoid connection drops
+        # Upload in chunks of 200 rows to avoid connection drops. Routed
+        # through _sheet_write_retry so these get the same quota-aware
+        # backoff (20/40/60s+) and proactive throttle as per-row writes —
+        # the old 3-attempt/3s-6s retry here wasn't enough to survive a 429.
         CHUNK = 200
         for i in range(0, len(all_data), CHUNK):
             chunk      = all_data[i : i + CHUNK]
             start_row  = i + 1
             range_name = f"A{start_row}"
-            for attempt in range(1, 4):
-                try:
-                    sheet.update(range_name, chunk, value_input_option="USER_ENTERED")
-                    break
-                except Exception as e:
-                    if attempt < 3:
-                        print(f"  ⚠️  Chunk {i//CHUNK+1} attempt {attempt} failed ({e}) — retrying in {attempt*3}s...")
-                        time.sleep(attempt * 3)
-                    else:
-                        raise
+            _sheet_write_retry(lambda chunk=chunk, range_name=range_name:
+                                sheet.update(range_name, chunk, value_input_option="USER_ENTERED"))
             if i + CHUNK < len(all_data):
                 time.sleep(0.5)
+
+        # New data is fully written — now safe to trim leftover rows beyond
+        # it from the sheet's previous contents.
+        if old_row_count > len(all_data):
+            _throttle_sheet_write()
+            sheet.batch_clear([f"A{len(all_data)+1}:Z{old_row_count}"])
 
         # Sheet now exactly matches all_data — sync the cache instead of
         # forcing a full re-read on the next update_google_sheet() call.
