@@ -2488,7 +2488,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_624000420021000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2504,7 +2504,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_596001640019000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2520,7 +2520,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_438200000147000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2544,7 +2544,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_350501480012000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2552,7 +2552,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_565000000096000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3816,7 +3816,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_108000020001003": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3824,7 +3824,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_062100200000000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
