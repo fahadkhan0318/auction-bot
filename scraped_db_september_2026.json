@@ -2112,7 +2112,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000182032000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2192,7 +2192,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000223069000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
