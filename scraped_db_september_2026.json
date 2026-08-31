@@ -2616,7 +2616,7 @@
     "section": "Closed"
   },
   "SHERIFF_ORANGE_000003-001101": {
-    "status": "Pending",
+    "status": "P.Arrangement",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "ORANGE",
@@ -3224,7 +3224,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GREGG_41100": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GREGG",
@@ -3232,7 +3232,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GREGG_1161161": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GREGG",
