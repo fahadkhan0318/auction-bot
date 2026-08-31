@@ -2152,7 +2152,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000561340000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2272,7 +2272,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000178972000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -3432,7 +3432,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HENDERSON_270423": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-17",
     "source": "MVBA",
     "county": "HENDERSON",
@@ -3808,7 +3808,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_367900020007000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -4717,6 +4717,110 @@
     "source": "MVBA",
     "county": "MEDINA",
     "cause_number": "25-10-29972-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000075846": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "14-09-6584",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000030255": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "2021-CV-7127-DC",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000074982": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "2021-CV-7127-DC",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000074981": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "2021-CV-7127-DC",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000033442": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "2024-CV-7228-DC",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000035662": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "2024-CV-7228-DC",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000085269": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "2025-CV-7267-DC",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000034799": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "2025-CV-7288-DC",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_CALHOUN_000000056600": {
+    "status": "Pending",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "CALHOUN",
+    "cause_number": "2026-CV-7311-DC",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_25-11-30011-CV-T24": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-11-30011-CV",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_T25": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_T26": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_25-12-30021-CV-T27": {
+    "status": "Withdrawn",
+    "first_seen": "2026-08-31",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "25-12-30021-CV",
     "section": "MVBA_PDF"
   }
 }
