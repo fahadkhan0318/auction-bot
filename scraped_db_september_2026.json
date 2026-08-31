@@ -808,7 +808,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_05500701060000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-07",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -1144,7 +1144,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R534974": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -2008,7 +2008,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_6702300010010300": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -2088,7 +2088,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000177142000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2104,7 +2104,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000565699000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2200,7 +2200,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000539851000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2536,7 +2536,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_337000340002000": {
-    "status": "Pending",
+    "status": "P.Arrangement",
     "first_seen": "2026-08-13",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3240,7 +3240,7 @@
     "section": "Waiting"
   },
   "MVBA_BOWIE_01580011000": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-17",
     "source": "MVBA",
     "county": "BOWIE",
@@ -3840,7 +3840,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_109500000446003": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-19",
     "source": "SHERIFF",
     "county": "GALVESTON",
