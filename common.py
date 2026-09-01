@@ -102,6 +102,8 @@ STATUS_KEYWORDS_ORDERED = [
     ("New heirs/owners located",        "Cancelled"),
     ("Over 65",                         "Cancelled"),
     ("Auction to be rescheduled",       "Cancelled"),
+    ("Exemption granted",               "Cancelled"),
+    ("Pulled to",                       "Cancelled"),
     ("Auction Sold",           "Sold"),
     ("Sold",                   "Sold"),
 ]
@@ -246,6 +248,18 @@ def _item_number_rank(row, inferred=False):
         return (1, 0, row.get("Cause Number", "") or "")
 
 
+def _auction_already_happened(date_str):
+    """True if `date_str` (mm/dd/yyyy, already stripped of time via
+    _date_only) names today or an earlier calendar date — i.e. the site's
+    Waiting/Pending tab has emptied out for this auction day and every
+    listing now sits in Closed/Cancelled, whatever its outcome."""
+    try:
+        mo, dy, yr = (int(x) for x in date_str.split('/'))
+        return datetime(yr, mo, dy).date() <= datetime.now().date()
+    except Exception:
+        return False
+
+
 def _is_mvba_row(row):
     """Every MVBA row — PDF (Tract #, e.g. mvbalaw.com/wp-content/TaxUploads/...)
     or online (Lot #, mvbataxsales.com) — carries a literal number printed on
@@ -272,6 +286,20 @@ def renumber_item_numbers(rows_dict):
     cancellations, "New heirs/owners located", "Over 65", "Auction to be
     rescheduled", etc.) is not left sitting in its site-walk slot; it's
     blanked and sorted last, same as any other source's cancellation.
+
+    This active/cancelled split (blank + push cancelled to the bottom) only
+    applies to groups whose auction date is still in the future — i.e.
+    still sitting in the site's Waiting/Pending tab, where "cancelled slides
+    out of the queue" is the right mental model. Once a county+date group's
+    auction date is today or has passed, the site itself has no more
+    Waiting tab for that day — everything (Cancelled, Struck Off, Sold,
+    Pulled, Payment Arrangement, whatever) sits together in Closed/Cancelled.
+    From that point on, every row in the group counts toward one gapless
+    1..N sequence in its existing order — nothing is blanked, nothing is
+    excluded from the count, and nothing is pushed to the bottom for its
+    status. A listing that's Cancelled can land at Item Number 1 same as
+    any other status, exactly matching the source site's own closed-tab
+    listing order.
 
     MVBA (both PDF and online) rows are still the exception: their Item
     Number is a literal identifier printed on the source itself, not a
@@ -312,7 +340,31 @@ def renumber_item_numbers(rows_dict):
         key = (county, date)
         groups.setdefault(key, []).append(row)
 
-    for rows in groups.values():
+    for (county, date), rows in groups.items():
+        if date and _auction_already_happened(date):
+            # Auction day reached/passed: no Waiting tab left for this date,
+            # so every row — cancelled or not — counts toward one gapless
+            # 1..N sequence, in whatever order it's already in. Rows that
+            # were blanked earlier (cancelled pre-auction, while still in
+            # Waiting) get folded back in and sort after the numbered ones.
+            #
+            # NOTE: deliberately NOT passing inferred= here (unlike the
+            # future-group sort below). A row can need date-inference simply
+            # because it was cancelled before ever reaching a scheduled
+            # auction date, so its detail page never printed one (e.g. a
+            # "Cancelled per Attorney" case with a blank Auction Date field)
+            # — that's a data-availability gap, not a sign the row was
+            # mis-grouped. Forcing it to the very back here would fight the
+            # "gapless sequence in its existing order" guarantee above: it
+            # still carries a real raw Item Number from its last site walk
+            # (refreshed every run via _refresh_item_number_only /
+            # apply_lightweight_status_update in sheriff.py), which is the
+            # true site position and should be trusted like any other row's.
+            ordered = sorted(rows, key=_item_number_rank)
+            for i, r in enumerate(ordered, start=1):
+                r["Item Number"] = str(i)
+            continue
+
         active    = [r for r in rows if not is_cancelled_equivalent_status(r.get("Status", ""))]
         cancelled = [r for r in rows if is_cancelled_equivalent_status(r.get("Status", ""))]
         # Order active rows by whatever raw number the site last showed (the

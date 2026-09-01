@@ -179,6 +179,8 @@ def status_from_card_text(text):
     if "new heirs"            in t: return "Cancelled"
     if "over 65"              in t: return "Cancelled"
     if "to be rescheduled"    in t: return "Cancelled"
+    if "exemption granted"    in t: return "Cancelled"
+    if "pulled to"            in t: return "Cancelled"
     # "Auction Sold" is just the generic closed-auction timestamp header — it
     # appears on Struck Off cards too. Only "Sold To: 3rd Party Bidder" (or an
     # explicit "sold to" line) means an actual buyer, so those checks above

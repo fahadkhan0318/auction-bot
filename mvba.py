@@ -445,25 +445,35 @@ def _parse_table(table, county, auction_date, pdf_path, page_text="", withdrawn_
     withdrawn_bands = _get_withdrawn_y_bands(pg) if pg else []
     all_page_words  = pg.extract_words() if pg else []
 
-    header_row, data_start = table[0], 1
+    header_row, data_start = None, 1
     for i, row in enumerate(table):
         row_text = " ".join(str(c or "").upper() for c in row)
         if "TRACT" in row_text and ("SUIT" in row_text or "STYLE" in row_text):
             header_row, data_start = row, i + 1
             break
 
+    # Only scan cell text for column names when a genuine header row was
+    # confirmed above (both "TRACT" and "SUIT"/"STYLE" present together).
+    # Scanning an unconfirmed row is how a section-divider banner (e.g. the
+    # RESALES table's "...TEXAS PROPERTY TAX CODE:" row) used to falsely
+    # match one rule ("PROPERTY" -> desc) via unrelated prose while matching
+    # none of the others — collapsing "desc" onto the same index as "tract"
+    # once positional defaults filled in the rest, which silently dropped or
+    # corrupted every row in that table (lost tract 10 of Calhoun's
+    # September 2026 PDF this way).
     cols = {}
-    for i, h in enumerate(header_row):
-        h = str(h or "").upper().strip()
-        if "TRACT"       in h: cols["tract"] = i
-        if "SUIT"        in h: cols["suit"]  = i
-        if "STYLE"       in h: cols["style"] = i
-        if "DESCRIPTION" in h or "PROPERTY" in h: cols["desc"] = i
-        if "MIN" in h and "BID" in h: cols["bid"] = i
-        elif "BID" in h and "WINNING" not in h and "bid" not in cols: cols["bid"] = i
+    if header_row is not None:
+        for i, h in enumerate(header_row):
+            h = str(h or "").upper().strip()
+            if "TRACT"       in h: cols["tract"] = i
+            if "SUIT"        in h: cols["suit"]  = i
+            if "STYLE"       in h: cols["style"] = i
+            if "DESCRIPTION" in h or "PROPERTY" in h: cols["desc"] = i
+            if "MIN" in h and "BID" in h: cols["bid"] = i
+            elif "BID" in h and "WINNING" not in h and "bid" not in cols: cols["bid"] = i
 
-    if not cols:
-        cols = {"tract": 0, "suit": 1, "style": 2, "desc": 3, "bid": 4}
+    for k, v in {"tract": 0, "suit": 1, "style": 2, "desc": 3, "bid": 4}.items():
+        cols.setdefault(k, v)
 
     page_upper = page_text.upper()
     withdrawn_positions = [m.start() for m in re.finditer(r'WITHDRAWN', page_upper)]
@@ -563,6 +573,20 @@ def _parse_table(table, county, auction_date, pdf_path, page_text="", withdrawn_
         # Check 1: any cell in this row contains WITHDRAWN text
         full_row_text = " ".join(str(c or "") for c in row).upper()
         is_withdrawn  = "WITHDRAWN" in full_row_text
+
+        # Check 1b: WITHDRAWN stamp baked into the PDF as real overlapping
+        # text (not an image/annotation) instead lands as a lone truncated
+        # fragment on its own line at the top of a cell — e.g. the STYLE
+        # cell reads 'WITH\nCalhoun County Appraisal District v\n...' — with
+        # the remaining letters scattered as garbled single characters
+        # inside the description cell. None of the other checks catch this
+        # since "WITHDRAWN" never appears as one contiguous token anywhere.
+        if not is_withdrawn:
+            for c in row:
+                first_line = str(c or "").split("\n", 1)[0].strip().upper()
+                if re.fullmatch(r'WI|WIT|WITH|WITHD|WITHDR|WITHDRA|WITHDRAW|WITHDRAWN', first_line):
+                    is_withdrawn = True
+                    break
 
         # Check 2: image-based WITHDRAWN stamp overlaps this row
         if not is_withdrawn and withdrawn_ids:
@@ -813,13 +837,15 @@ def _extract_address(text):
     # ── Priority 4: Standard street suffix patterns ───────────────────────
     pats = [
         # Full address with city + Texas + zip (supports zip+4 like 76520-2508)
+        # \b around the suffix keeps it from matching mid-word (e.g. "Rd"
+        # inside "Records", "St" inside "District") in unrelated legal text.
         r'(\d+\s+(?:[NSEW]\s+)?[\w\s]{2,40}?'
-        r'(?:St|Ave|Dr|Rd|Ln|Blvd|Hwy|FM|CR|Way|Circle|Loop|LP|Pkwy|Expy|Pass|Trail|Trl|Ct|Cir)'
+        r'\b(?:St|Ave|Dr|Rd|Ln|Blvd|Hwy|FM|CR|Way|Circle|Loop|LP|Pkwy|Expy|Pass|Trail|Trl|Ct|Cir)\b'
         r'[^,\n]{0,30},\s*[A-Za-z][a-z]+(?:,\s*Texas\s+\d{5}(?:-\d{4})?)?)',
 
         # Address ending with just city
         r'(\d+\s+(?:[NSEW]\s+)?[\w\s]{2,30}?'
-        r'(?:St|Ave|Dr|Rd|Ln|Blvd|Hwy|FM|CR|Way|Circle|Loop|LP|Pkwy|Expy|Pass|Trail|Trl|Ct|Cir)'
+        r'\b(?:St|Ave|Dr|Rd|Ln|Blvd|Hwy|FM|CR|Way|Circle|Loop|LP|Pkwy|Expy|Pass|Trail|Trl|Ct|Cir)\b'
         r'[^,\n]{0,20})',
 
         # FM/CR/Hwy rural addresses
