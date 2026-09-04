@@ -25,7 +25,7 @@ sheet    = None
 MAIN_CSV = ""
 DB_FILE  = ""
 
-load_dotenv()
+load_dotenv(override=True)
 USERNAME = os.getenv("USER")
 PASSWORD = os.getenv("PASS")
 

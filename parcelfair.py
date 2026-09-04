@@ -62,7 +62,7 @@ def save_parcelfair_csv(rows, month_name, year):
             writer.writerow({col: row.get(key, "") for col, key in _CSV_KEY_MAP.items()})
     return path
 
-load_dotenv()
+load_dotenv(override=True)
 PARCELFAIR_EMAIL    = os.getenv("PARCELFAIR_EMAIL")
 PARCELFAIR_PASSWORD = os.getenv("PARCELFAIR_PASSWORD")
 
