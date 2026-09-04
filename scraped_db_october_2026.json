@@ -263,6 +263,14 @@
     "cause_number": "25-0731T",
     "section": "MVBA_ONLINE"
   },
+  "MVBA_HARRISON_R000014333": {
+    "status": "Pending",
+    "first_seen": "2026-09-04",
+    "source": "MVBA",
+    "county": "HARRISON",
+    "cause_number": "25-0852T",
+    "section": "MVBA_ONLINE"
+  },
   "MVBA_HARRISON_R000015005": {
     "status": "Pending",
     "first_seen": "2026-09-04",
