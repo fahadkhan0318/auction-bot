@@ -152,7 +152,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_S54000000030600": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -352,7 +352,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_ELPASO_Y805999036A0501": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -784,7 +784,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R069223": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -968,7 +968,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_GALVESTON_214500000004003": {
-    "status": "Struck Off",
+    "status": "Sold",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -1256,7 +1256,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_000000007010/R007828": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1416,7 +1416,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R024470": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -1672,7 +1672,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_ELPASO_M63000000150031": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -1744,7 +1744,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R462309": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -2264,7 +2264,7 @@
     "section": "Waiting"
   },
   "MVBA_WILLIAMSON_R013658": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -2440,7 +2440,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_ELPASO_Y805999036A0601": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2544,7 +2544,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_GALVESTON_315000050008001": {
-    "status": "Struck Off",
+    "status": "Sold",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2888,7 +2888,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_S16199900103300": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2952,7 +2952,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R470428": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -3168,7 +3168,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_G68699910205600": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3576,7 +3576,7 @@
     "section": "Waiting"
   },
   "MVBA_WILLIAMSON_R099245": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -3640,7 +3640,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_ELPASO_H93500003001000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3664,7 +3664,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R080925": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -3728,7 +3728,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_WILLIAMSON_R395395": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -4128,7 +4128,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_ELPASO_E36900401900100": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -4240,7 +4240,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_CAMERON_9444300000086000": {
-    "status": "Struck Off",
+    "status": "Sold",
     "first_seen": "2026-08-11",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -4344,7 +4344,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R534974": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -4520,7 +4520,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_WILLIAMSON_R092386": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-08-07",
     "source": "MVBA",
     "county": "WILLIAMSON",
@@ -4728,7 +4728,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_ELPASO_T28799915001260": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-08-17",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -4829,6 +4829,14 @@
     "source": "MVBA",
     "county": "BROWN",
     "cause_number": "T-6662",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MEDINA_23-03-28286-CV-T9": {
+    "status": "Withdrawn",
+    "first_seen": "2026-09-01",
+    "source": "MVBA",
+    "county": "MEDINA",
+    "cause_number": "23-03-28286-CV",
     "section": "MVBA_PDF"
   }
 }

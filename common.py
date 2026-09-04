@@ -267,6 +267,38 @@ def _is_mvba_row(row):
     return row.get("Source", "").strip().upper() == "MVBA"
 
 
+def _known_dates_by_county(rows):
+    known = {}
+    for row in rows:
+        county = row.get("County", "").strip().upper()
+        date   = _date_only(row.get("Auction Date", ""))
+        if date:
+            known.setdefault(county, set()).add(date)
+    return known
+
+
+def _sort_date(row, known_dates_by_county):
+    """Resolve the calendar date to sort a row by: its own Auction Date if
+    it has one, else its county's single known date when every dated row
+    for that county agrees on one — the same inference renumber_item_numbers
+    uses to group a blank-date row into an already-happened auction day.
+    Without this, a cancelled-pre-scheduling row (blank Auction Date) that
+    renumber_item_numbers correctly interleaves into that day's 1..N
+    sequence would still get sorted after every dated row here, splitting
+    the display into two blocks instead of one gapless sequence.
+    row["Auction Date"] itself is left untouched — only the sort position
+    uses the guess — so downstream future/past checks still see the real
+    gap."""
+    date = _date_only(row.get("Auction Date", ""))
+    if date:
+        return date
+    county = row.get("County", "").strip().upper()
+    known  = known_dates_by_county.get(county, ())
+    if len(known) == 1:
+        return next(iter(known))
+    return ""
+
+
 def renumber_item_numbers(rows_dict):
     """Recompute every row's Item Number fresh from current data so it's
     always a clean, gapless 1..N per county + auction date (each sale day is
@@ -388,6 +420,7 @@ def rewrite_csv(rows_dict):
     county_order  = {}
     for i, c in enumerate(SHERIFF_COUNTIES + MVBA_KNOWN_COUNTIES + list(GOVEASE_COUNTIES.keys())):
         county_order.setdefault(c.upper(), i)
+    known_dates_by_county = _known_dates_by_county(rows_dict.values())
 
     def sort_key(row):
         county = row.get("County", "").upper()
@@ -395,7 +428,7 @@ def rewrite_csv(rows_dict):
             source_order.get(row.get("Source", "").upper(), 9),
             county_order.get(county, 999),
             county,
-            row.get("Auction Date", "") or "9999",
+            _sort_date(row, known_dates_by_county) or "9999",
             _item_number_rank(row),
         )
 
@@ -772,6 +805,7 @@ def reorder_google_sheet(csv_rows):
         county_order = {}
         for i, c in enumerate(SHERIFF_COUNTIES + MVBA_KNOWN_COUNTIES + list(GOVEASE_COUNTIES.keys())):
             county_order.setdefault(c.upper(), i)
+        known_dates_by_county = _known_dates_by_county(csv_rows.values())
 
         def sort_key(r):
             county = r.get("County", "").upper()
@@ -779,7 +813,7 @@ def reorder_google_sheet(csv_rows):
                 source_order.get(r.get("Source", "").upper(), 9),
                 county_order.get(county, 999),
                 county,
-                r.get("Auction Date", "") or "9999",
+                _sort_date(r, known_dates_by_county) or "9999",
                 _item_number_rank(r),
             )
 

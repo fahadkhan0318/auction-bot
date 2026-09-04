@@ -57,6 +57,8 @@ SUPPORTED_COUNTIES = {
     "hays",        # Hays County Tax Office — tax.co.hays.tx.us (Orion Public Access JSON search API)
     "orange",      # Orange CAD — esearch.orangecad.net
     "medina",      # Medina CAD — esearch.medinacad.org
+    "burnet",      # Burnet CAD — esearch.burnet-cad.org
+    "mason",       # Mason CAD — esearch.masoncad.org
 }
 
 BIS_URLS = {
@@ -117,6 +119,8 @@ ESEARCH_URLS = {
     "comanche":    "https://esearch.comanchecad.org",
     "orange":      "https://esearch.orangecad.net",
     "medina":      "https://esearch.medinacad.org",
+    "burnet":      "https://esearch.burnet-cad.org",
+    "mason":       "https://esearch.masoncad.org",
 }
 
 # Counties that use a Geographic ID field instead of plain account number.
