@@ -862,5 +862,61 @@
     "county": "LAMPASAS",
     "cause_number": "20173",
     "section": "MVBA_PDF"
+  },
+  "SHERIFF_LLANO_R000036305": {
+    "status": "Pending",
+    "first_seen": "2026-09-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "22032",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000075875": {
+    "status": "Pending",
+    "first_seen": "2026-09-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "22973",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000023605": {
+    "status": "Pending",
+    "first_seen": "2026-09-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23062",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000024546": {
+    "status": "Pending",
+    "first_seen": "2026-09-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23080",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000037231": {
+    "status": "Pending",
+    "first_seen": "2026-09-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23101",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000020419": {
+    "status": "Pending",
+    "first_seen": "2026-09-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23101",
+    "section": "Closed"
+  },
+  "SHERIFF_LLANO_R000005355": {
+    "status": "Pending",
+    "first_seen": "2026-09-07",
+    "source": "SHERIFF",
+    "county": "LLANO",
+    "cause_number": "23153",
+    "section": "Closed"
   }
 }
