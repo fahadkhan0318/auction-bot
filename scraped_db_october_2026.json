@@ -192,7 +192,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_N002043487": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -872,7 +872,7 @@
     "section": "Closed"
   },
   "SHERIFF_LLANO_R000075875": {
-    "status": "Struck Off",
+    "status": "Pending",
     "first_seen": "2026-09-07",
     "source": "SHERIFF",
     "county": "LLANO",
@@ -1190,5 +1190,45 @@
     "county": "DALLAS",
     "cause_number": "TX-24-00383",
     "section": "Waiting"
+  },
+  "SHERIFF_CALDWELL_51323": {
+    "status": "Pending",
+    "first_seen": "2026-09-08",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0104",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_25840": {
+    "status": "Pending",
+    "first_seen": "2026-09-08",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0117",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_20000205": {
+    "status": "Pending",
+    "first_seen": "2026-09-08",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "25-0050TXA",
+    "section": "Closed"
+  },
+  "SHERIFF_CALDWELL_20000206": {
+    "status": "Pending",
+    "first_seen": "2026-09-08",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "25-0056TXA",
+    "section": "Closed"
+  },
+  "MVBA_MASON_2501/10389/2502": {
+    "status": "Pending",
+    "first_seen": "2026-09-08",
+    "source": "MVBA",
+    "county": "MASON",
+    "cause_number": "215982",
+    "section": "MVBA_PDF"
   }
 }
