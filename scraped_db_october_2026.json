@@ -48,7 +48,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_9804": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -56,7 +56,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_9805": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -64,7 +64,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_25472": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -72,7 +72,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_25474": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -80,7 +80,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_36045": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -1229,6 +1229,294 @@
     "source": "MVBA",
     "county": "MASON",
     "cause_number": "215982",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R42781": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX17529",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R24403": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX17625",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R32439": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX17740",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R29231": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX17759",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R37580": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX17824",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R32513": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "TX18282",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000010263": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-24-00015",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000055358": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-24-00020",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000225072": {
+    "status": "Withdrawn",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-24-00085",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000046334": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00105",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000012494": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00117",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000032584": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00212",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000023350": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00233",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000049649": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00425",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000049162": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-25-00427",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000206148": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-26-00001",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000016224": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-26-00001",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_R000218357": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-26-00001",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_MIDLAND_N000403395": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "MIDLAND",
+    "cause_number": "DTX-26-00001",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_000565-001000/18953": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "T1403585",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_21162": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX20-04054",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_22487": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX21-04110",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_22840": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX21-04135",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_22854": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX21-04135",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_000000022881": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX21-04135",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_109220": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX22-04210",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_19959": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX22-04249",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_21158": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX24-04360",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_44469": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX25-04448",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_24887": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX25-04454",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_110222": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX25-04464",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_110213": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX25-04464",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_63211": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX25-04472",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_18955": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX21-04133",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_23889": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX21-04202",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_NEWTON_10521": {
+    "status": "Pending",
+    "first_seen": "2026-09-10",
+    "source": "MVBA",
+    "county": "NEWTON",
+    "cause_number": "TX24-04335",
     "section": "MVBA_PDF"
   }
 }
