@@ -1518,5 +1518,117 @@
     "county": "NEWTON",
     "cause_number": "TX24-04335",
     "section": "MVBA_PDF"
+  },
+  "SHERIFF_TRAVIS_01827302020000": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24003694",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_03434606010000": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN22003427",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_04151208150000": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24000402",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_04262106570000": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24000402",
+    "section": "Closed"
+  },
+  "MVBA_BANDERA_170010": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "BADC-TXTX-25-\n0000081",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_195880": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "BADC-TXTX-24-\n0000389",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_195881": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_164029": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "BADC-TXTX-23-\n0000411",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_157478": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "25-010-DCCV-\n00222",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_169757": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "BADC-TXTX-24-\n0000397",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_170578": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "25-010-DCCV-\n00224",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_153712": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "BADC-TXTX-23-\n0000312",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_190881": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "BADC-TXTX-24-\n0000122",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BANDERA_188984": {
+    "status": "Pending",
+    "first_seen": "2026-09-11",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "BADC-TXTX-22-\n0000380",
+    "section": "MVBA_PDF"
   }
 }
