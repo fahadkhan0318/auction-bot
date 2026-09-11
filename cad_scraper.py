@@ -59,6 +59,9 @@ SUPPORTED_COUNTIES = {
     "medina",      # Medina CAD — esearch.medinacad.org
     "burnet",      # Burnet CAD — esearch.burnet-cad.org
     "mason",       # Mason CAD — esearch.masoncad.org
+    "caldwell",    # Caldwell CAD — esearch.caldwellcad.org
+    "newton",      # Newton CAD — esearch.newtoncad.org
+    "bandera",     # Bandera CAD — esearch.bancad.org
 }
 
 BIS_URLS = {
@@ -121,6 +124,9 @@ ESEARCH_URLS = {
     "medina":      "https://esearch.medinacad.org",
     "burnet":      "https://esearch.burnet-cad.org",
     "mason":       "https://esearch.masoncad.org",
+    "caldwell":    "https://esearch.caldwellcad.org",
+    "newton":      "https://esearch.newtoncad.org",
+    "bandera":     "https://esearch.bancad.org",
 }
 
 # Counties that use a Geographic ID field instead of plain account number.

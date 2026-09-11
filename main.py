@@ -612,6 +612,11 @@ def run():
     csv_rows     = load_csv_rows()
     print(f"  📂 DB: {len(db)} records | CSV: {len(csv_rows)} rows")
     try:
+        if common.pull_missing_sheet_rows(csv_rows):
+            rewrite_csv(csv_rows)
+    except Exception as _pull_err:
+        print(f"  ⚠️  Sheet reconciliation skipped (offline): {_pull_err}")
+    try:
         sync_csv_to_sheet(csv_rows)
     except Exception as _sync_err:
         print(f"  ⚠️  Sheet sync skipped (offline): {_sync_err}")

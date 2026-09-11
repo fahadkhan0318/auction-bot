@@ -74,6 +74,8 @@ _LINK_FIELDS = {
     "Interactive Map":    "IntMap",
 }
 
+_HYPERLINK_RE = re.compile(r'=HYPERLINK\("([^"]*)"\s*,\s*"([^"]*)"\)', re.IGNORECASE)
+
 # ═══════════════════════════════════════════════════════════════════════════
 # MONTH HELPERS
 # ═══════════════════════════════════════════════════════════════════════════
@@ -228,8 +230,9 @@ def _date_only(s):
     so grouping Item Number by the full timestamp splits one auction day
     into many groups. Item Number must be grouped per calendar day, not
     per exact time."""
-    m = re.search(r'\d{1,2}/\d{1,2}/\d{4}', s or "")
-    return m.group(0) if m else (s or "")
+    s = "" if s is None else str(s)
+    m = re.search(r'\d{1,2}/\d{1,2}/\d{4}', s)
+    return m.group(0) if m else s
 
 
 def _item_number_rank(row, inferred=False):
@@ -879,6 +882,85 @@ def reorder_google_sheet(csv_rows):
     except Exception as e:
         print(f"  ❌ Sheet reorder error: {e}")
         _invalidate_sheet_cache()
+
+
+def _unwrap_hyperlink(v):
+    """Given a raw sheet cell (possibly a =HYPERLINK("url","text") formula
+    string), return (url_or_empty, display_text)."""
+    m = _HYPERLINK_RE.match((v or "").strip())
+    if m:
+        return m.group(1), m.group(2)
+    return "", (v or "")
+
+
+def _sheet_row_to_dict(headers, row):
+    """Reverse of make_row() in update_google_sheet/reorder_google_sheet —
+    turn one raw (FORMULA-rendered) sheet row back into a CSV-row dict."""
+    rd = {}
+    link_url = ""
+    for h, raw in zip(headers, row):
+        h = h.strip()
+        v = raw or ""
+        if h in ("Unique Key", "Account Number"):
+            v = v.lstrip("'")
+        if h == "Cause Number":
+            url, text = _unwrap_hyperlink(v)
+            if url:
+                link_url = url
+            v = text
+        elif h in _LINK_FIELDS:
+            url, text = _unwrap_hyperlink(v)
+            v = url or text
+        rd[h] = v
+    rd["Link"] = link_url
+    return rd
+
+
+def pull_missing_sheet_rows(csv_rows):
+    """Import any rows that exist in the live sheet but are missing from the
+    local csv_rows dict, merging them in place.
+
+    A scheduled run (GitHub Actions) writes new rows to the sheet AND commits
+    them to git. If a manual run starts from a local checkout that hasn't
+    pulled that commit yet, its csv_rows is missing those rows — and the
+    reorder_google_sheet() call at the end of the run overwrites the sheet
+    in place from csv_rows, deleting them. Calling this before any sync/
+    reorder step recovers them first so they always survive, regardless of
+    whether the local git checkout is stale.
+    """
+    if sheet is None:
+        return 0
+    try:
+        all_values = sheet.get_all_values(value_render_option="FORMULA")
+        if not all_values:
+            return 0
+        headers = [h.strip() for h in all_values[0]]
+        try:
+            uk_col = headers.index("Unique Key")
+        except ValueError:
+            return 0
+
+        existing_norm = {normalize_uk(k) for k in csv_rows}
+        pulled = 0
+        for row in all_values[1:]:
+            if len(row) <= uk_col or not row[uk_col]:
+                continue
+            raw_uk = row[uk_col].lstrip("'")
+            if not raw_uk or normalize_uk(raw_uk) in existing_norm:
+                continue
+            rd = _sheet_row_to_dict(headers, row)
+            rd["Unique Key"] = raw_uk
+            csv_rows[raw_uk] = rd
+            existing_norm.add(normalize_uk(raw_uk))
+            pulled += 1
+
+        if pulled:
+            print(f"  ♻️  Recovered {pulled} row(s) present in the sheet but "
+                  f"missing locally (stale local CSV) — merged before sync.")
+        return pulled
+    except Exception as e:
+        print(f"  ⚠️  Could not reconcile sheet rows: {e}")
+        return 0
 
 
 def sync_csv_to_sheet(csv_rows):
