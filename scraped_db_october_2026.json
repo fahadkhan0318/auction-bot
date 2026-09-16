@@ -2350,5 +2350,565 @@
     "county": "SMITH",
     "cause_number": "27,441-A",
     "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_66372": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "20-11-0957-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_31638": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "21-12-1040-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_31435": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "22-09-0617-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_22410": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "22-11-0787-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_22409": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "22-11-0787-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_30427": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "23-11-0757-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_30311": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "23-11-0771-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_19033": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "24-01-0058-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_17854": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "24-01-0067-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_27694": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "24-04-0334-CVA",
+    "section": "Closed"
+  },
+  "SHERIFF_ATASCOSA_29894": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "24-08-0580-CVA",
+    "section": "Waiting"
+  },
+  "SHERIFF_ATASCOSA_19047": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "24-08-0581-CVA",
+    "section": "Waiting"
+  },
+  "SHERIFF_ATASCOSA_19829": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "24-09-0700-CVA",
+    "section": "Waiting"
+  },
+  "SHERIFF_ATASCOSA_21232": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "24-10-0836-CVA",
+    "section": "Waiting"
+  },
+  "SHERIFF_ATASCOSA_19906": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "25-01-0009-CVA",
+    "section": "Waiting"
+  },
+  "SHERIFF_ATASCOSA_30875": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "25-03-0213-CVA",
+    "section": "Waiting"
+  },
+  "SHERIFF_ATASCOSA_28987": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "25-06-0420-CVA",
+    "section": "Waiting"
+  },
+  "SHERIFF_ATASCOSA_58152": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "ATASCOSA",
+    "cause_number": "25-06-0428-CVA",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_150500000039000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "18-TX-0642",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_234500550009000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0301",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_234500080011000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0283",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_351000892014002": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "21-TX-0640",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_221500000006000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0100",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_351000652002002": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0677",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_434500000008000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0310",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_315100000014000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0414",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_441700270004000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0663",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_737300000028000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0737",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_121500000073000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0760",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_122500000061000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0764",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_512000100041000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0804",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_703000500012000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0823",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_703001070009000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0256",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_596001870023000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0550",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_703000920005000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0553",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_019700600000000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0694",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_116000760013008": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0762",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_512000110025001": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0782",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_16941": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17317",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_34093": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17348",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_34094": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17348",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_118007": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17627",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_48661": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17687",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_48662": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17687",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_12358": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17700",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_45803": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17867",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_28944": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17992",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_28945": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17992",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_28946": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17992",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_28947": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17992",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_28948": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17992",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_40954": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18058",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_42541": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18122",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_45980": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18173",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_39316": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18274",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_28771": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18370",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_28772": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18370",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_29039": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17500",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_47357": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17520",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_29079": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-17998",
+    "section": "Waiting"
+  },
+  "SHERIFF_MATAGORDA_36266": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "MATAGORDA",
+    "cause_number": "T-18034",
+    "section": "Waiting"
+  },
+  "SHERIFF_SMITH_100000057100031000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27601-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000002302014000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27778-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_MULTIPLE ACCOUNTS": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27867-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000002302022000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27005-C",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_3800001001000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "23-12-17656",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_910009701200": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "16-08-16631",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_4100000503800": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "22-04-17474",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_4800003400600": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "25-02-17718",
+    "section": "Closed"
+  },
+  "SHERIFF_VICTORIA_5040001100300": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "VICTORIA",
+    "cause_number": "18-05-17036",
+    "section": "Closed"
   }
 }
