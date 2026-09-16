@@ -1942,5 +1942,413 @@
     "county": "CAMERON",
     "cause_number": "2024-DCL-05327",
     "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0420-0076-0900": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-6227-H",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_6129-0219-0120": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-1286-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_6745-0005-0100": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-2432-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_7675-0001-0190": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-4815-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9377-0051-0100": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-4034-H",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_1795-0007-0020": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-2160-B",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_7102-0000-1210": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-3120-H",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_7627-0001-0010": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-3350-B",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_9563-0007-0060": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2023DCV-2601-C",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_1396-0001-0270": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2023DCV-2604-H",
+    "section": "Closed"
+  },
+  "SHERIFF_NUECES_2154-0001-0090": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2023DCV-2629-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_8529-0003-0120": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-1006-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0386-0006-0010": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-3708-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0386-0004-0020": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-3708-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3764-0000-0410": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2025DCV-1177-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_2971-0009-0240": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2025DCV-1195-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3700-0002-0040": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2025DCV-3447-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0696-0030-0100": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2011DCV-1362-H",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_4565-0002-0300": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2011DCV-2150-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_2451-1403-0590": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2011DCV-2190-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9377-0051-0130": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2012DCV-4327-D",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9028-0012-0200": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-1239-H",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0488-0003-0060": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-5039-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_8409-0010-0375": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2014DCV-6303-D",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3020-0003-0350": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2016DCV-5577-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_6807-0002-0460": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-1089-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_7435-0007-0060": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-1100-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_1390-0002-0130": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-2394-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0072-0001-0040": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-2444-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_1585-0004-0430": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-4260-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9377-0049-0051": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-5386-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9377-0049-0061": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2018DCV-3712-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9372-0003-0470": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-0349-H",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_6807-0008-0250": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-3132-B",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0420-0071-0320": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2019DCV-3168-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_8374-0005-0060": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2020DCV-4589-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_2132-0006-0200": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-0930-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_0481-1601-0380": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-2022-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3020-0002-0140": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-3175-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_4695-0001-0105": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-2124-G",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_5135-0001-0060": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2022DCV-2140-H",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_4069-0000-0201": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-2519-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3385-0002-0040": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-2521-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_3020-0005-0230": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-2522-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_SMITH_189420000200020000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26,941-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180540000000009000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,001-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000001070020000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26,839-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000066502127000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,288-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_181040000100008000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "28127-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180705000100125000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,407-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180885006300011000": {
+    "status": "Cancelled",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,441-A",
+    "section": "Closed"
   }
 }
