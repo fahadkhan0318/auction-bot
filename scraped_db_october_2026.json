@@ -2910,5 +2910,53 @@
     "county": "VICTORIA",
     "cause_number": "18-05-17036",
     "section": "Closed"
+  },
+  "SHERIFF_DALLAS_36058500070010000": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01693",
+    "section": "Closed"
+  },
+  "MVBA_SMITH_0003522": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "MVBA",
+    "county": "SMITH",
+    "cause_number": "27601-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SMITH_0000186": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "MVBA",
+    "county": "SMITH",
+    "cause_number": "27778-B",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SMITH_0004650/000659195": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "MVBA",
+    "county": "SMITH",
+    "cause_number": "27867-A",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SMITH_0000225": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "MVBA",
+    "county": "SMITH",
+    "cause_number": "27005-C",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_SMITH_000007971/0005037": {
+    "status": "Pending",
+    "first_seen": "2026-09-16",
+    "source": "MVBA",
+    "county": "SMITH",
+    "cause_number": "27812-C",
+    "section": "MVBA_PDF"
   }
 }
