@@ -211,6 +211,13 @@ def load_csv_rows():
         return rows
     with open(MAIN_CSV, "r", newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
+            # DictReader fills any column missing from a short/malformed row
+            # (e.g. a stray line with far fewer fields than the header) with
+            # None, not "" — every downstream row.get(field, "").strip() call
+            # assumes a string default, which only applies when the key is
+            # absent, not when it's present with value None. Normalize here
+            # once so nothing downstream has to guard against it.
+            row = {k: ("" if v is None else v) for k, v in row.items()}
             uk = row.get("Unique Key", "").strip()
             if uk:
                 rows[uk] = row
@@ -273,6 +280,13 @@ def _is_mvba_row(row):
 def _known_dates_by_county(rows):
     known = {}
     for row in rows:
+        # MVBA rows share county names with SHERIFF rows but carry a
+        # month-only Auction Date ("October 2026") that _date_only passes
+        # through unchanged — counting it made e.g. SMITH look like it had
+        # two known dates, which silently disabled blank-date inference and
+        # forked a blank-date SHERIFF row into its own restarted "1" group.
+        if _is_mvba_row(row):
+            continue
         county = row.get("County", "").strip().upper()
         date   = _date_only(row.get("Auction Date", ""))
         if date:
@@ -355,14 +369,9 @@ def renumber_item_numbers(rows_dict):
     # known date, fold blank-date rows into that group instead of giving
     # them their own. Ambiguous (0 or 2+ known dates) counties are left
     # alone since there's no single date to safely assume.
-    known_dates_by_county = {}
-    for row in rows_dict.values():
-        county = row.get("County", "").strip().upper()
-        date   = _date_only(row.get("Auction Date", ""))
-        if date:
-            known_dates_by_county.setdefault(county, set()).add(date)
+    known_dates_by_county = _known_dates_by_county(rows_dict.values())
 
-    groups   = {}
+    groups  = {}
     inferred = set()  # id() of rows folded into a group via a guessed date
     for row in rows_dict.values():
         if _is_mvba_row(row):
@@ -416,6 +425,20 @@ def renumber_item_numbers(rows_dict):
 
 def rewrite_csv(rows_dict):
     """Write all rows to CSV, sorted by source → county → date → item number → cause number."""
+    # Guard against silently blanking a real CSV: if rows_dict is empty
+    # (e.g. it was never populated because of a crash/race earlier in the
+    # run) but MAIN_CSV already holds real data on disk, writing would wipe
+    # it down to just a header with no way to tell after the fact. The same
+    # failure mode was already fixed for the Google Sheet in
+    # reorder_google_sheet() (see its old_row_count comment) — this is the
+    # CSV-file equivalent of that protection.
+    if not rows_dict and os.path.isfile(MAIN_CSV) and os.path.getsize(MAIN_CSV) > 0:
+        with open(MAIN_CSV, "r", encoding="utf-8") as f:
+            has_data_rows = len(f.readline()) > 0 and f.readline() != ""
+        if has_data_rows:
+            print(f"  ⚠️  Refusing to rewrite {MAIN_CSV}: in-memory rows are empty "
+                  f"but the file on disk already has data — leaving it untouched.")
+            return
     renumber_item_numbers(rows_dict)
     _backup_file(MAIN_CSV)
 
@@ -545,10 +568,27 @@ def smart_save(data, db, csv_rows, section_label=""):
     missing_buyer  = new_status in SOLD_STATUSES and not existing_row.get("Buyer Name", "").strip()
     missing_amount = new_status in SOLD_STATUSES and not existing_row.get("Sold Amount", "").strip()
     missing_owner  = not existing_row.get("Owner Name", "").strip()
+    missing_cause  = not existing_row.get("Cause Number", "").strip()
 
     has_new_buyer  = bool(data.get("Buyer Name", "").strip())
     has_new_amount = bool(data.get("Sold Amount", "").strip())
     has_new_owner  = bool(data.get("Owner Name", "").strip())
+    has_new_cause  = bool(data.get("Cause Number", "").strip())
+    # Not just "was missing" — a parser bug can produce a non-blank but wrong
+    # value (e.g. a truncated owner name like "A" instead of "A. Michael
+    # Mayes et al" from a mis-joined multi-line PDF cell), which the
+    # missing_owner/missing_cause checks above can never catch since the
+    # field isn't empty. A freshly re-scraped value differing from what's
+    # stored must still win, the same way item_num_changed/min_bid_changed
+    # already do below.
+    owner_changed = (
+        has_new_owner
+        and data.get("Owner Name", "") != existing_row.get("Owner Name", "")
+    )
+    cause_changed = (
+        has_new_cause
+        and data.get("Cause Number", "") != existing_row.get("Cause Number", "")
+    )
 
     missing_item_num  = not existing_row.get("Item Number", "").strip()
     has_new_item_num  = bool(data.get("Item Number", "").strip())
@@ -578,6 +618,14 @@ def smart_save(data, db, csv_rows, section_label=""):
         or (missing_amount and has_new_amount)
         or (missing_buyer  or missing_amount)
         or (missing_owner  and has_new_owner)
+        or (missing_cause  and has_new_cause)
+        # A detail page that loaded slowly on first scrape can leave Auction
+        # Date blank; without this trigger nothing else changes on later
+        # runs, so the merge below that would backfill it never runs.
+        or (not existing_row.get("Auction Date", "").strip()
+            and bool(data.get("Auction Date", "").strip()))
+        or owner_changed
+        or cause_changed
         or (missing_item_num and has_new_item_num)
         or item_num_changed
         or min_bid_changed
@@ -618,6 +666,15 @@ def smart_save(data, db, csv_rows, section_label=""):
             # other fields below.
             "Auction Date":       data.get("Auction Date", "")       or existing.get("Auction Date", ""),
             "Owner Name":         data.get("Owner Name", "")         or existing.get("Owner Name", ""),
+            # These four were never refreshed here at all — once a row's
+            # Cause Number/Owner came back blank from a merged PDF cell (see
+            # mvba.py's Suit#/Style carry-forward fix), no amount of
+            # re-scraping could ever correct it, because a freshly-fixed
+            # value from the source was silently dropped on every update.
+            "Cause Number":       data.get("Cause Number", "")       or existing.get("Cause Number", ""),
+            "Property Address":   data.get("Property Address", "")   or existing.get("Property Address", ""),
+            "Account Number":     data.get("Account Number", "")     or existing.get("Account Number", ""),
+            "Legal Description":  data.get("Legal Description", "")  or existing.get("Legal Description", ""),
             "Buyer Name":         buyer_name,
             "Sold Amount":        sold_amount,
             "Winning Bid":        winning_bid,
@@ -893,14 +950,29 @@ def _unwrap_hyperlink(v):
     return "", (v or "")
 
 
-def _sheet_row_to_dict(headers, row):
+def _sheet_row_to_dict(headers, row, formatted_row=None):
     """Reverse of make_row() in update_google_sheet/reorder_google_sheet —
-    turn one raw (FORMULA-rendered) sheet row back into a CSV-row dict."""
+    turn one raw (FORMULA-rendered) sheet row back into a CSV-row dict.
+
+    formatted_row (the same row rendered FORMATTED_VALUE) is used for every
+    non-formula cell: Sheets auto-parses text like "October 2026" or
+    "2026-09-17 00:39" into dates when written USER_ENTERED, and the FORMULA
+    render returns those as serial numbers (46296) — which then got written
+    back to CSV and, via reorder, to the sheet as literal "46296"."""
     rd = {}
     link_url = ""
-    for h, raw in zip(headers, row):
+    for i, (h, raw) in enumerate(zip(headers, row)):
         h = h.strip()
-        v = raw or ""
+        if (formatted_row is not None and i < len(formatted_row)
+                and not (isinstance(raw, str) and raw.startswith("="))):
+            raw = formatted_row[i]
+        # FORMULA render falls back to Sheets' raw typed value for any
+        # non-formula cell — a numeric-looking column (e.g. Item Number)
+        # that Sheets auto-detected as a Number, not Text, comes back as a
+        # Python int/float here, not a string. Unique Key/Account Number
+        # dodge this because make_row() forces them to Text with a leading
+        # apostrophe; every other column needs stringifying here instead.
+        v = "" if raw in (None, "") else str(raw)
         if h in ("Unique Key", "Account Number"):
             v = v.lstrip("'")
         if h == "Cause Number":
@@ -934,6 +1006,7 @@ def pull_missing_sheet_rows(csv_rows):
         all_values = sheet.get_all_values(value_render_option="FORMULA")
         if not all_values:
             return 0
+        formatted  = sheet.get_all_values()
         headers = [h.strip() for h in all_values[0]]
         try:
             uk_col = headers.index("Unique Key")
@@ -942,13 +1015,14 @@ def pull_missing_sheet_rows(csv_rows):
 
         existing_norm = {normalize_uk(k) for k in csv_rows}
         pulled = 0
-        for row in all_values[1:]:
+        for n, row in enumerate(all_values[1:], start=1):
             if len(row) <= uk_col or not row[uk_col]:
                 continue
             raw_uk = row[uk_col].lstrip("'")
             if not raw_uk or normalize_uk(raw_uk) in existing_norm:
                 continue
-            rd = _sheet_row_to_dict(headers, row)
+            rd = _sheet_row_to_dict(headers, row,
+                                    formatted[n] if n < len(formatted) else None)
             rd["Unique Key"] = raw_uk
             csv_rows[raw_uk] = rd
             existing_norm.add(normalize_uk(raw_uk))

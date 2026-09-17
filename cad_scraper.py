@@ -62,6 +62,8 @@ SUPPORTED_COUNTIES = {
     "caldwell",    # Caldwell CAD — esearch.caldwellcad.org
     "newton",      # Newton CAD — esearch.newtoncad.org
     "bandera",     # Bandera CAD — esearch.bancad.org
+    "victoria",    # Victoria CAD — esearch.victoriacad.org (Geo ID 5-3-5)
+    "freestone",   # Freestone CAD — freestonecad.org (Home/Search portal; compound "ParcelId+Sequence" account numbers)
 }
 
 BIS_URLS = {
@@ -127,10 +129,11 @@ ESEARCH_URLS = {
     "caldwell":    "https://esearch.caldwellcad.org",
     "newton":      "https://esearch.newtoncad.org",
     "bandera":     "https://esearch.bancad.org",
+    "victoria":    "https://esearch.victoriacad.org",
 }
 
 # Counties that use a Geographic ID field instead of plain account number.
-GEO_ID_COUNTIES = {"galveston", "hardin", "nueces", "wilson", "brooks", "cass", "rains"}
+GEO_ID_COUNTIES = {"galveston", "hardin", "nueces", "wilson", "brooks", "cass", "rains", "victoria"}
 
 # Tom Green CAD — Southwest Data Solutions geo-id portal
 TOMGREEN_SEARCH_BASE = "https://www.southwestdatasolution.com/webSearchGeoID.aspx"
@@ -203,6 +206,7 @@ HOMESEARCH_URLS = {
     "dewitt":   "https://www.dewittcad.org",
     "eastland": "https://eastlandcad.org",
     "leon":     "https://www.leoncad.org",
+    "freestone": "https://www.freestonecad.org",
 }
 
 
@@ -260,6 +264,17 @@ def format_geo_id_cass(account_number):
 def format_geo_id_rains(account_number):
     """Rains CAD geo id — user provides geo id as-is from the sheet."""
     return account_number.strip()
+
+
+def format_geo_id_victoria(account_number):
+    """Victoria CAD geo id — format: XXXXX-XXX-XXXXX (5-3-5 = 13 chars).
+    e.g. 3800001001000 → 38000-010-01000. Some ids carry a letter
+    (e.g. 3010000000O12 — farm lot "O"), so keep alphanumerics, not just digits."""
+    acct = account_number.strip()
+    if re.match(r'^[0-9A-Za-z]{5}-[0-9A-Za-z]{3}-[0-9A-Za-z]{5}$', acct):
+        return acct
+    chars = re.sub(r'[^0-9A-Za-z]', '', acct).zfill(13)
+    return f"{chars[0:5]}-{chars[5:8]}-{chars[8:13]}"
 
 
 def format_geo_id_tomgreen(account_number):
@@ -1194,6 +1209,17 @@ def _scrape_midland_property(page, account_number):
         page.wait_for_load_state("domcontentloaded")
         page.wait_for_timeout(1500)
 
+        # ISW portal defaults to "Search by Owner Name" — must click the
+        # "Property ID" tab link before the account-number input appears.
+        property_id_tab = page.locator("a:has-text('Property ID')")
+        if property_id_tab.count() > 0 and property_id_tab.first.is_visible():
+            property_id_tab.first.click()
+            page.wait_for_load_state("domcontentloaded")
+            page.wait_for_timeout(800)
+            print(f"    🖱️  Clicked Property ID tab")
+        else:
+            print(f"    ⚠️  Midland: Property ID tab not found, trying default form")
+
         # ISW portal: find the search input — try multiple selectors
         search_input = page.locator(
             "input[name='txtAccountNum'], input[id='txtAccountNum'], "
@@ -1230,12 +1256,18 @@ def _scrape_midland_property(page, account_number):
         page.wait_for_load_state("domcontentloaded")
         page.wait_for_timeout(800)
 
-        # Try to click first result link
+        # Click "View Property" on the search-results row to open the detail page
+        view_property_link = page.locator("a:has-text('View Property')")
         result_link = page.locator(
             "a[href*='webproperty'], a[href*='Property'], "
             "a[href*='detail'], table a"
         )
-        if result_link.count() > 0:
+        if view_property_link.count() > 0 and view_property_link.first.is_visible():
+            view_property_link.first.click()
+            page.wait_for_load_state("domcontentloaded")
+            page.wait_for_timeout(1500)
+            print(f"    🖱️  Clicked View Property")
+        elif result_link.count() > 0:
             result_link.first.click()
             page.wait_for_load_state("domcontentloaded")
             page.wait_for_timeout(1500)
@@ -1246,28 +1278,37 @@ def _scrape_midland_property(page, account_number):
         text = page.inner_text("body")
         final_url = page.url
 
-        # ── Address: prefer "Approximate Address" (shown in Midland documents)
-        # then fall back to Situs Address / Property Address
+        # ── Address: the detail page has a dedicated #webprop_situs cell — "Situs: <address>"
         address = ""
-        approx_m = re.search(
-            r'Approximate\s+Address[:\s]+([^\n]{5,120})', text, re.IGNORECASE
-        )
-        if approx_m:
-            address = approx_m.group(1).strip().rstrip(',')
+        try:
+            situs_cell = page.locator("#webprop_situs")
+            if situs_cell.count() > 0:
+                situs_text = situs_cell.first.inner_text().strip()
+                situs_text = re.sub(r'^Situs[:\s]+', '', situs_text, flags=re.IGNORECASE)
+                if len(situs_text) > 4:
+                    address = situs_text.rstrip(',')
+                    address = re.sub(r'\s+USA\b', '', address, flags=re.IGNORECASE)
+                    address = re.sub(r',?\s*(TX|Texas)\s*\d*\s*$', ', TX', address, flags=re.IGNORECASE).strip()
+                    print(f"    🏠 Midland Situs (#webprop_situs): {address}")
+        except Exception as e:
+            print(f"    ⚠️  Midland #webprop_situs error: {e}")
+
+        situs_m = re.search(r'Situs[:\s]+([^\n]{5,120})', text, re.IGNORECASE)
+        if not address and situs_m:
+            address = situs_m.group(1).strip().rstrip(',')
             address = re.sub(r'\s+USA\b', '', address, flags=re.IGNORECASE)
             address = re.sub(r',?\s*(TX|Texas)\s*\d*\s*$', ', TX', address, flags=re.IGNORECASE).strip()
-            print(f"    🏠 Midland Approximate Address: {address}")
+            print(f"    🏠 Midland Situs: {address}")
 
         if not address:
-            situs_m = re.search(
-                r'(?:Situs\s+Address|Property\s+Address)[:\s]+([^\n]{5,120})',
-                text, re.IGNORECASE
+            approx_m = re.search(
+                r'Approximate\s+Address[:\s]+([^\n]{5,120})', text, re.IGNORECASE
             )
-            if situs_m:
-                address = situs_m.group(1).strip().rstrip(',')
+            if approx_m:
+                address = approx_m.group(1).strip().rstrip(',')
                 address = re.sub(r'\s+USA\b', '', address, flags=re.IGNORECASE)
                 address = re.sub(r',?\s*(TX|Texas)\s*\d*\s*$', ', TX', address, flags=re.IGNORECASE).strip()
-                print(f"    🏠 Midland Situs Address: {address}")
+                print(f"    🏠 Midland Approximate Address: {address}")
 
         # Also try DOM scraping for address
         if not address:
@@ -1308,26 +1349,50 @@ def _scrape_midland_property(page, account_number):
         if owner:
             print(f"    👤 Midland owner: {owner}")
 
+        # "Values by Year" table: the first (2026) column has fixed ids —
+        # histimp0_yr / histlnd0_yr / histmkt0_yr — far more reliable than
+        # regexing the flattened row text.
+        def _clean_dollar(raw):
+            raw = raw.strip().replace(',', '').replace('$', '')
+            try:
+                return f"${int(raw):,}"
+            except Exception:
+                return ""
+
+        def _cell_val(cell_id):
+            try:
+                cell = page.locator(f"#{cell_id}")
+                if cell.count() > 0:
+                    return _clean_dollar(cell.first.inner_text())
+            except Exception:
+                pass
+            return ""
+
+        def _year_val(label):
+            m = re.search(label + r'\s*[+\-=]?\s*\$?([\d,]+)', text, re.IGNORECASE)
+            return _clean_dollar(m.group(1)) if m else ""
+
+        improvements = _cell_val("histimp0_yr") or _year_val(r'\bImprovements\b')
+        land         = _cell_val("histlnd0_yr") or _year_val(r'\bLand\b')
+        total_market = _cell_val("histmkt0_yr") or _year_val(r'Total\s+Market\b')
+
         # Market value
-        market_value = extract_market_value(text)
+        market_value = extract_market_value(text) or total_market
         if market_value:
             print(f"    💰 Midland value: {market_value}")
 
-        def _val(label):
-            m = re.search(label + r'[:\s]+\$?([\d,]+)', text, re.IGNORECASE)
-            if m:
-                raw = m.group(1).replace(',', '')
-                try:
-                    return f"${int(raw):,}"
-                except Exception:
-                    pass
-            return ""
-
-        imp_homesite     = _val(r'Improvement\s+Homesite(?:\s+Value)?')
-        imp_nonhomesite  = _val(r'Improvement\s+Non-?Homesite(?:\s+Value)?')
-        land_homesite    = _val(r'Land\s+Homesite(?:\s+Value)?')
-        land_nonhomesite = _val(r'Land\s+Non-?Homesite(?:\s+Value)?')
-        ag_market        = _val(r'Ag(?:ricultural)?\s+Market\s+Val(?:uation)?')
+        # Map/GIS — this is a JS postback link ("javascript:WebForm_DoPostBackWithOptions(...)"),
+        # not a plain href, so pull the real target URL out of the onclick/href JS string.
+        interactive_map = ""
+        map_gis_link = page.locator("a:has-text('Map/GIS')")
+        if map_gis_link.count() > 0:
+            raw_js = (map_gis_link.first.get_attribute("href") or "") + " " + \
+                     (map_gis_link.first.get_attribute("onclick") or "")
+            map_url_m = re.search(r'["\']([^"\']*webPropertyMap\.aspx[^"\']*)["\']', raw_js)
+            if map_url_m:
+                import urllib.parse
+                interactive_map = urllib.parse.urljoin(final_url, map_url_m.group(1))
+                print(f"    🗺️  Map/GIS: {interactive_map[:80]}")
 
         google_maps_url = build_google_maps_url(address) if address else ""
         zillow_url      = build_zillow_url(address) if address else ""
@@ -1345,14 +1410,14 @@ def _scrape_midland_property(page, account_number):
             "Adjusted Value":             market_value,
             "Appraisal District":         final_url,
             "Property Map":               property_map,
-            "Interactive Map":            "",
+            "Interactive Map":            interactive_map,
             "Satellite View":             google_maps_url,
             "Zillow":                     zillow_url,
-            "Improvement Homesite Value": imp_homesite,
-            "Improvement Non-Homesite":   imp_nonhomesite,
-            "Land Homesite Value":        land_homesite,
-            "Land Non-Homesite Value":    land_nonhomesite,
-            "Ag Market Valuation":        ag_market,
+            "Improvement Homesite Value": improvements,
+            "Improvement Non-Homesite":   "",
+            "Land Homesite Value":        land,
+            "Land Non-Homesite Value":    "",
+            "Ag Market Valuation":        "",
         }
 
     except Exception as e:
@@ -1892,6 +1957,8 @@ def _scrape_esearch_property(page, base_url, account_number, county):
             geo_id = format_geo_id_cass(clean_account)
         elif county == "rains":
             geo_id = format_geo_id_rains(clean_account)
+        elif county == "victoria":
+            geo_id = format_geo_id_victoria(clean_account)
         else:
             geo_id = clean_account
         print(f"    🗺️  Geo ID → input: {geo_id}")
@@ -4243,6 +4310,165 @@ def _scrape_leon_property(page, account_number):
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+# FREESTONE CAD — freestonecad.org (same Home/Search engine as Rusk/Goliad/
+# DeWitt/Eastland/Leon). Unlike those, MVBA's account number here is a
+# compound "{Parcel Id}{Sequence:06d}" value — e.g. "46729000001" is parcel
+# "46729", sequence 1 — and the Keyword search only accepts the plain Parcel
+# Id (the compound number matches nothing). Searching the bare Parcel Id can
+# also return several rows: multiple ownership/sequence rows for that same
+# parcel (one per owner, e.g. an inherited or fractional-interest property),
+# and sometimes an unrelated parcel that merely contains the same digits
+# (e.g. "646729" also matches a search for "46729"). So the exact-match
+# Parcel Id column is filtered first, then — when more than one row remains —
+# the Sequence column is used to pick the specific owner/record the account
+# number actually points to.
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _freestone_parse_account(raw):
+    """Split a compound Freestone account into (parcel_id, sequence)."""
+    digits = re.sub(r'\D', '', raw.strip())
+    if len(digits) > 6:
+        parcel_id = digits[:-6]
+        seq_raw = digits[-6:]
+        try:
+            sequence = str(int(seq_raw))
+        except ValueError:
+            sequence = None
+        return parcel_id, sequence
+    return digits, None
+
+
+def _scrape_freestone_property(page, account_number):
+    parcel_id, sequence = _freestone_parse_account(account_number)
+    county_label = "Freestone CAD"
+    if not parcel_id:
+        print(f"    ⚠️  Could not parse {county_label} account: {account_number}")
+        return None
+    if parcel_id != account_number.strip():
+        seq_desc = f", sequence {sequence}" if sequence else ""
+        print(f"    ✂️  {county_label} account split: {account_number} → parcel {parcel_id}{seq_desc}")
+
+    base_url = HOMESEARCH_URLS["freestone"]
+    search_url = f"{base_url}/Home/Search"
+    print(f"    🔍 {county_label} parcel: {parcel_id}")
+
+    try:
+        page.goto(search_url, timeout=30000, wait_until="domcontentloaded")
+        try:
+            page.wait_for_load_state("networkidle", timeout=12000)
+        except Exception:
+            pass
+        page.wait_for_timeout(800)
+
+        keyword_input = page.locator(
+            "input#Keyword, input[name='Keyword'], "
+            "input[placeholder='Keyword'], input[placeholder*='keyword' i]"
+        )
+        try:
+            keyword_input.first.wait_for(state="visible", timeout=10000)
+        except Exception:
+            print(f"    ⚠️  {county_label}: Keyword input not found at {search_url}")
+            return None
+        keyword_input.first.clear()
+        keyword_input.first.fill(parcel_id)
+        print(f"    ✏️  Entered: {parcel_id}")
+        page.wait_for_timeout(300)
+
+        submit_btn = page.locator(
+            "button#btnsubmit, input#btnsubmit, "
+            "button:has-text('Search'), input[value='Search'], "
+            "button[type='submit'], input[type='submit']"
+        )
+        clicked = False
+        for i in range(submit_btn.count()):
+            el = submit_btn.nth(i)
+            if el.is_visible():
+                el.click()
+                clicked = True
+                print(f"    🖱️  Search submitted")
+                break
+        if not clicked:
+            keyword_input.first.press("Enter")
+            print(f"    ⌨️  Enter pressed")
+
+        try:
+            page.wait_for_load_state("networkidle", timeout=12000)
+        except Exception:
+            page.wait_for_load_state("domcontentloaded")
+        page.wait_for_timeout(1500)
+
+        try:
+            page.wait_for_selector("tbody tr td a", timeout=10000)
+        except Exception:
+            print(f"    ⚠️  {county_label}: results table did not appear for: {parcel_id}")
+            return None
+
+        # Column order is: Parcel Id | Sequence | Account | Owner Id | ...
+        all_rows = page.locator("tbody tr")
+        row_count = all_rows.count()
+        exact_rows = []
+        for i in range(row_count):
+            try:
+                row = all_rows.nth(i)
+                cells = row.locator("td")
+                if cells.count() < 2:
+                    continue
+                pid = cells.nth(0).inner_text().strip()
+                seq = cells.nth(1).inner_text().strip()
+                if pid == parcel_id:
+                    exact_rows.append((row, seq))
+            except Exception:
+                continue
+
+        target_row = None
+        if exact_rows:
+            if sequence:
+                for row, seq in exact_rows:
+                    if seq == sequence:
+                        target_row = row
+                        break
+            if target_row is not None:
+                print(f"    🎯 {county_label}: matched parcel {parcel_id}, sequence {sequence}")
+            else:
+                target_row = exact_rows[0][0]
+                if len(exact_rows) > 1:
+                    print(f"    ⚠️  {county_label}: {len(exact_rows)} exact matches for parcel {parcel_id}, none matched sequence {sequence!r} — using first")
+                else:
+                    print(f"    🎯 {county_label}: matched parcel {parcel_id}")
+        else:
+            print(f"    ⚠️  {county_label}: no exact Parcel Id match for '{parcel_id}' among {row_count} results — falling back to first result")
+            if row_count:
+                target_row = all_rows.nth(0)
+
+        if target_row is None:
+            print(f"    ⚠️  {county_label}: could not find any result row for: {parcel_id}")
+            return None
+
+        link = target_row.locator("a").first
+        href = link.get_attribute("href") or ""
+        if not href or href in ("#", "javascript:void(0)"):
+            print(f"    ⚠️  {county_label}: matched row has no usable link for: {parcel_id}")
+            return None
+        link.click()
+        print(f"    🖱️  Clicked: {href[:80]}")
+
+        try:
+            page.wait_for_load_state("networkidle", timeout=15000)
+        except Exception:
+            page.wait_for_load_state("domcontentloaded")
+        page.wait_for_timeout(1000)
+
+        final_url = page.url
+        print(f"    ✅ {county_label} detail loaded: {final_url[:90]}")
+        return _extract_homesearch_detail(page, final_url, county_label)
+
+    except Exception as e:
+        print(f"    ❌ {county_label} scrape error: {e}")
+        import traceback; traceback.print_exc()
+        return None
+
+
+# ═══════════════════════════════════════════════════════════════════════════
 # BOWIE CAD — bowieappraisal.com (True Prodigy engine, same API as Travis/
 # McLennan — confirmed by its own "Powered by: True Prodigy" footer).
 # Search: {base}/property-search → open the "Search type" dropdown (default
@@ -4861,6 +5087,8 @@ def _call_county_scraper(page, county, account, row):
         return _scrape_elpaso_property(page, account, row)
     elif county == "leon":
         return _scrape_leon_property(page, account)
+    elif county == "freestone":
+        return _scrape_freestone_property(page, account)
     elif county == "hays":
         return _scrape_hays_property(page, account)
     elif county in HOMESEARCH_URLS:
@@ -5051,6 +5279,8 @@ def run_cad_enrichment(target_rows, _db=None, force_update=False):
                         result = _scrape_elpaso_property(page, account, row)
                     elif county == "leon":
                         result = _scrape_leon_property(page, account)
+                    elif county == "freestone":
+                        result = _scrape_freestone_property(page, account)
                     elif county == "hays":
                         result = _scrape_hays_property(page, account)
                     elif county in HOMESEARCH_URLS:

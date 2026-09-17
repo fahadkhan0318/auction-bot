@@ -197,7 +197,8 @@ def status_from_card_text(text):
 
 def extract_card_data(page, href):
     """Find the card container for the link with the given href attribute value."""
-    result = {"status": "", "sold_amount": "", "sold_to_text": "", "p_list": None, "site_number": ""}
+    result = {"status": "", "sold_amount": "", "sold_to_text": "", "p_list": None, "site_number": "",
+              "auction_date": ""}
     try:
         escaped = href.replace("\\", "\\\\").replace("'", "\\'")
         data = page.evaluate(f"""
@@ -249,6 +250,12 @@ def extract_card_data(page, href):
         result["p_list"]       = data.get("p_list")
         result["site_number"]  = data.get("site_number", "")
         result["status"]       = status_from_card_text(raw)
+        # Every active card prints "Auction Starts <date>" — a fallback for
+        # when the detail page's own Auction Date comes back blank (seen on
+        # Cameron 2024-DCL-07666 / 00666), which otherwise leaves the row
+        # with a guessed date and renumber_item_numbers() pushes it last.
+        m_ad = re.search(r'Auction\s+Starts[:\s]*(\d{1,2}/\d{1,2}/\d{4}[^\n\r]*)', raw, re.IGNORECASE)
+        result["auction_date"] = m_ad.group(1).strip() if m_ad else ""
         if result["status"] == "Struck Off":
             result["sold_amount"] = ""
         print(f"    [CARD] status='{result['status']}' | "
@@ -760,7 +767,12 @@ def scrape_property_detail(page, county_name, cause_number):
         return _extract("Property Address")
 
     account_number = _extract("Account Number") or cause_number
-    unique_key     = make_unique_key(county_name, account_number, source="SHERIFF")
+    # A placeholder like "MULTIPLE ACCOUNTS" isn't a real per-parcel ID —
+    # Smith 27867-A and 27812-C both carry it, so keying on it made the
+    # second listing silently overwrite the first. Fall back to the cause
+    # number (unique per listing) whenever the account has no digits.
+    key_id         = account_number if re.search(r'\d', account_number) else cause_number
+    unique_key     = make_unique_key(county_name, key_id, source="SHERIFF")
 
     # Owner from Case Style
     owner = ""
@@ -816,6 +828,16 @@ def scrape_property_detail(page, county_name, cause_number):
     # falling back to the old line-based text search for pages that don't
     # use this table structure.
     auction_date = ""
+    # An active listing always shows "Auction Starts" (only Canceled ones
+    # replace it with "Auction Status"), yet a slow render occasionally
+    # returned it blank — seen on Smith, a different row each run. Give the
+    # row a few seconds to appear before reading it.
+    if "Auction Starts" not in full_text and "Auction Status" not in full_text:
+        try:
+            page.wait_for_selector("text=Auction Starts", timeout=5000)
+            full_text = page.inner_text("body")
+        except Exception:
+            pass
     for label in ("Auction Starts", "Auction Date"):
         if auction_date: break
         try:
@@ -896,7 +918,9 @@ def _get_max_pages(page, preferred_id):
     # it still empty/"0", which silently collapses pagination to 1 page and
     # drops every item past whatever page 1 shows. Poll briefly for a
     # non-empty digit value before trusting it or falling back.
-    for attempt in range(6):
+    # ~1.8s wasn't always enough — Smith's Waiting tab (2 pages) came back
+    # empty and silently collapsed to 1 page, dropping its page-2 listing.
+    for attempt in range(16):
         try:
             el = page.locator(f"#{preferred_id}")
             if el.count() > 0:
@@ -905,7 +929,7 @@ def _get_max_pages(page, preferred_id):
                     return int(val)
         except Exception:
             pass
-        page.wait_for_timeout(300)
+        page.wait_for_timeout(500)
     try:
         body = page.inner_text("body")
         for pat in [
@@ -1056,13 +1080,33 @@ def collect_all_listing_urls(page, section_base_url, page_input_id, max_pages_id
     for pg in range(1, max_pages + 1):
         print(f"  🔗 Collecting page {pg}/{max_pages}...")
         if pg > 1:
-            if not _navigate_to_page(page, section_base_url, pg, page_input_id):
+            # _navigate_to_page can report success off a transient mid-AJAX
+            # grid state and still leave page 1's rows showing — Smith's
+            # Waiting tab did exactly that, so its page-2-only listing
+            # (27812-C) was silently never collected. A real later page never
+            # starts with an already-collected listing (the sticky cancelled
+            # footer sits at the end, not first), so use that to verify and
+            # retry.
+            landed = False
+            for attempt in range(3):
+                if not _navigate_to_page(page, section_base_url, pg, page_input_id):
+                    continue
+                try:
+                    page.wait_for_selector("a[href*='zaction=auction']", timeout=5000)
+                except Exception:
+                    continue
+                page.wait_for_timeout(1000 * (attempt + 1))
+                first_href = page.locator("a[href*='zaction=auction']").first.get_attribute("href") or ""
+                m_first    = re.search(r'[Aa]uction[Ii][Dd]=(\d+)|AID=(\d+)', first_href)
+                first_aid  = (m_first.group(1) or m_first.group(2)) if m_first else ""
+                if first_aid and first_aid in seen_p_lists:
+                    print(f"    🔁 Page {pg} still shows an earlier page's listings — retrying ({attempt + 1}/3)")
+                    continue
+                landed = True
+                break
+            if not landed:
                 print(f"    ⏭️  Skipping page {pg} — could not verify navigation away from page 1 "
                       f"(would have re-collected page 1's rows as duplicates)")
-                continue
-            try:
-                page.wait_for_selector("a[href*='zaction=auction']", timeout=5000)
-            except Exception:
                 continue
 
         index_url = page.url
@@ -1113,18 +1157,43 @@ def collect_all_listing_urls(page, section_base_url, page_input_id, max_pages_id
 # PROCESS SINGLE LISTING
 # ═══════════════════════════════════════════════════════════════════════════
 
+def _drop_placeholder_key_row(data, db, csv_rows):
+    """One-time migration for rows saved before scrape_property_detail()
+    stopped keying on digit-less placeholder accounts ("MULTIPLE ACCOUNTS").
+    If this listing now has a different key but an old placeholder-keyed row
+    for the same county + cause number still exists, remove the old one —
+    otherwise it lingers as a duplicate (and pull_missing_sheet_rows would
+    keep restoring it from the sheet)."""
+    new_uk = data["Unique Key"]
+    prefix = f"SHERIFF_{data.get('County', '').upper()}_"
+    cause  = data.get("Cause Number", "").strip()
+    for uk in [k for k in list(csv_rows) + list(db) if k.startswith(prefix)]:
+        if uk == new_uk or re.search(r'\d', uk[len(prefix):]):
+            continue
+        old_cause = (csv_rows.get(uk) or {}).get("Cause Number") or (db.get(uk) or {}).get("cause_number", "")
+        if old_cause.strip() != cause:
+            continue
+        csv_rows.pop(uk, None)
+        db.pop(uk, None)
+        save_db(db)
+        print(f"    🧹 Removed old placeholder-keyed row {uk} (now {new_uk})")
+
+
 def process_listing_url(
     page, county_name, cause_number, detail_url, p_list_val, index_page_url,
     db, csv_rows, section_name, index_status="", card_data=None,
     index_page_num=1, index_page_input_id="", section_base_url="", site_seq=None,
 ):
     if card_data is None:
-        card_data = {"status": "", "sold_amount": "", "sold_to_text": "", "p_list": None, "site_number": ""}
+        card_data = {"status": "", "sold_amount": "", "sold_to_text": "", "p_list": None, "site_number": "",
+                     "auction_date": ""}
     try:
         page.goto(detail_url)
         page.wait_for_timeout(2000)
         handle_all_popups(page)
         data = scrape_property_detail(page, county_name, cause_number)
+        if not data.get("Auction Date") and card_data.get("auction_date"):
+            data["Auction Date"] = card_data["auction_date"]
         # Item Number = this listing's position within the Closed tab's own
         # walk order (1-indexed, counted across pages in the order
         # collect_all_listing_urls() found them — includes cancelled cards,
@@ -1256,6 +1325,7 @@ def process_listing_url(
         # gaplessly renumbers the active rows below them — same as every
         # other source, no SHERIFF-specific carve-out anymore.
 
+        _drop_placeholder_key_row(data, db, csv_rows)
         return smart_save(data, db, csv_rows, section_name)
 
     except Exception as e:
@@ -1295,6 +1365,10 @@ def build_cause_index(db, county_name, source="SHERIFF"):
             continue
         if rec.get("county", "").upper() != cu:
             continue
+        # Old placeholder-keyed rows ("..._MULTIPLE ACCOUNTS") must go through
+        # a full detail scrape so _drop_placeholder_key_row can migrate them.
+        if not re.search(r'\d', uk[len(f"{source}_{cu}_"):]):
+            continue
         cn = (rec.get("cause_number") or "").strip()
         if not cn:
             continue
@@ -1305,6 +1379,18 @@ def build_cause_index(db, county_name, source="SHERIFF"):
     for cn in ambiguous:
         idx.pop(cn, None)
     return idx
+
+
+def _backfill_auction_date(csv_rows, uk, card):
+    """An already-scraped row whose Auction Date came back blank never gets
+    its detail page revisited in update mode, so the blank would stick —
+    fill it from the index card's "Auction Starts" date instead."""
+    row = csv_rows.get(uk)
+    card_date = (card or {}).get("auction_date", "")
+    if row is None or not card_date or row.get("Auction Date", "").strip():
+        return
+    row["Auction Date"] = card_date
+    update_google_sheet(row)
 
 
 def _refresh_item_number_only(csv_rows, uk, position):
@@ -1445,6 +1531,7 @@ def scrape_section(page, county_name, db, csv_rows, section_base_url,
                 stats[result] = stats.get(result, 0) + 1
                 continue
 
+            _backfill_auction_date(csv_rows, uk, card)
             old_status = db[uk].get("status", "")
 
             if section_name == "Waiting":

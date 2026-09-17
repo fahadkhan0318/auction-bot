@@ -488,6 +488,17 @@ def _parse_table(table, county, auction_date, pdf_path, page_text="", withdrawn_
     # this is what was losing tracts 10/11 of Suit 2024-1059-6 etc.).
     combined_by_cause = {}
 
+    # MVBA's Suit #/Style columns are rowspan-merged in the source PDF when
+    # one lawsuit sells multiple separate tracts as separate line items (each
+    # with its own row, own description, own Min Bid) — pdfplumber reports
+    # the merged cells as blank/None on every row but the first. Track the
+    # last non-blank Suit #/Style seen so later rows in the same lawsuit
+    # inherit them instead of shipping with a blank Cause Number/Owner (this
+    # is what was losing the Cause Number and Owner on Freestone County's
+    # CV24035 tract 7, CV25220 tract 10, and CV25222 tract 12 — 1026_Freestone.pdf).
+    last_cause_number = ""
+    last_style_text   = ""
+
     for row_idx, row in enumerate(table[data_start:], start=data_start):
         if not row or all(not c for c in row):
             continue
@@ -510,6 +521,13 @@ def _parse_table(table, county, auction_date, pdf_path, page_text="", withdrawn_
             destamped = cause_number.replace('W', '')
             if re.match(r'^\d{4}-\d+-\d+$', destamped):
                 cause_number = destamped
+
+        # Inherit Suit #/Style from the row above when this row's own cells
+        # are blank — a rowspan-merged lawsuit header, not a missing value.
+        if not cause_number and last_cause_number:
+            cause_number = last_cause_number
+        if not raw_style and last_style_text:
+            raw_style = last_style_text
 
         # Normally the desc column is the only thing between STYLE and MIN
         # BID, but pdfplumber occasionally splits it into an extra column
@@ -548,7 +566,11 @@ def _parse_table(table, county, auction_date, pdf_path, page_text="", withdrawn_
                 desc_text = (desc_text + ' ' + next_desc).strip() if desc_text else next_desc
             look_ahead += 1
 
-        if not style_text.strip() and not desc_text.strip() and cause_number in combined_by_cause:
+        # (style_text is never blank on its own anymore now that Suit #/Style
+        # inherit from last_cause_number/last_style_text above, so a blank
+        # DESCRIPTION cell is what actually marks this row as a continuation
+        # row waiting on a stored segment.)
+        if not desc_text.strip() and cause_number in combined_by_cause:
             entry = combined_by_cause[cause_number]
             if entry["next_idx"] < len(entry["segments"]):
                 desc_text  = entry["segments"][entry["next_idx"]]
@@ -567,8 +589,36 @@ def _parse_table(table, county, auction_date, pdf_path, page_text="", withdrawn_
                 else:
                     segments.append(desc_text[prev:].strip())
             if len(segments) > 1:
-                combined_by_cause[cause_number] = {"segments": segments, "next_idx": 1, "style": style_text}
-                desc_text = segments[0]
+                # Only truncate this row's own text down to segment one — and
+                # stash the rest for a sibling row to claim — when the very
+                # next row is a true blank continuation (its own Suit #,
+                # Style, and Description cells are all empty in the raw
+                # table), e.g. Calhoun's Suit 2024-1059-6 tracts 10/11, where
+                # pdfplumber crammed every tract's text into the first row and
+                # left the rest of that lawsuit's rows completely empty. When
+                # the next row already carries its own real description (e.g.
+                # Freestone's CV25222 tract 12 following tract 11's combined
+                # TRACT 1 + TRACT 2 text), this row's single Min Bid covers
+                # everything printed in it, so keep the full combined text
+                # instead of truncating it and silently losing the rest (lost
+                # TRACT 2 of CV25222 and CV19160 this way).
+                next_is_blank_continuation = False
+                if row_idx + 1 < len(table):
+                    nrow = table[row_idx + 1]
+                    n_tract = str(nrow[cols.get('tract', 0)] or '').strip() if nrow else ''
+                    if n_tract and n_tract[0].isdigit():
+                        n_suit  = str(nrow[cols.get('suit',  1)] or '').strip()
+                        n_style = str(nrow[cols.get('style', 2)] or '').strip()
+                        n_desc_start = cols.get('desc', cols.get('style', 1) + 1)
+                        n_bid_idx    = cols.get('bid', len(nrow) - 1)
+                        n_desc = " ".join(
+                            str(nrow[i] or "").strip()
+                            for i in range(n_desc_start, min(n_bid_idx, len(nrow))) if nrow[i]
+                        ).strip()
+                        next_is_blank_continuation = not n_suit and not n_style and not n_desc
+                if next_is_blank_continuation:
+                    combined_by_cause[cause_number] = {"segments": segments, "next_idx": 1, "style": style_text}
+                    desc_text = segments[0]
 
         # Check 1: any cell in this row contains WITHDRAWN text
         full_row_text = " ".join(str(c or "") for c in row).upper()
@@ -636,6 +686,11 @@ def _parse_table(table, county, auction_date, pdf_path, page_text="", withdrawn_
                            item_number=tract_num)
         properties.append(prop)
         _print_prop(tract_num, cause_number, owner, address, min_bid, status)
+
+        if cause_number:
+            last_cause_number = cause_number
+        if style_text.strip():
+            last_style_text = style_text
 
     return properties
 
@@ -706,8 +761,15 @@ def _extract_owner_from_style(text):
     if not text:
         return ""
 
-    # Flatten newlines that split a name across lines (e.g. "Nestor\nMenjivar")
-    text_flat = re.sub(r'(\w)\n([A-Za-z])', r'\1 \2', text)
+    # Flatten newlines that split a name across lines (e.g. "Nestor\nMenjivar").
+    # Must not require a word char right before the break — a wrapped middle
+    # initial like "A.\nMichael Mayes" has a period there, not a letter, so
+    # requiring \w left everything after the break behind (returned "A" for
+    # Freestone's CV12024, "The County of Freestone, Texas v A.\nMichael
+    # Mayes et al"). Style text is always a short "Plaintiff v Defendant"
+    # line, never genuine multi-paragraph prose, so collapsing every newline
+    # unconditionally is safe.
+    text_flat = re.sub(r'\s*\n\s*', ' ', text)
 
     m = re.search(r'\bv\.?\s+(.+)', text_flat, re.IGNORECASE)
     if m:
@@ -900,8 +962,21 @@ def _extract_address(text):
 def _extract_legal(text):
     text = re.sub(r'^\d+\s+\S+\s+', '', text.strip())
     text = re.sub(r'^[^\n]+\bv\b[^\n]+\n?', '', text, flags=re.IGNORECASE)
-    text = re.split(r'Account\s*#', text, flags=re.IGNORECASE)[0]
-    text = re.split(r'Judgment\s+Through', text, flags=re.IGNORECASE)[0]
+
+    # One item can combine multiple tracts under a single Min Bid ("TRACT 1:
+    # ... AND\nTRACT 2: ...", e.g. Freestone CV25222 item 11), each with its
+    # own trailing "Account #NNN Judgment Through Tax Year: YYYY" boilerplate.
+    # Strip that boilerplate from each tract individually instead of cutting
+    # the whole string at the FIRST occurrence, or every tract after the
+    # first is silently dropped from the legal description.
+    parts = re.split(r'\bAND\s*\n?\s*(?=TRACT\s*\d)', text, flags=re.IGNORECASE)
+    cleaned = []
+    for part in parts:
+        part = re.split(r'Account\s*#', part, flags=re.IGNORECASE)[0]
+        part = re.split(r'Judgment\s+Through', part, flags=re.IGNORECASE)[0]
+        cleaned.append(part.strip())
+    text = ' AND '.join(p for p in cleaned if p)
+
     lines = [l.strip() for l in text.split('\n') if l.strip()]
     return ' '.join(lines[:6]).strip()[:300]
 
