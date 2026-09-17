@@ -2855,14 +2855,6 @@
     "cause_number": "27778-B",
     "section": "Closed"
   },
-  "SHERIFF_SMITH_MULTIPLE ACCOUNTS": {
-    "status": "Pending",
-    "first_seen": "2026-09-16",
-    "source": "SHERIFF",
-    "county": "SMITH",
-    "cause_number": "27867-A",
-    "section": "Closed"
-  },
   "SHERIFF_SMITH_100000002302022000": {
     "status": "Pending",
     "first_seen": "2026-09-16",
@@ -2958,5 +2950,21 @@
     "county": "SMITH",
     "cause_number": "27812-C",
     "section": "MVBA_PDF"
+  },
+  "SHERIFF_SMITH_27867-A": {
+    "status": "Pending",
+    "first_seen": "2026-09-17",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27867-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_27812-C": {
+    "status": "Pending",
+    "first_seen": "2026-09-17",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27812-C",
+    "section": "Waiting"
   }
 }

@@ -147,6 +147,28 @@ def auction_date_is_future(date_str):
         return False
 
 
+def auction_date_from_day_url(url):
+    """Pull the auction day out of the day/section URL the listing was found
+    under — every RealAuction county (…sheriffsaleauctions.com AND the
+    realforeclose.com ones) builds it as
+    `index.cfm?zaction=AUCTION&Zmethod=DAYLIST&AUCTIONDATE=MM/DD/YYYY`.
+
+    This is the only Auction Date source that can never come back blank. The
+    detail page and the index card both print "Auction Status" *instead of*
+    "Auction Starts" once a listing is Cancelled/Struck Off/Redeemed, so for
+    those rows neither of the earlier fallbacks has a date to give (Galveston
+    23-TX-0737, Matagorda T-18058, and most Cancelled rows in the older
+    monthly CSVs). A dateless row then gets a guessed group in
+    common.renumber_item_numbers(), which forces it to the bottom of its
+    county — shifting every row below its true slot up one number.
+
+    The URL carries no time-of-day, so this is deliberately last in the
+    chain: a real "10/06/2026 10:00 AM CT" from the page or card always wins.
+    Only the date part is used for grouping/sorting anyway (common._date_only)."""
+    m = re.search(r'AUCTIONDATE=(\d{1,2}/\d{1,2}/\d{4})', url or "", re.IGNORECASE)
+    return m.group(1) if m else ""
+
+
 def extract_status(full_text):
     try:
         section = full_text.split("Auction Status")[1]
@@ -1194,6 +1216,14 @@ def process_listing_url(
         data = scrape_property_detail(page, county_name, cause_number)
         if not data.get("Auction Date") and card_data.get("auction_date"):
             data["Auction Date"] = card_data["auction_date"]
+        # Last resort: the auction-day URL this listing was walked under. See
+        # auction_date_from_day_url() — a Cancelled/Struck Off listing shows
+        # "Auction Status" in place of "Auction Starts" on both the detail
+        # page and the card, so without this it would stay dateless forever
+        # and sort to the bottom of its county.
+        if not data.get("Auction Date"):
+            data["Auction Date"] = auction_date_from_day_url(
+                section_base_url or index_page_url)
         # Item Number = this listing's position within the Closed tab's own
         # walk order (1-indexed, counted across pages in the order
         # collect_all_listing_urls() found them — includes cancelled cards,
@@ -1381,15 +1411,24 @@ def build_cause_index(db, county_name, source="SHERIFF"):
     return idx
 
 
-def _backfill_auction_date(csv_rows, uk, card):
+def _backfill_auction_date(csv_rows, uk, card, day_url=""):
     """An already-scraped row whose Auction Date came back blank never gets
     its detail page revisited in update mode, so the blank would stick —
-    fill it from the index card's "Auction Starts" date instead."""
+    fill it from the index card's "Auction Starts" date instead, falling back
+    to the auction-day URL the row was walked under.
+
+    That URL fallback is what makes this self-healing for every county: a
+    Cancelled/Struck Off card prints "Auction Status" instead of "Auction
+    Starts", so the card has no date to give and such rows used to stay blank
+    run after run — and a blank date sends the row to the bottom of its
+    county in renumber_item_numbers(), pushing every row below it up one
+    Item Number. See auction_date_from_day_url()."""
     row = csv_rows.get(uk)
-    card_date = (card or {}).get("auction_date", "")
+    card_date = (card or {}).get("auction_date", "") or auction_date_from_day_url(day_url)
     if row is None or not card_date or row.get("Auction Date", "").strip():
         return
     row["Auction Date"] = card_date
+    print(f"    📅 Backfilled blank Auction Date for {uk} → {card_date}")
     update_google_sheet(row)
 
 
@@ -1531,7 +1570,7 @@ def scrape_section(page, county_name, db, csv_rows, section_base_url,
                 stats[result] = stats.get(result, 0) + 1
                 continue
 
-            _backfill_auction_date(csv_rows, uk, card)
+            _backfill_auction_date(csv_rows, uk, card, section_base_url)
             old_status = db[uk].get("status", "")
 
             if section_name == "Waiting":

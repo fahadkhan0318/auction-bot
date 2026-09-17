@@ -381,6 +381,25 @@ def renumber_item_numbers(rows_dict):
         if not date and len(known_dates_by_county.get(county, ())) == 1:
             date = next(iter(known_dates_by_county[county]))
             inferred.add(id(row))
+            # Loud on purpose: this is the one branch that can silently shift
+            # a whole county's Item Numbers. An inferred row is forced to the
+            # bottom of its group (see _item_number_rank), so every row below
+            # its true site slot moves up one. SHERIFF rows should never get
+            # here any more — sheriff.auction_date_from_day_url() gives every
+            # listing a date from the auction-day URL it was walked under —
+            # so if one shows up in a scheduled run's log, that scraper-side
+            # fallback has a hole in it and the county's numbering is wrong.
+            #
+            # A cancelled row in a still-future group is the one harmless
+            # case: it gets blanked and pushed last below anyway, whatever
+            # its date, so the guess costs it nothing and warning every run
+            # would just be noise.
+            harmless = (not _auction_already_happened(date)
+                        and is_cancelled_equivalent_status(row.get("Status", "")))
+            if not harmless:
+                print(f"  ⚠️  Blank Auction Date: {row.get('Source','?')} {county} "
+                      f"{row.get('Cause Number','?')} — guessed {date} and sorted "
+                      f"last; its real position on the site is unknown.")
         key = (county, date)
         groups.setdefault(key, []).append(row)
 
