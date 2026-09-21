@@ -1040,7 +1040,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000283570000000": {
-    "status": "Cancelled",
+    "status": "Pending",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1120,7 +1120,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_600085000A0040000": {
-    "status": "Cancelled",
+    "status": "Pending",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1152,7 +1152,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000654703000000": {
-    "status": "Cancelled",
+    "status": "Pending",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1824,7 +1824,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_1687500010035000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
