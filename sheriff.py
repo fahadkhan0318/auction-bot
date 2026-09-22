@@ -17,7 +17,7 @@ import common
 from common import (
     make_unique_key, smart_save, save_db, rewrite_csv, update_google_sheet,
     MONTH_NAMES, MONTH_NUM_TO_NAME, SOLD_STATUSES, NONSOLD_STATUSES,
-    STATUS_KEYWORDS_ORDERED, CSV_FIELDS
+    POST_AUCTION_ONLY_STATUSES, STATUS_KEYWORDS_ORDERED, CSV_FIELDS
 )
 
 # ── globals injected by main.py ───────────────────────────────────────────
@@ -1258,19 +1258,26 @@ def process_listing_url(
         # the future, there is nothing to resolve — trust "Pending" as-is.
         auction_is_future = auction_date_is_future(data.get("Auction Date", ""))
 
-        # Same guard, but for cards/detail pages that report a non-Pending
-        # outcome (e.g. "Struck Off") directly instead of going through the
-        # "Pending" fallback above — e.g. Cameron cause 2024-DCL-02917 carried
-        # a stale "Struck Off" Auction Status label on its detail page from a
-        # prior sale cycle while the page's own Auction Date had already been
-        # moved to the next resale date, weeks out. A Closed-tab result can
-        # never be trusted before its auction date has actually passed, no
-        # matter which field it came from. See the matching guard in
-        # scrape_section()'s "update" mode — without it, a wrong non-Pending
-        # status here would stick indefinitely: once card["status"] stops
-        # changing run to run, scrape_section's own "nothing changed" skip
-        # would never let this function run again for that cause number.
-        if section_name == "Closed" and auction_is_future and final_status != "Pending":
+        # Same guard, but for cards/detail pages that report an auction
+        # OUTCOME (Sold / Struck Off / Pulled for no bids) directly instead of
+        # going through the "Pending" fallback above — e.g. Cameron cause
+        # 2024-DCL-02917 carried a stale "Struck Off" Auction Status label on
+        # its detail page from a prior sale cycle while the page's own Auction
+        # Date had already been moved to the next resale date, weeks out.
+        # Those three outcomes are impossible before bidding happens, so a
+        # future sale date proves the label is stale, whichever field it came
+        # from. See the matching guard in scrape_section()'s "update" mode —
+        # without it, a wrong outcome here would stick indefinitely: once
+        # card["status"] stops changing run to run, scrape_section's own
+        # "nothing changed" skip would never let this function run again for
+        # that cause number.
+        #
+        # Scoped to POST_AUCTION_ONLY_STATUSES, NOT "anything != Pending":
+        # Cancelled / Paid in Full / Redeemed / P.Arrangement are genuine
+        # pre-auction outcomes the Closed tab publishes weeks early, and
+        # reverting those was itself the bug (see common.py's note).
+        if (section_name == "Closed" and auction_is_future
+                and final_status in POST_AUCTION_ONLY_STATUSES):
             print(f"    [FUTURE CLOSED] Reverting '{final_status}' → Pending — auction date "
                   f"{data.get('Auction Date','')} hasn't happened yet for {cause_number}")
             final_status   = "Pending"
@@ -1495,14 +1502,16 @@ def apply_lightweight_status_update(page, uk, cause_number, card_data, db, csv_r
 
     # Same future-date guard as process_listing_url / scrape_section's skip
     # check, applied at the end so it catches every branch above uniformly
-    # (blank card defaulting to Struck Off, a real "Cancelled"/"Struck Off"
-    # keyword match on the card, everything) — not just one of them. A
-    # Closed-tab card can carry a stale non-Pending Auction Status label on a
-    # relisted property whose Auction Date has already moved to the next
-    # future sale date; this is the path that was still re-stamping
-    # "Struck Off"/"Cancelled" on every run even after the other two guards
-    # were added, because it resolves independently of both.
-    if (section_name == "Closed" and new_status != "Pending"
+    # (blank card defaulting to Struck Off, a real "Struck Off" keyword match
+    # on the card, the bid-history fallback) — not just one of them. A
+    # Closed-tab card can carry a stale outcome label on a relisted property
+    # whose Auction Date has already moved to the next future sale date; this
+    # is the path that was still re-stamping "Struck Off" on every run even
+    # after the other two guards were added, because it resolves
+    # independently of both. Only POST_AUCTION_ONLY_STATUSES qualify — a
+    # Cancelled card for a future date is the site telling us the suit was
+    # pulled before the sale, which is real and must survive.
+    if (section_name == "Closed" and new_status in POST_AUCTION_ONLY_STATUSES
             and auction_date_is_future(row.get("Auction Date", ""))):
         new_status = "Pending"
         buyer      = ""
@@ -1615,17 +1624,26 @@ def scrape_section(page, county_name, db, csv_rows, section_base_url,
                     continue
             elif card["status"] and card["status"] == old_status:
                 # A Closed-tab status that repeats run to run would otherwise
-                # skip forever — including a wrong one. If it's still
-                # non-Pending for a sale date that hasn't happened yet (the
-                # site can carry a stale Auction Status label on a relisted
-                # property — see the matching guard in process_listing_url),
-                # correct it back to Pending instead of trusting the same
-                # stale card text again; this is the only path that ever
-                # revisits an already-known Closed-tab cause number whose
-                # card text stops changing, so without it a bad status here
-                # never self-corrects.
+                # skip forever — including a wrong one. If it still claims an
+                # auction outcome (Sold / Struck Off / Pulled for no bids) for
+                # a sale date that hasn't happened yet (the site can carry a
+                # stale Auction Status label on a relisted property — see the
+                # matching guard in process_listing_url), correct it back to
+                # Pending instead of trusting the same stale card text again;
+                # this is the only path that ever revisits an already-known
+                # Closed-tab cause number whose card text stops changing, so
+                # without it a bad outcome here never self-corrects.
+                #
+                # Counties whose Closed tab mirrors their Waiting tab (Dallas
+                # does — see the [FUTURE CLOSED] note in process_listing_url)
+                # hit this branch and the Waiting branch on alternating runs,
+                # so a status reverted here gets re-applied there next run and
+                # the row flip-flops in the Sheet. That is exactly what a
+                # too-broad `old_status != "Pending"` test did to Dallas's
+                # three Cancelled October rows.
                 row = csv_rows.get(uk)
-                if old_status != "Pending" and auction_date_is_future((row or {}).get("Auction Date", "")):
+                if (old_status in POST_AUCTION_ONLY_STATUSES
+                        and auction_date_is_future((row or {}).get("Auction Date", ""))):
                     print(f"\n  [{i+1}/{total}] {section_name}: {cause_number} "
                           f"({old_status} → Pending, auction date not yet reached)")
                     if row is not None:

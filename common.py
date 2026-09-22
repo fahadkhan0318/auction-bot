@@ -116,6 +116,21 @@ NONSOLD_STATUSES = {
     "Redeemed", "Paid in Full", "P.Arrangement", "Pending",
 }
 
+# Outcomes that can only exist once the auction has actually been held —
+# nothing can be sold, struck off or pulled for no bids before bidding
+# starts. These are the ONLY statuses a Closed-tab card may be distrusted
+# for while the Auction Date is still in the future (sheriff.py's
+# [FUTURE CLOSED] guards): seeing one early means the site is carrying a
+# stale label from the property's previous sale cycle.
+#
+# Cancelled (incl. the admin holds status_from_card_text() folds into it),
+# Paid in Full, Redeemed and P.Arrangement deliberately stay OUT — a suit
+# can be settled, paid off or pulled from the docket weeks before the sale
+# date, and the site reports that from the Closed tab straight away. Force-
+# reverting those to Pending is what made Dallas's 3 cancelled October rows
+# flip Cancelled↔Pending on alternating runs.
+POST_AUCTION_ONLY_STATUSES = {"Sold", "Struck Off", "Pulled for no bids"}
+
 # Statuses meaning a listing was pulled from the active sale sequence before
 # (or without) going to auction — these never hold a stable Item Number and
 # are pushed to the bottom of their county+date group. Matched as a
