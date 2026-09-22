@@ -1536,7 +1536,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_04151208150000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-09-11",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -1864,7 +1864,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_7400200400003100": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1936,7 +1936,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_0768900600004000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -2032,7 +2032,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_8529-0003-0120": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2965,6 +2965,86 @@
     "source": "SHERIFF",
     "county": "SMITH",
     "cause_number": "27812-C",
+    "section": "Waiting"
+  },
+  "SHERIFF_SMITH_168430000000007000": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27749-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000055700011230": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27743-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000034600010000": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27540-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180160000000069000": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27860-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000066300483000": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "25,674-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000066300489000": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "25,674-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000032600007010": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27866-C",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_100000006600019000": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27865-B",
+    "section": "Waiting"
+  },
+  "SHERIFF_SMITH_180950000300469000": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27166-B",
+    "section": "Waiting"
+  },
+  "SHERIFF_SMITH_180950000300105000": {
+    "status": "Pending",
+    "first_seen": "2026-09-22",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26965-A",
     "section": "Waiting"
   }
 }
