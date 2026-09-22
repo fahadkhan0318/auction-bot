@@ -7,19 +7,39 @@ on:
     # the Central-time schedule this replaced, which drifted an hour every
     # spring and autumn).
     #
-    # Heads up: GitHub only *queues* a scheduled workflow at the cron time.
-    # On the shared runner pool it typically starts 2-4 hours later (measured
-    # over 45 runs, 18-22 Sep 2026: median +4h for the 10:00 UTC slot, +3h
-    # for 16:00, +2h for 22:00) and never starts early. The times below are
-    # therefore the earliest a run can begin, not when it will. Each run
-    # itself takes ~30-50 min. If the lateness ever needs squeezing out, the
-    # lever is to move each cron earlier by its observed median delay and
-    # switch off the top of the hour (e.g. ':23'), since :00 is the busiest
-    # minute on the queue.
-    - cron: '0 11 * * *'   #  4:00 PM PKT
-    - cron: '0 15 * * *'   #  8:00 PM PKT
-    - cron: '0 19 * * *'   # 12:00 AM PKT (midnight)
-    - cron: '0 22 * * *'   #  3:00 AM PKT
+    # GitHub only *queues* a scheduled workflow at the cron time; on the
+    # shared pool it starts hours later and never early. So these crons are
+    # NOT the wanted times — each one is fired early by its slot's measured
+    # median delay, so the run itself lands on target.
+    #
+    # Measured over 110 runs (18 Aug - 22 Sep 2026), median queue delay by
+    # cron hour: 10:00 UTC +4h00 (n=29), 16:00 UTC +2h59 (n=36), 22:00 UTC
+    # +1h56 (n=36). The delay falls steadily as the UTC day goes on, so the
+    # two slots with no direct measurement (07:17 and 11:17) are interpolated
+    # off that curve.
+    #
+    # The ':17' matters: every sample above was a ':00' cron, which is the
+    # busiest minute on GitHub's queue. Firing off the top of the hour should
+    # shave some delay by itself.
+    #
+    #   cron (UTC)    fires (PKT)    assumed delay    lands (PKT)
+    #   07:17          12:17 PM         ~3h45            ~4:00 PM
+    #   11:17           4:17 PM         ~3h45            ~8:00 PM
+    #   16:17           9:17 PM         ~2h45           ~12:00 AM
+    #   20:17           1:17 AM         ~1h45            ~3:00 AM
+    #
+    # Spread is wide (p25-p75 spans 1-2h), so individual runs will still land
+    # early or late; this centres them rather than pinning them. Re-tune by
+    # re-measuring delay per cron hour after a week or so of new data. If a
+    # run lands consistently early, push its cron later, and vice versa.
+    #
+    # PKT is UTC+5 with no DST, so this mapping holds year-round — unlike the
+    # Central-time schedule it replaced, which drifted an hour every spring
+    # and autumn. Each run takes ~38 min (p90 95 min).
+    - cron: '17 7 * * *'    # → lands ~ 4:00 PM PKT
+    - cron: '17 11 * * *'   # → lands ~ 8:00 PM PKT
+    - cron: '17 16 * * *'   # → lands ~12:00 AM PKT (midnight)
+    - cron: '17 20 * * *'   # → lands ~ 3:00 AM PKT
   workflow_dispatch: {}    # lets you trigger a run manually from the Actions tab
 
 permissions:
