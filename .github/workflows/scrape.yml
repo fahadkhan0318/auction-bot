@@ -2,13 +2,24 @@ name: Scheduled Tax Sale Scrape
 
 on:
   schedule:
-    # Starts 1 hour before the target 6 AM / 12 PM / 6 PM Central times, so the
-    # run has finished BY that hour instead of just starting then. Central is
-    # UTC-5 (CDT, Mar-Nov) or UTC-6 (CST, Nov-Mar) — set for CDT, so during
-    # CST (winter) the actual run lands ~1 hour earlier locally.
-    - cron: '0 10 * * *'   # ~5 AM Central (done by 6 AM)
-    - cron: '0 16 * * *'   # ~11 AM Central (done by 12 PM)
-    - cron: '0 22 * * *'   # ~5 PM Central (done by 6 PM)
+    # Four runs a day, written against Pakistan time (PKT = UTC+5, and
+    # Pakistan observes no DST, so this mapping is fixed year-round — unlike
+    # the Central-time schedule this replaced, which drifted an hour every
+    # spring and autumn).
+    #
+    # Heads up: GitHub only *queues* a scheduled workflow at the cron time.
+    # On the shared runner pool it typically starts 2-4 hours later (measured
+    # over 45 runs, 18-22 Sep 2026: median +4h for the 10:00 UTC slot, +3h
+    # for 16:00, +2h for 22:00) and never starts early. The times below are
+    # therefore the earliest a run can begin, not when it will. Each run
+    # itself takes ~30-50 min. If the lateness ever needs squeezing out, the
+    # lever is to move each cron earlier by its observed median delay and
+    # switch off the top of the hour (e.g. ':23'), since :00 is the busiest
+    # minute on the queue.
+    - cron: '0 11 * * *'   #  4:00 PM PKT
+    - cron: '0 15 * * *'   #  8:00 PM PKT
+    - cron: '0 19 * * *'   # 12:00 AM PKT (midnight)
+    - cron: '0 22 * * *'   #  3:00 AM PKT
   workflow_dispatch: {}    # lets you trigger a run manually from the Actions tab
 
 permissions:
