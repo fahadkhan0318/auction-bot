@@ -848,7 +848,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_LAMPASAS_000000000098": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-05",
     "source": "MVBA",
     "county": "LAMPASAS",
@@ -872,7 +872,7 @@
     "section": "Closed"
   },
   "SHERIFF_LLANO_R000075875": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-07",
     "source": "SHERIFF",
     "county": "LLANO",
@@ -1096,7 +1096,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000450172000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
