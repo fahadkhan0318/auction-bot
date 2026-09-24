@@ -3046,5 +3046,13 @@
     "county": "SMITH",
     "cause_number": "26965-A",
     "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_26057500210170000": {
+    "status": "Pending",
+    "first_seen": "2026-09-24",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-18-01615",
+    "section": "Closed"
   }
 }
