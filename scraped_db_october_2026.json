@@ -3062,5 +3062,21 @@
     "county": "DALLAS",
     "cause_number": "TX-25-00428",
     "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_683000060019000": {
+    "status": "Pending",
+    "first_seen": "2026-09-28",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25TX0250",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_116000850002002": {
+    "status": "Pending",
+    "first_seen": "2026-09-28",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "22TX0121",
+    "section": "Closed"
   }
 }
