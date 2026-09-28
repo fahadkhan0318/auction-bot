@@ -3054,5 +3054,13 @@
     "county": "DALLAS",
     "cause_number": "TX-18-01615",
     "section": "Closed"
+  },
+  "SHERIFF_DALLAS_16042680350440000": {
+    "status": "Pending",
+    "first_seen": "2026-09-28",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00428",
+    "section": "Waiting"
   }
 }
