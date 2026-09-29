@@ -1608,7 +1608,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_BANDERA_153712": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-11",
     "source": "MVBA",
     "county": "BANDERA",
@@ -1624,7 +1624,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_BANDERA_188984": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-11",
     "source": "MVBA",
     "county": "BANDERA",
@@ -1944,7 +1944,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_0420-0076-0900": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -1952,7 +1952,7 @@
     "section": "Closed"
   },
   "SHERIFF_NUECES_6129-0219-0120": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -1984,7 +1984,7 @@
     "section": "Closed"
   },
   "SHERIFF_NUECES_1795-0007-0020": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2488,7 +2488,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ATASCOSA_58152": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -3078,5 +3078,13 @@
     "county": "GALVESTON",
     "cause_number": "22TX0121",
     "section": "Closed"
+  },
+  "MVBA_BANDERA_BADC-TXTX-24-\n0000122-T9": {
+    "status": "Withdrawn",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "BANDERA",
+    "cause_number": "BADC-TXTX-24-\n0000122",
+    "section": "MVBA_PDF"
   }
 }
