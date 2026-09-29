@@ -1008,7 +1008,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_381535800U0060000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -3085,6 +3085,830 @@
     "source": "MVBA",
     "county": "BANDERA",
     "cause_number": "BADC-TXTX-24-\n0000122",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_21386": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "16-11-21771-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_35224": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "22-08-24481-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_12748": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "23-03-24672-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_16461": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "23-05-24779-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_27633": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "23-07-24855-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_385573": {
+    "status": "Withdrawn",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "24-03-25123-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_28965": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "24-03-25123-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_358443": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "24-07-25284-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_301805/380468": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "24-07-25284-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_383154": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "24-07-25284-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_383522": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "24-07-25284-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_425457": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "24-07-25284-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_425636": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "24-07-25284-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_7084": {
+    "status": "Withdrawn",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "25-03-25629-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_25-07-25749-CVR-T15": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "25-07-25749-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_11746": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "25-07-25764-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_350025": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "25-10-25897-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_351034": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "25-10-25897-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_4644": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "25-12-25966-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_REEVES_2827": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "REEVES",
+    "cause_number": "25-12-25967-CVR",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R060244": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011245",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R035093": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011245",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R035086": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011245",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R075565": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011309",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R017692": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011356",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R017611": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011356",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R017614": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011356",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R016360": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011373",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R014431": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011446",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R044116": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011475",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R042215": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011482",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R025577": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011483",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R056863": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011484",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R053706": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011484",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R053572": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011487",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R015118": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011499",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R070690": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011523",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_20093-000-56-00": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R044258": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R035012": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011545",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R032392": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T010619",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R062726": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T010619",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R015181": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011244",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R015776": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011244",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R013025": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011244",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R026904": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011286",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R026981": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011319",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R029598": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011406",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R026739": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011444",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R012908": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011476",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_R023720": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON",
+    "cause_number": "T011514",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T60244 0 W FM 1161,\nA20064 ABST.64 TRACT 81 1985 CAMEO ENERGY CAMEO 28X53 LABEL # TEX0150187\nSERIAL # C2811TA\nTYPE: R DBA:\nGEO ID:20064-000-358-40 PROP USE: MAP ID: 3A-2\nRef ID1: R060244 AS CODE: A20064 MAPSCO: 3A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NE SUB MKT: R-NE EFF SIZE:\nLEGAL ACREAGE: 0.9660 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 AG LAND AG 0 3A E4 No AC 0.5000 ac 50000.00 1.000 A 25,000\n2 NON-HS LAND NHS 0 3A E2 No AC 0.4660 ac 50000.00 1.000 A 23,300\nAS Code: 100.00% Market Area: 100.00% 48,300": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T35093 6612 W FM 1161, SPANISH CAMP\nA20064 ABST.64 TRACT 85\nTYPE: R DBA:\nGEO ID:20064-000-364-00 PROP USE: MAP ID: 3A-2\nRef ID1: R035093 AS CODE: A20064 MAPSCO: 3A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NE SUB MKT: R-NE EFF SIZE:\nLEGAL ACREAGE: 0.4000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 1 3A A1 No AC 0.4000 ac 50000.00 1.000 A 20,000\nAS Code: 100.00% Market Area: 100.00% 20,000": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T35086 6520 W FM 1161, SPANISH CAMP\nA20064 ABST.64 TRACT 78B\nTYPE: R DBA:\nGEO ID:20064-000-350-00 PROP USE: MAP ID: 3A-2\nRef ID1: R035086 AS CODE: A20064 MAPSCO: 3A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NE SUB MKT: R-NE EFF SIZE:\nLEGAL ACREAGE: 4.0000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 2022-02-07 5757-E RES YES 0 200 SQ FT": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 3A A1 Yes AC 4.0000 ac 20900.00 1.000 A 83,600\nAS Code: 100.00% Market Area: 100.00% 83,600": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T75565 0 CR 166, WHARTON\nA20001 ABST.1 TRACT 52\nTYPE: R DBA:\nGEO ID:20001-000-104-10 PROP USE: MAP ID: W27\nRef ID1: R075565 AS CODE: A20001 MAPSCO: W\nRef ID2: SUBTYPE: TIF:\nMKT AREA: WH-AB1 SUB MKT: WH-AB1 EFF SIZE:\nLEGAL ACREAGE: 2.5000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 AG LAND AG 0 W E4 No AC 2.5000 ac 33000.00 0.800 A 66,000\nAS Code: 100.00% Market Area: 100.00% 66,000": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T17692 7611 HAWES, HUNGERFORD\nHUNGERFORD BLOCK 20 LOT 10\nTYPE: R DBA:\nGEO ID:10652-020-100-00 PROP USE: MAP ID: 3D-11\nRef ID1: R017692 AS CODE: S10652 MAPSCO: 3D\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: HF SUB MKT: HF EFF SIZE:\nLEGAL ACREAGE: 0.1607 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 1 3D-HF A1 No SF 7000.00 sf 1.50 1.000 A 10,500\nAS Code: 100.00% Market Area: 100.00% 10,500": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T17611 305 E WALNUT, HUNGERFORD\nHUNGERFORD BLOCK 15 LOT 1\nTYPE: R DBA:\nGEO ID:10652-015-010-00 PROP USE: MAP ID: 3D-11\nRef ID1: R017611 AS CODE: S10652 MAPSCO: 3D\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: HF SUB MKT: HF EFF SIZE:\nLEGAL ACREAGE: 0.1992 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 1 3D-HF A1 No SF 8675.00 sf 1.38 1.000 A 11,975\nAS Code: 100.00% Market Area: 100.00% 11,975": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T17614 7406 HAWES, HUNGERFORD\nHUNGERFORD BLOCK 15 LOT 3,3A\nTYPE: R DBA:\nGEO ID:10652-015-030-00 PROP USE: MAP ID: 3D-11\nRef ID1: R017614 AS CODE: S10652 MAPSCO: 3D\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: HF SUB MKT: HF EFF SIZE:\nLEGAL ACREAGE: 0.2987 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 1 3D-HF A1 No SF 13012.00 sf 1.07 1.000 A 13,930\nAS Code: 100.00% Market Area: 100.00% 13,930": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T16360 406 E WAYSIDE AVE, WHARTON\nHAWES 3 BLOCK 37 LOT 28,29\nTYPE: R DBA:\nGEO ID:10575-037-280-00 PROP USE: MAP ID: W14\nRef ID1: R016360 AS CODE: S10575 MAPSCO: W\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: Wharton 3 SUB MKT: WH-N EFF SIZE:\nLEGAL ACREAGE: 0.3329 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 HOMESITE LAND HS 1 WH-N A1 Yes SF 14500.00 sf 1.50 1.000 A 21,750\nAS Code: 100.00% Market Area: 100.00% 21,750": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T14431 721 ALICE AVE, EL CAMPO\nEGGE, L.B. 2 LOT 15A\nTYPE: R DBA:\nGEO ID:10365-000-151-00 PROP USE: MAP ID: C32\nRef ID1: R014431 AS CODE: S10365 MAPSCO: C\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: El Campo 1 SUB MKT: EC-SO-W EFF SIZE:\nLEGAL ACREAGE: 0.1079 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 HOMESITE LAND HS 0 EC-SO-W A1 No SF 4700.00 sf 4.50 1.000 A 21,150\nAS Code: 100.00% Market Area: 100.00% 21,150": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T44116 0 CR 382,\nA20972 ABST.972 TRACT 2\nTYPE: R DBA:\nGEO ID:20972-000-002-00 PROP USE: MAP ID: 1D-2\nRef ID1: R044116 AS CODE: A20972 MAPSCO: 1D\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NW SUB MKT: R-NW EFF SIZE:\nLEGAL ACREAGE: 0.7500 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 1D C1 No AC 0.7500 ac 8000.00 1.000 A 6,000\nAS Code: 100.00% Market Area: 100.00% 6,000": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T42215 0 SAM, EL CAMPO\nA20522 ABST.522 TRACT 7L-30\nTYPE: R DBA:\nGEO ID:20522-070-152-00 PROP USE: MAP ID: C31\nRef ID1: R042215 AS CODE: A20522 MAPSCO: C\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: El Campo 1 SUB MKT: EC-SO-W EFF SIZE:\nLEGAL ACREAGE: 0.1148 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 EC-SO-W C1 No SF 5000.00 sf 4.50 1.000 A 22,500\nAS Code: 100.00% Market Area: 100.00% 22,500": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T25577 305 MOUTRAY AVE, WHARTON\nWASHINGTON HOMES BLOCK 7 LOT 2\nTYPE: R DBA:\nGEO ID:11390-007-002-00 PROP USE: MAP ID: W19\nRef ID1: R025577 AS CODE: S11390 MAPSCO: W\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: Wharton 6 SUB MKT: WH-S EFF SIZE:\nLEGAL ACREAGE: 0.1515 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 WH-S C1 No SF 6601.00 sf 1.90 1.000 A 12,542\nAS Code: 100.00% Market Area: 100.00% 12,542": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T56863 5840 CR 405,\nA20561 ABST.561 TRACT 6B-1 BLAIR HOUSE 1\nTYPE: R DBA:\nGEO ID:20561-000-021-22 PROP USE: MAP ID: 6A-5\nRef ID1: R056863 AS CODE: A20561 MAPSCO: 6A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-WC SUB MKT: R-WC EFF SIZE: 2.8400\nLEGAL ACREAGE: 2.5000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 HOMESITE LAND HS 1 6A A1 Yes AC 2.5000 ac 28800.00 1.000 A 72,000\nAS Code: 100.00% Market Area: 100.00% 72,000": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T53706 0 CR 405,\nA20561 ABST.561 TRACT 6G\nTYPE: R DBA:\nGEO ID:20561-000-023-00 PROP USE: MAP ID: 6A-5\nRef ID1: R053706 AS CODE: A20561 MAPSCO: 6A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-WC SUB MKT: R-WC EFF SIZE: 2.8400\nLEGAL ACREAGE: 0.3400 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 6A A1 No AC 0.3400 ac 28800.00 1.000 A 9,792\nAS Code: 100.00% Market Area: 100.00% 9,792": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T53572 110 CR 136, WHARTON\nJACKSON LOT E-1A\nTYPE: R DBA:\nGEO ID:10697-000-050-20 PROP USE: MAP ID: 4C-2\nRef ID1: R053572 AS CODE: S10697 MAPSCO: 4C\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: S11006 SUB MKT: S11006 EFF SIZE:\nLEGAL ACREAGE: 0.3660 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 HOMESITE LAND HS 1 4C A1 Yes AC 0.3660 ac 21000.00 1.000 A 7,686\nAS Code: 100.00% Market Area: 100.00% 7,686": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T15118 0 DUNLAP, EL CAMPO\nFAIRVIEW BLOCK 4 LOT 7D\nTYPE: R DBA:\nGEO ID:10415-004-074-00 PROP USE: MAP ID: C32\nRef ID1: R015118 AS CODE: S10415 MAPSCO: C\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: El Campo 1 SUB MKT: EC-SO-W EFF SIZE:\nLEGAL ACREAGE: 0.1666 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 1 EC-SO-W C1 No SF 7257.00 sf 2.75 1.000 A 19,957\nAS Code: 100.00% Market Area: 100.00% 19,957": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T70690 CR 243, GLEN FLORA\nA20003 ABST.3 TRACT 68, LOT 1D,1D-1\nTYPE: R DBA:\nGEO ID:20003-068-001-04 PROP USE: MAP ID: 2C-4\nRef ID1: R070690 AS CODE: A20003 MAPSCO: 2C\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NE SUB MKT: R-NE EFF SIZE:\nLEGAL ACREAGE: 0.5000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 HOMESITE LAND HS 0 2C A1 Yes AC 0.5000 ac 28325.00 1.000 A 14,163\nAS Code: 100.00% Market Area: 100.00% 14,163": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T33797 0 CR 268, EAST BERNARD\nA20056 ABST.56 TRACT 1A\nTYPE: R DBA:\nGEO ID:20056-000-000-00 PROP USE: MAP ID: 3B-4\nRef ID1: R033797 AS CODE: A20056 MAPSCO: 3B\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NE SUB MKT: R-NE EFF SIZE:\nLEGAL ACREAGE: 1.7500 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 3B C1 No AC 1.7500 ac 50000.00 1.000 A 87,500\nAS Code: 100.00% Market Area: 100.00% 87,500": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T35888 0 FM 102,\nA20093 ABST.93 TRACT 5B\nTYPE: R DBA:\nGEO ID:20093-000-056-00 PROP USE: MAP ID: 3A-7\nRef ID1: R035888 AS CODE: A20093 MAPSCO: 3A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NE SUB MKT: R-NE EFF SIZE:\nLEGAL ACREAGE: 2.1000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 1 3A C1 No AC 2.1000 ac 34000.00 1.000 A 71,400\nAS Code: 100.00% Market Area: 100.00% 71,400": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T44258 0 CR 397,\nA20833 ABST.833 TRACT 31\nTYPE: R DBA:\nGEO ID:20833-000-030-00 PROP USE: MAP ID: 1A-5\nRef ID1: R044258 AS CODE: A20833 MAPSCO: 1A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NW SUB MKT: R-NW EFF SIZE:\nLEGAL ACREAGE: 5.0000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 1 1A C1 No AC 5.0000 ac 13900.00 1.000 A 69,500\nAS Code: 100.00% Market Area: 100.00% 69,500": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T35012 239 BATTS RD,\nA20064 ABST.64 TRACT 47A PT.\nTYPE: R DBA:\nGEO ID:20064-000-210-00 PROP USE: MAP ID: 3A-2\nRef ID1: R035012 AS CODE: A20064 MAPSCO: 3A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NE SUB MKT: R-NE EFF SIZE:\nLEGAL ACREAGE: 1.0000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T2009-01-22 0/N/0/null 0": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 3A C1 No AC 1.0000 ac 50000.00 1.000 A 50,000\nAS Code: 100.00% Market Area: 100.00% 50,000": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T32392 1414 CR 232,\nA20040 ABST.40 TRACT 58B-3\nTYPE: R DBA:\nGEO ID:20040-000-090-00 PROP USE: MAP ID: 3A-4\nRef ID1: R032392 AS CODE: A20040 MAPSCO: 3A\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: R-NE SUB MKT: R-NE EFF SIZE:\nLEGAL ACREAGE: 0.5000 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 3A A2 No AC 0.5000 ac 50000.00 1.000 A 25,000\nAS Code: 100.00% Market Area: 100.00% 25,000": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T15181 705 MARIANETTE, EL CAMPO\nFAIRVIEW BLOCK 8 LOT 1B-1\nTYPE: R DBA:\nGEO ID:10415-008-012-00 PROP USE: MAP ID: C32\nRef ID1: R015181 AS CODE: S10415 MAPSCO: C\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: El Campo 1 SUB MKT: EC-SO-W EFF SIZE:\nLEGAL ACREAGE: 0.1151 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 EC-SO-W C1 No SF 5012.00 sf 4.50 1.000 A 22,554\nAS Code: 100.00% Market Area: 100.00% 22,554": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T15185 0 WRIGHT, EL CAMPO\nFAIRVIEW BLOCK 8 LOT 2A\nTYPE: R DBA:\nGEO ID:10415-008-020-00 PROP USE: MAP ID: C32\nRef ID1: R015185 AS CODE: S10415 MAPSCO: C\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: El Campo 1 SUB MKT: EC-SO-W EFF SIZE:\nLEGAL ACREAGE: 0.2974 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 EC-SO-W C1 No SF 12956.00 sf 1.85 1.000 A 23,969\nAS Code: 100.00% Market Area: 100.00% 23,969": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T15776 0 W WILLIE LEE, EL CAMPO\nGORDON & NOBLES BLOCK 2 LOT 10,11\nTYPE: R DBA:\nGEO ID:10490-002-010-00 PROP USE: MAP ID: C31\nRef ID1: R015776 AS CODE: S10490 MAPSCO: C\nRef ID2: SUBTYPE: RES TIF:\nMKT AREA: El Campo 1 SUB MKT: EC-SO-W EFF SIZE:\nLEGAL ACREAGE: 0.2296 ac APPR VAL METHOD: cost-local": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_WHARTON_MAPS_T1 NON-HS LAND NHS 0 EC-SO-W A1 No SF 10000.00 sf 2.75 1.000 A 27,500\nAS Code: 100.00% Market Area: 100.00% 27,500": {
+    "status": "Pending",
+    "first_seen": "2026-09-29",
+    "source": "MVBA",
+    "county": "WHARTON_MAPS",
+    "cause_number": "",
     "section": "MVBA_PDF"
   }
 }
