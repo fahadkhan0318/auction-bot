@@ -504,18 +504,41 @@ def rewrite_csv(rows_dict):
 # MONTH SELECTION
 # ═══════════════════════════════════════════════════════════════════════════
 
+def _tax_sale_day(year, month):
+    """Day-of-month of the Texas tax sale: the first Tuesday, or the first
+    Wednesday when that Tuesday falls on Jan 1 or Jul 4 (Tax Code 34.01)."""
+    day = 1 + (1 - datetime(year, month, 1).weekday()) % 7
+    if (month, day) in ((1, 1), (7, 4)):
+        day += 1
+    return day
+
+
+# How many days after the sale the automated run keeps scraping that month,
+# so post-auction statuses (Sold / Struck Off / Cancelled) still land.
+AUTO_DAYS_AFTER_SALE = 2
+
+
+def _auto_target_month(now):
+    """(month, year) the automated run should scrape.
+
+    Stay on the current month until its sale day + AUTO_DAYS_AFTER_SALE has
+    passed, then move to next month. Switching on the 1st instead left the
+    current month's sheet frozen for the whole week before its auction,
+    while next month's listings weren't even posted yet.
+    """
+    if now.day <= _tax_sale_day(now.year, now.month) + AUTO_DAYS_AFTER_SALE:
+        return now.month, now.year
+    if now.month == 12:
+        return 1, now.year + 1
+    return now.month + 1, now.year
+
+
 def ask_target_month():
     global MAIN_CSV, DB_FILE
     now = datetime.now()
 
     if AUTO_MODE:
-        # Auctions get listed ~30 days out, so the automated run always
-        # targets next month (Aug run -> September, Sep run -> October, ...).
-        month_num = now.month + 1
-        year      = now.year
-        if month_num > 12:
-            month_num = 1
-            year     += 1
+        month_num, year = _auto_target_month(now)
         mn        = MONTH_NUM_TO_NAME[month_num].lower()
         MAIN_CSV  = f"data_{mn}_{year}.csv"
         DB_FILE   = f"scraped_db_{mn}_{year}.json"
