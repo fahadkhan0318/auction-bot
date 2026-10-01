@@ -912,7 +912,7 @@
     "section": "Closed"
   },
   "SHERIFF_LLANO_R000005355": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-07",
     "source": "SHERIFF",
     "county": "LLANO",
@@ -920,7 +920,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000478120000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1128,7 +1128,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_32127710020390000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1184,7 +1184,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000268282000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2416,7 +2416,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_17854": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2768,7 +2768,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_42541": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -3072,7 +3072,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_116000850002002": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-28",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3910,5 +3910,13 @@
     "county": "WHARTON_MAPS",
     "cause_number": "",
     "section": "MVBA_PDF"
+  },
+  "SHERIFF_GALVESTON_315000060009000": {
+    "status": "Pending",
+    "first_seen": "2026-10-01",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0306",
+    "section": "Closed"
   }
 }
