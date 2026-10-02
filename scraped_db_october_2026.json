@@ -944,7 +944,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000503698000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -952,7 +952,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_006095000C0530300": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1024,7 +1024,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_36073500030070000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1920,7 +1920,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_7917000030021000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1928,7 +1928,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_7479700820000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -2888,7 +2888,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_4800003400600": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "VICTORIA",
