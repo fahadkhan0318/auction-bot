@@ -248,7 +248,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000029421": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -352,7 +352,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_HILL_149826": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-05",
     "source": "MVBA",
     "county": "HILL",
@@ -784,7 +784,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_HILL_131636": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-05",
     "source": "MVBA",
     "county": "HILL",
@@ -792,7 +792,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_HILL_106914": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-05",
     "source": "MVBA",
     "county": "HILL",
@@ -824,7 +824,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_LAMPASAS_000000003646": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-05",
     "source": "MVBA",
     "county": "LAMPASAS",
@@ -2520,7 +2520,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_351000892014002": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
