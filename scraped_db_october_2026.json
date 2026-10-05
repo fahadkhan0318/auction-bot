@@ -112,7 +112,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_38033": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -120,7 +120,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_38034": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -1104,7 +1104,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000634696000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1544,7 +1544,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_04262106570000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-09-11",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -1904,7 +1904,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_1500000840012000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1912,7 +1912,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_1500000840010000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -2024,7 +2024,7 @@
     "section": "Closed"
   },
   "SHERIFF_NUECES_2154-0001-0090": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2432,7 +2432,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_29894": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2480,7 +2480,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ATASCOSA_28987": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
