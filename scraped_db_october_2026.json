@@ -96,7 +96,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_26320": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -864,7 +864,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_LLANO_R000036305": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-07",
     "source": "SHERIFF",
     "county": "LLANO",
@@ -880,7 +880,7 @@
     "section": "Closed"
   },
   "SHERIFF_LLANO_R000023605": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-07",
     "source": "SHERIFF",
     "county": "LLANO",
@@ -888,7 +888,7 @@
     "section": "Closed"
   },
   "SHERIFF_LLANO_R000024546": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-07",
     "source": "SHERIFF",
     "county": "LLANO",
@@ -896,7 +896,7 @@
     "section": "Closed"
   },
   "SHERIFF_LLANO_R000037231": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-07",
     "source": "SHERIFF",
     "county": "LLANO",
@@ -904,7 +904,7 @@
     "section": "Closed"
   },
   "SHERIFF_LLANO_R000020419": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-07",
     "source": "SHERIFF",
     "county": "LLANO",
@@ -976,7 +976,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_007748000A0060000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -984,7 +984,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000728890000000": {
-    "status": "Pending",
+    "status": "Pulled for no bids",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -992,7 +992,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_12073500090350000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1000,7 +1000,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000780151500000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1016,7 +1016,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_20032500050040000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1032,7 +1032,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_60018500030280000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1048,7 +1048,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00688900060030000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1056,7 +1056,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000624145000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1072,7 +1072,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_65038908010160100": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1080,7 +1080,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000189658000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1112,7 +1112,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_38032500100340000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1136,7 +1136,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000304711000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1144,7 +1144,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00256400220320000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1160,7 +1160,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000508975000000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1168,7 +1168,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_38136500140090000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1176,7 +1176,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000310216000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1520,7 +1520,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_TRAVIS_01827302020000": {
-    "status": "Struck Off",
+    "status": "Sold",
     "first_seen": "2026-09-11",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -1528,7 +1528,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_03434606010000": {
-    "status": "Struck Off",
+    "status": "Sold",
     "first_seen": "2026-09-11",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -1808,7 +1808,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_CAMERON_8407200000184000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1816,7 +1816,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_2780000100002400": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1832,7 +1832,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_9380300000045000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1840,7 +1840,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_7400100220007000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1848,7 +1848,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_8543400000003000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1856,7 +1856,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_9348100040004000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1872,7 +1872,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_9182500150002000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1880,7 +1880,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_9182500150003000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1888,7 +1888,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_7810102730020000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-15",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1960,7 +1960,7 @@
     "section": "Closed"
   },
   "SHERIFF_NUECES_6745-0005-0100": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -1968,7 +1968,7 @@
     "section": "Closed"
   },
   "SHERIFF_NUECES_7675-0001-0190": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -1976,7 +1976,7 @@
     "section": "Closed"
   },
   "SHERIFF_NUECES_9377-0051-0100": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2000,7 +2000,7 @@
     "section": "Closed"
   },
   "SHERIFF_NUECES_7627-0001-0010": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2016,7 +2016,7 @@
     "section": "Closed"
   },
   "SHERIFF_NUECES_1396-0001-0270": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2296,7 +2296,7 @@
     "section": "Waiting"
   },
   "SHERIFF_SMITH_189420000200020000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2304,7 +2304,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_180540000000009000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2312,7 +2312,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_100000001070020000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2320,7 +2320,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_150000066502127000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2328,7 +2328,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_181040000100008000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2336,7 +2336,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_180705000100125000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2352,7 +2352,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_66372": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2360,7 +2360,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_31638": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2376,7 +2376,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_22410": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2384,7 +2384,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_22409": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2400,7 +2400,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_30311": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2408,7 +2408,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_19033": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2424,7 +2424,7 @@
     "section": "Closed"
   },
   "SHERIFF_ATASCOSA_27694": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2440,7 +2440,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ATASCOSA_19047": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2448,7 +2448,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ATASCOSA_19829": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2456,7 +2456,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ATASCOSA_21232": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2464,7 +2464,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ATASCOSA_19906": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2472,7 +2472,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ATASCOSA_30875": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "ATASCOSA",
@@ -2496,7 +2496,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_150500000039000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2504,7 +2504,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_234500550009000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2512,7 +2512,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_234500080011000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2528,7 +2528,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_221500000006000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2536,7 +2536,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_351000652002002": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2544,7 +2544,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_434500000008000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2552,7 +2552,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_315100000014000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2560,7 +2560,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_441700270004000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2568,7 +2568,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_737300000028000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2576,7 +2576,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_121500000073000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2584,7 +2584,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_122500000061000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2592,7 +2592,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_512000100041000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2600,7 +2600,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_703000500012000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2608,7 +2608,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_703001070009000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2616,7 +2616,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_596001870023000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2624,7 +2624,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_703000920005000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2632,7 +2632,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_019700600000000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2640,7 +2640,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_116000760013008": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2648,7 +2648,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_512000110025001": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2656,7 +2656,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_16941": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2664,7 +2664,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_34093": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2672,7 +2672,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_34094": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2680,7 +2680,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_118007": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2688,7 +2688,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_48661": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2696,7 +2696,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_48662": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2704,7 +2704,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_12358": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2712,7 +2712,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_45803": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2720,7 +2720,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_28944": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2728,7 +2728,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_28945": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2736,7 +2736,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_28946": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2744,7 +2744,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_28947": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2752,7 +2752,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_28948": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2760,7 +2760,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_40954": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2776,7 +2776,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_45980": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2784,7 +2784,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_39316": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2792,7 +2792,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_28771": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2800,7 +2800,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_28772": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2808,7 +2808,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_29039": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2816,7 +2816,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_47357": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2824,7 +2824,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_29079": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2832,7 +2832,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MATAGORDA_36266": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "MATAGORDA",
@@ -2840,7 +2840,7 @@
     "section": "Waiting"
   },
   "SHERIFF_SMITH_100000057100031000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2848,7 +2848,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_100000002302014000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2856,7 +2856,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_100000002302022000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2864,7 +2864,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_3800001001000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2880,7 +2880,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_4100000503800": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2896,7 +2896,7 @@
     "section": "Closed"
   },
   "SHERIFF_VICTORIA_5040001100300": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "VICTORIA",
@@ -2952,7 +2952,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_SMITH_27867-A": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-17",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2960,7 +2960,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_27812-C": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-17",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2984,7 +2984,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_150000034600010000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-22",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2992,7 +2992,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_180160000000069000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-22",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -3000,7 +3000,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_150000066300483000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-22",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -3008,7 +3008,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_150000066300489000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-22",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -3016,7 +3016,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_100000032600007010": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-22",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -3024,7 +3024,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_100000006600019000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-22",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -3032,7 +3032,7 @@
     "section": "Waiting"
   },
   "SHERIFF_SMITH_180950000300469000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-22",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -3040,7 +3040,7 @@
     "section": "Waiting"
   },
   "SHERIFF_SMITH_180950000300105000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-22",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -3056,7 +3056,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_16042680350440000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-28",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -3064,7 +3064,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_683000060019000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-28",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3912,7 +3912,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_GALVESTON_315000060009000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-10-01",
     "source": "SHERIFF",
     "county": "GALVESTON",
