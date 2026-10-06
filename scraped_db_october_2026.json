@@ -32,7 +32,7 @@
     "section": "MVBA_PDF"
   },
   "MVBA_BURNET_22890": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -88,7 +88,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_22971": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -104,7 +104,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_BURNET_22837": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "BURNET",
@@ -144,7 +144,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000040627": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -152,7 +152,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000010684": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -160,7 +160,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000011723": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -168,7 +168,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000027216": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -176,7 +176,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R010092782": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -184,7 +184,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000018101/R000018102": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -216,7 +216,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000018950": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -224,7 +224,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000002662": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -232,7 +232,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000009367": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -256,7 +256,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000017539": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -272,7 +272,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000015005": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -288,7 +288,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000028595": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -304,7 +304,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000013773": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -312,7 +312,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000020254": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -328,7 +328,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_HARRISON_R000025674/R000007401": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-04",
     "source": "MVBA",
     "county": "HARRISON",
@@ -1072,7 +1072,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_65038908010160100": {
-    "status": "Struck Off",
+    "status": "Pulled for no bids",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1200,7 +1200,7 @@
     "section": "Closed"
   },
   "SHERIFF_CALDWELL_25840": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "CALDWELL",
@@ -1208,7 +1208,7 @@
     "section": "Closed"
   },
   "SHERIFF_CALDWELL_20000205": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "CALDWELL",
@@ -1216,7 +1216,7 @@
     "section": "Closed"
   },
   "SHERIFF_CALDWELL_20000206": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "CALDWELL",
@@ -2040,7 +2040,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_0386-0006-0010": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2048,7 +2048,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_0386-0004-0020": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2072,7 +2072,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_3700-0002-0040": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2080,7 +2080,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_0696-0030-0100": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2088,7 +2088,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_4565-0002-0300": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2096,7 +2096,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_2451-1403-0590": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2104,7 +2104,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_9377-0051-0130": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2112,7 +2112,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_9028-0012-0200": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2120,7 +2120,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_0488-0003-0060": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2128,7 +2128,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_8409-0010-0375": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2136,7 +2136,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_3020-0003-0350": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2144,7 +2144,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_6807-0002-0460": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2152,7 +2152,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_7435-0007-0060": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2160,7 +2160,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_1390-0002-0130": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2168,7 +2168,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_0072-0001-0040": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2176,7 +2176,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_1585-0004-0430": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2184,7 +2184,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_9377-0049-0051": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2192,7 +2192,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_9377-0049-0061": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2200,7 +2200,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_9372-0003-0470": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2208,7 +2208,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_6807-0008-0250": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2216,7 +2216,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_0420-0071-0320": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2224,7 +2224,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_8374-0005-0060": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2232,7 +2232,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_2132-0006-0200": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2240,7 +2240,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_0481-1601-0380": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2248,7 +2248,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_3020-0002-0140": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2256,7 +2256,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_4695-0001-0105": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2264,7 +2264,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_5135-0001-0060": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2272,7 +2272,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_4069-0000-0201": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2280,7 +2280,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_3385-0002-0040": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2288,7 +2288,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_3020-0005-0230": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "NUECES",
