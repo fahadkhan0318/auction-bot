@@ -936,7 +936,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_60123500010120000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -960,7 +960,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000344383000000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -968,7 +968,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_007748000A0040000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-08",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1520,7 +1520,7 @@
     "section": "MVBA_PDF"
   },
   "SHERIFF_TRAVIS_01827302020000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-11",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -1528,7 +1528,7 @@
     "section": "Closed"
   },
   "SHERIFF_TRAVIS_03434606010000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-11",
     "source": "SHERIFF",
     "county": "TRAVIS",
@@ -2904,7 +2904,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_36058500070010000": {
-    "status": "Pending",
+    "status": "Struck Off",
     "first_seen": "2026-09-16",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -3048,7 +3048,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_26057500210170000": {
-    "status": "Pending",
+    "status": "Sold",
     "first_seen": "2026-09-24",
     "source": "SHERIFF",
     "county": "DALLAS",
