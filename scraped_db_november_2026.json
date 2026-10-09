@@ -782,5 +782,45 @@
     "county": "VALVERDE",
     "cause_number": "2020-0191-CIV",
     "section": "MVBA_PDF"
+  },
+  "SHERIFF_TRAVIS_02375906030000": {
+    "status": "Pending",
+    "first_seen": "2026-10-09",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN22002297",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_02401208120000": {
+    "status": "Pending",
+    "first_seen": "2026-10-09",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24004956",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_02679901180000": {
+    "status": "Pending",
+    "first_seen": "2026-10-09",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN24008663",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_04124804340000": {
+    "status": "Pending",
+    "first_seen": "2026-10-09",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN22001460",
+    "section": "Closed"
+  },
+  "SHERIFF_TRAVIS_04151510080000": {
+    "status": "Pending",
+    "first_seen": "2026-10-09",
+    "source": "SHERIFF",
+    "county": "TRAVIS",
+    "cause_number": "GN22002436",
+    "section": "Closed"
   }
 }
