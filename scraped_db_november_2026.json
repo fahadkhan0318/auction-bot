@@ -822,5 +822,85 @@
     "county": "TRAVIS",
     "cause_number": "GN22002436",
     "section": "Closed"
+  },
+  "SHERIFF_CAMERON_9316100030005000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-06671",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7471100030001000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2026-DCL-01477",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_0447400020009000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-03643",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_3900000190003000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-03186",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7484000010014000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-01300",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_9090400170029000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-01246",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7614100020026000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2025-DCL-01077",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_9396400030010000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-07482",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_8415500070000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-07466",
+    "section": "Closed"
+  },
+  "SHERIFF_CAMERON_4100000040012000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-05099",
+    "section": "Closed"
   }
 }
