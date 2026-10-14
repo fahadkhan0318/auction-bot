@@ -1118,5 +1118,829 @@
     "county": "CAMERON",
     "cause_number": "2009-11-006075",
     "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_32122500010060000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00445",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_65031140310270000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00070",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000180529000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01040",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_32404500040110000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00236",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_32077950150110000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-00373",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_32469500530000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00521",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_32431500100190000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01098",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000455899000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01000",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000305719000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00301",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000458620000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01019",
+    "section": "Closed"
+  },
+  "SHERIFF_DALLAS_00000448345000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00179",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000698356000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01799",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000803677000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01230",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000509890000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01228",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_32053500010080000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00086",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000139945000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00171",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000219706000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00507",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_20095670070060000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00864",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000295747000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00507",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000180379000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01137",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000223069000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01413",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_65131106010130000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01182",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000297175000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01749",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000684232000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-20-00679",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_36012500060030200": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00525",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000481636000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-00622",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000658831000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01893",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_0088170000000S019": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-01060",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_382164600A0650000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00510",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000680878000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-01296",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000447475000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-23-01054",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000179336000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00341",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000815185000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-22-00305",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000676933000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01900",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_00000797884000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00419",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_703002210010002": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "18-TX-0256",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_512000110020000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "20-TX-0609",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_703002430008000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "22-TX-0752",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_389500000001000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "22-TX-0752",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_296500120004000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "22-TX-0598",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_110500000073003": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0002",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_173500000063000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0024",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_556000010087001": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0321",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_015500450005001": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0642",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_140600060006000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0798",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_624001570019000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0047",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_705000050003000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0241",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_703003401003000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0241",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_599500000011000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0402",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_514000000021000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0504",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_184000000008000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0562",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_351000371002000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0715",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_108300000003005": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0022",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_731000044308000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0109",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_350501490014001": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0232",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_140500000226000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0243",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_017901860000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0364",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_122000000008000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0454",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_661000000124000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0478",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_766000010001001": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0493",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_406500100006002": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0507",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_438200000130000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0510",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_438300130006000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0511",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_438200000276000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0515",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_438200000071000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0534",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_325500000003001": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0132",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_396700180016000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0132",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_490000220006000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0132",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_703004200005000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "23-TX-0132",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_634500040001005": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "13TX0316",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_337000410011000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0224",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_703002150012000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24-TX-0679",
+    "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_424000000191001": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25-TX-0482",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0000140000201": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-03-04362",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0084700017600": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06277",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0094559014900": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "26-02-02656",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0083200405900": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-08-12383",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0087200010110": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-12-20724",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0097283804600": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-06-09414",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0097151314700": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-02-02680",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0090141407000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-08-13657",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0078100359500": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-09-14041",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0078100613010": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-10-15365",
+    "section": "Closed"
+  },
+  "SHERIFF_MONTGOMERY_0076220005300": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-11-17319",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0095270313000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-04-06269",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0078100616210": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-05-08054",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0078100616240": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-05-08054",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0078100564900": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-06-10214",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0078100565200": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-06-10214",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0026730200200": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-08-12326",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0064320256900": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-08-12422",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0082530029000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-10-17605",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0082530029100": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "25-10-17605",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0005350002100": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "90-03-00637",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0004190100400": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "21-11-15099",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0005350002900": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "23-03-04498",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0078100614020": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "23-04-06033",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0005950003620": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "23-07-10447",
+    "section": "Waiting"
+  },
+  "SHERIFF_MONTGOMERY_0005950015310": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "MONTGOMERY",
+    "cause_number": "24-10-15295",
+    "section": "Waiting"
+  },
+  "SHERIFF_SMITH_180705000600038000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "26,074-A",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_180950000100207000": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,490-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_065015623000W001001": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,556-B",
+    "section": "Closed"
+  },
+  "SHERIFF_SMITH_150000144504002210": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "SMITH",
+    "cause_number": "27,785-C",
+    "section": "Closed"
   }
 }
