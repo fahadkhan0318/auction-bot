@@ -952,7 +952,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_7480950080014000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1168,7 +1168,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_32431500100190000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1344,7 +1344,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_382164600A0650000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1392,7 +1392,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000797884000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1998,5 +1998,141 @@
     "county": "ELPASO",
     "cause_number": "2023DTX1460",
     "section": "Closed"
+  },
+  "SHERIFF_ELPASO_E25000000204300": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX1501",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_L22000000300600": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2024DTX0231",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_C51899908500600": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2024DTX0426",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_E05499901804500": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2024DTX0501",
+    "section": "Waiting"
+  },
+  "SHERIFF_ELPASO_C76299901006900": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2024DTX0956",
+    "section": "Waiting"
+  },
+  "SHERIFF_ELPASO_F52499900404900": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2024DTX1863",
+    "section": "Waiting"
+  },
+  "SHERIFF_ELPASO_U819999002B0357": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2024DTX1927",
+    "section": "Waiting"
+  },
+  "SHERIFF_ELPASO_H01299901103100": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2025DTX1371",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_6807-0005-0290": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-4269-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_6807-0005-0300": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2017DCV-4269-A",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_4565-0002-0640": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2021DCV-1066-E",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_8187-0007-0200": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2023DCV-1837-B",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_7626-0005-0320": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2023DCV-3191-D",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_7625-0003-0300": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2023DCV-3191-D",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_5000-0018-0040": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2024DCV-2815-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_9113-0008-0290": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2025DCV-2706-F",
+    "section": "Waiting"
+  },
+  "SHERIFF_NUECES_7634-0003-0390": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "NUECES",
+    "cause_number": "2025DCV-2707-F",
+    "section": "Waiting"
   }
 }
