@@ -902,5 +902,221 @@
     "county": "CAMERON",
     "cause_number": "2024-DCL-05099",
     "section": "Closed"
+  },
+  "SHERIFF_CAMERON_7919200000049000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04912",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_8571400200010010": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04134",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_2281800040042000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-02608",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_0447300120031000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-01412",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_6565000210002000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-00449",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7490000030004000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2023-DCL-04997",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7480950080014000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-05711",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7475410030012000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-04492",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_9096800210031000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2022-DCL-05681",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_2006600010021000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-05685",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_1980700020040000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2022-DCL-00979",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7728601010012500": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2024-DCL-00394",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_2122500030001000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2017-DCL-04889",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_8895000050013010": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2020-DCL-04909",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_8230003000002800": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2012DCL4037",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_0408900010004300": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2015-DCL-07092",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_9388600050009000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2022-DCL-00239",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_9316100030002000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2023-DCL-05649",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_9316100030003000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2023-DCL-05649",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7502080000050304": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2017-DCL-00502",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7479701040010700": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2015-DCL-00546",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7456000280020000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2010042140",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_8240000880001000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2012-DCL-06375",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_8240000960018000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2014-DCL-02126",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7513300090001000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2009-11-006075",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7513300100020000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2009-11-006075",
+    "section": "Waiting"
+  },
+  "SHERIFF_CAMERON_7513300170001000": {
+    "status": "Pending",
+    "first_seen": "2026-10-13",
+    "source": "SHERIFF",
+    "county": "CAMERON",
+    "cause_number": "2009-11-006075",
+    "section": "Waiting"
   }
 }
