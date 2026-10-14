@@ -1942,5 +1942,61 @@
     "county": "SMITH",
     "cause_number": "27,785-C",
     "section": "Closed"
+  },
+  "SHERIFF_ELPASO_S43499900005700": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2017DTX0451",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_T11699900405300": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2022DTX0602",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_B68599900103600": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX0816",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_E20799902501500": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX1103",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_R78499901007300": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX1104",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_S075000027002J0": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX1302",
+    "section": "Closed"
+  },
+  "SHERIFF_ELPASO_H79301700200380": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2023DTX1460",
+    "section": "Closed"
   }
 }
