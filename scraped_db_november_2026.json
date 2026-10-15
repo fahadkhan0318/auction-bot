@@ -1328,7 +1328,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000658831000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1968,7 +1968,7 @@
     "section": "Closed"
   },
   "SHERIFF_ELPASO_E20799902501500": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2160,7 +2160,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_COMAL_18257": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-14",
     "source": "MVBA",
     "county": "COMAL",
@@ -2256,7 +2256,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_COMAL_121572": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-14",
     "source": "MVBA",
     "county": "COMAL",
@@ -2510,5 +2510,157 @@
     "county": "GALVESTON",
     "cause_number": "16-TX-0075",
     "section": "Closed"
+  },
+  "MVBA_CHEROKEE_105586029": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2017080479",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_100346000": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2021030045",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_223395000": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2023020046",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_100731200/110731010": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2023040130",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_117212000": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2023050174",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_119714/124618/985806658/985935393": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024050153",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_985855454": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024060189",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_100160000": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024080265",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_225481000": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024080307",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_222729000": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2024110380",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_530585000": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025020060",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_143277": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025040123",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_144180/144181": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025040123",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_102736000/136699": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025050178",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_72728/73139": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025050182",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_110556200": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025070230",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_111579000": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025090289",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_530299000": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025090321",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_CHEROKEE_107887020": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025090337",
+    "section": "MVBA_ONLINE"
   }
 }
