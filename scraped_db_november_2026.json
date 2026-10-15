@@ -2502,5 +2502,13 @@
     "county": "NUECES",
     "cause_number": "2025DCV-3447-F",
     "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_442000470008002": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "16-TX-0075",
+    "section": "Closed"
   }
 }
