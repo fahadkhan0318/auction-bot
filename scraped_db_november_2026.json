@@ -1960,7 +1960,7 @@
     "section": "Closed"
   },
   "SHERIFF_ELPASO_B68599900103600": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2134,5 +2134,133 @@
     "county": "NUECES",
     "cause_number": "2025DCV-2707-F",
     "section": "Waiting"
+  },
+  "SHERIFF_ELPASO_D77599900100650": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "SHERIFF",
+    "county": "ELPASO",
+    "cause_number": "2025DTX1556",
+    "section": "Waiting"
+  },
+  "MVBA_COMAL_72118": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-9933E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_67473": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10289C",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_18257": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10460E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_150005": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10541E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_17440": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10770E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_17441": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10770E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_23675/130318": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-10949E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_15597": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11045D",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_34093": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11066E",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_9182": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11116A",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_78509": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11123D",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_137267": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11137C",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_12246": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11176B",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_67560": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11192B",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_COMAL_121572": {
+    "status": "Pending",
+    "first_seen": "2026-10-14",
+    "source": "MVBA",
+    "county": "COMAL",
+    "cause_number": "T-11195A",
+    "section": "MVBA_ONLINE"
   }
 }
