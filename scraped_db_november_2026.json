@@ -2662,5 +2662,53 @@
     "county": "CHEROKEE",
     "cause_number": "2025090337",
     "section": "MVBA_ONLINE"
+  },
+  "SHERIFF_CALDWELL_25823": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0051",
+    "section": "Waiting"
+  },
+  "SHERIFF_CALDWELL_25754": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "22-T-9951",
+    "section": "Waiting"
+  },
+  "SHERIFF_CALDWELL_26111": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "23-T-0052",
+    "section": "Waiting"
+  },
+  "SHERIFF_CALDWELL_25807": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0014",
+    "section": "Waiting"
+  },
+  "SHERIFF_CALDWELL_22875": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0043",
+    "section": "Waiting"
+  },
+  "SHERIFF_CALDWELL_23200": {
+    "status": "Pending",
+    "first_seen": "2026-10-15",
+    "source": "SHERIFF",
+    "county": "CALDWELL",
+    "cause_number": "DCTAX-24-0121",
+    "section": "Waiting"
   }
 }
