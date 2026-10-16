@@ -2710,5 +2710,85 @@
     "county": "CALDWELL",
     "cause_number": "DCTAX-24-0121",
     "section": "Waiting"
+  },
+  "MVBA_GLADEWATER_609532/000609532": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "022352-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000061816": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "022523-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000072444": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "022743-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000036090": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "022851-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000180681": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "022877-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000017159": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "022992-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000018577": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "023095-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000016623": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "023201-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000016624": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "023201-CCL2",
+    "section": "MVBA_ONLINE"
+  },
+  "MVBA_GLADEWATER_000053698/N00654778/53698": {
+    "status": "Pending",
+    "first_seen": "2026-10-16",
+    "source": "MVBA",
+    "county": "GLADEWATER",
+    "cause_number": "022630-CCL2",
+    "section": "MVBA_ONLINE"
   }
 }
