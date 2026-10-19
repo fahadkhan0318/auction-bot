@@ -2008,7 +2008,7 @@
     "section": "Closed"
   },
   "SHERIFF_ELPASO_L22000000300600": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2024,7 +2024,7 @@
     "section": "Closed"
   },
   "SHERIFF_ELPASO_E05499901804500": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2032,7 +2032,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_C76299901006900": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2048,7 +2048,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_U819999002B0357": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2144,7 +2144,7 @@
     "section": "Waiting"
   },
   "MVBA_COMAL_72118": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-14",
     "source": "MVBA",
     "county": "COMAL",
@@ -2568,7 +2568,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_100160000": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
@@ -2648,7 +2648,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_530299000": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
