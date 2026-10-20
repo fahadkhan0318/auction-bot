@@ -1768,7 +1768,7 @@
     "section": "Closed"
   },
   "SHERIFF_MONTGOMERY_0078100359500": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -2056,7 +2056,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_H01299901103100": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
