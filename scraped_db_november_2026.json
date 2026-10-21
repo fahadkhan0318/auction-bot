@@ -2248,7 +2248,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_COMAL_67560": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-14",
     "source": "MVBA",
     "county": "COMAL",
@@ -2790,5 +2790,301 @@
     "county": "GLADEWATER",
     "cause_number": "022630-CCL2",
     "section": "MVBA_ONLINE"
+  },
+  "MVBA_BASTROP_93468": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "13798",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_96110": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "13798",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_31563": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "3080-335",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_29604": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "3122-21",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_30861": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-10377",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_R30870": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-10377",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_73841": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14062",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_15345": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14130",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_37564": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14270",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_12916": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14355",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_63659": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14414",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_87403": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14452",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_49341": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14471",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_50817": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14471",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_15408": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14489",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_34100": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14550",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_11906": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14593",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_30963": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14620",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_14362": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14660",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_49545": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14690",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_37118": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14760",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_68438": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14787",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_31042": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14853",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_71399": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14882",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_35716": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14905",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_115402": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14967",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_8730999": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14967",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_59097": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14971",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_59098": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-14971",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_26449": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-15006",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_34868": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-15021",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_35074": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-15023",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_28429": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "423-T-15026",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_31717": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "465-1065",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_27267": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "465-521",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_27276": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "465-521",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BASTROP_26121": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "MVBA",
+    "county": "BASTROP",
+    "cause_number": "465-521",
+    "section": "MVBA_PDF"
   }
 }
