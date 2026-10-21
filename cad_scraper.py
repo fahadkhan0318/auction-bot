@@ -9,8 +9,9 @@ from playwright.sync_api import sync_playwright
 CURRENT_YEAR = str(datetime.now().year)
 
 SUPPORTED_COUNTIES = {
-    "bell",
-    "hardin", "galveston", "cherokee", "gregg", "llano",
+    "bell",        # Bell CAD — belltx-search.gsacorp.io (GSA engine, direct /parcel/{10-digit id} URL)
+    "hardin", "galveston", "cherokee", "llano",
+    "gregg",       # Gregg CAD — search.gcad.org (GSA engine, direct /parcel/{10-digit id} URL)
     "milam", "brown", "browntrust", "shackelford",
     "aransas", "harrison",
     "henderson", "bastrop", "anderson",
@@ -36,7 +37,7 @@ SUPPORTED_COUNTIES = {
     "starr",       # Starr CAD — esearch.starrcad.org
     "tomgreen",    # Tom Green CAD — southwestdatasolution.com (Geo ID portal)
     "limestone",   # Limestone CAD — limestonecad.com (Prodigy engine)
-    "valverde",    # Val Verde CAD — valverdecad.org (Angular Material, Geo ID 4-4-4)
+    "valverde",    # Val Verde CAD — valverdecad.org (True Prodigy engine; PropID, or 12-digit Geo ID 4-4-4)
     "rusk",        # Rusk CAD    — Home/Search portal (ruskcad.org)
     "goliad",      # Goliad CAD  — Home/Search portal (goliadcad.org)
     "dewitt",      # DeWitt CAD  — Home/Search portal (dewittcad.org)
@@ -64,10 +65,21 @@ SUPPORTED_COUNTIES = {
     "bandera",     # Bandera CAD — esearch.bancad.org
     "victoria",    # Victoria CAD — esearch.victoriacad.org (Geo ID 5-3-5)
     "freestone",   # Freestone CAD — freestonecad.org (Home/Search portal; compound "ParcelId+Sequence" account numbers)
+    "reeves",      # Reeves CAD — reeves-cad.org (True Prodigy engine; account number = PID)
+    "montgomery",  # Montgomery CAD — mcad-tx.org (True Prodigy engine; Geo ID 4-2-5)
+    "panola",      # Panola CAD — panolacad.org (Home/Search portal; exact Parcel ID match only)
+    "gladewater",  # City of Gladewater (MVBA jurisdiction) — searched on Gregg CAD, see CAD_COUNTY_ALIASES
 }
 
+# Sheet "County" values that are really a city/jurisdiction inside another
+# county's appraisal district — enriched with that county's CAD scraper.
+# MVBA lists City of Gladewater tax sales under their own "GLADEWATER" county,
+# but Gladewater sits in Gregg County, so its accounts are Gregg CAD Property
+# IDs (zero-padded by MVBA, e.g. 000061816 = Gregg 61816).
+CAD_COUNTY_ALIASES = {"gladewater": "gregg"}
+
 BIS_URLS = {
-    # bell moved to esearch below
+    # bell moved to the GSA /parcel/ portal (_scrape_bell_property)
 }
 
 # Counties whose CAD account numbers are plain digits (no R prefix).
@@ -88,11 +100,9 @@ KEEP_R_PREFIX_COUNTIES = {"bosque"}
 SKIP_BYID_TAB_COUNTIES = {"orange"}
 
 ESEARCH_URLS = {
-    "bell":        "https://esearchgsa.bellcad.org",
     "hardin":      "https://esearch.hardin-cad.org",
     "galveston":   "https://esearch.galvestoncad.org",
     "cherokee":    "https://esearch.cherokeecad.com",
-    "gregg":       "https://esearch.gcad.org",
     "llano":       "https://esearch.llanocad.net",
     "milam":       "https://esearch.milamad.org",
     "brown":       "https://esearch.brown-cad.org",
@@ -169,6 +179,12 @@ MCLENNAN_BASE_URL = "https://mclennancad.org"
 # Bowie CAD — True Prodigy engine (same API shape as Travis/McLennan)
 BOWIE_BASE_URL = "https://bowieappraisal.com"
 
+# Reeves CAD — True Prodigy engine, API office name "Reeves"
+REEVES_BASE_URL = "https://www.reeves-cad.org"
+
+# Montgomery CAD — True Prodigy engine, API office name "Montgomery", searched by Geo ID
+MONTGOMERY_BASE_URL = "https://mcad-tx.org"
+
 # Midland CAD — ISW / Southwest Data Solutions portal
 MIDLAND_SEARCH_URL = "https://iswdataclient.azurewebsites.net/webindex.aspx?dbkey=MIDLANDCAD"
 
@@ -192,12 +208,20 @@ DALLAS_CAD_DETAIL_URL = "https://www.dallascad.org/AcctDetailRes.aspx"
 # dots removed)
 SMITH_BASE_URL = "https://smithcad-search.gsacorp.io"
 
+# Gregg CAD — moved off esearch.gcad.org (now a dead host, TLS name mismatch)
+# to the same GSA engine as Smith. URL pattern: /parcel/{10-digit Property ID}
+GREGG_BASE_URL = "https://search.gcad.org"
+
+# Bell CAD — moved off esearchgsa.bellcad.org (dead host, TLS name mismatch)
+# to the same GSA engine as Gregg. URL pattern: /parcel/{10-digit Property ID}
+BELL_BASE_URL = "https://belltx-search.gsacorp.io"
+
 # Cameron CAD — migrated to the ProdigyCAD portal (was Angular Material,
 # embedded via <iframe> on cameroncad.org). Hit the portal domain directly.
 CAMERON_SEARCH_URL = "https://cameron.prodigycad.com/property-search"
 
 # Val Verde CAD — Angular Material search portal (same engine as Cameron)
-VALVERDE_SEARCH_URL = "https://www.valverdecad.org/property-search"
+VALVERDE_BASE_URL = "https://www.valverdecad.org"
 
 # Home/Search portal — Rusk, Goliad, DeWitt, Eastland, Leon CADs (same engine)
 HOMESEARCH_URLS = {
@@ -208,6 +232,9 @@ HOMESEARCH_URLS = {
     "leon":     "https://www.leoncad.org",
     "freestone": "https://www.freestonecad.org",
 }
+
+# Panola CAD — same Home/Search engine, but scraped via its SearchTableV2 API
+PANOLA_BASE_URL = "https://www.panolacad.org"
 
 
 
@@ -275,6 +302,18 @@ def format_geo_id_victoria(account_number):
         return acct
     chars = re.sub(r'[^0-9A-Za-z]', '', acct).zfill(13)
     return f"{chars[0:5]}-{chars[5:8]}-{chars[8:13]}"
+
+
+def format_geo_id_montgomery(account_number):
+    """Montgomery CAD geo id — format: XXXX-XX-XXXXX (4-2-5 = 11 digits).
+    The sheriff site's account carries two extra leading zeros:
+    0094559014900 → 9455-90-14900, 0000140000201 → 0014-00-00201."""
+    acct = account_number.strip()
+    if re.match(r'^\d{4}-\d{2}-\d{5}$', acct):
+        return acct
+    digits = re.sub(r'\D', '', acct)
+    digits = digits[-11:].zfill(11)
+    return f"{digits[0:4]}-{digits[4:6]}-{digits[6:11]}"
 
 
 def format_geo_id_tomgreen(account_number):
@@ -2970,11 +3009,13 @@ def _scrape_cameron_property(page, account_number):
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# VAL VERDE CAD — valverdecad.org Angular Material portal (same engine as Cameron)
-# Search type: Geographic ID
-# Account format: 12-digit numeric  →  XXXX-XXXX-XXXX
-# Steps: open search page → select Geographic ID from mat-select (or native select)
-#        → fill GEO ID → click search → click PropID link → scrape detail
+# VAL VERDE CAD — valverdecad.org (True Prodigy engine, API DIRECT)
+# Detail URL: https://www.valverdecad.org/property-detail/{pid}/{year}
+# Same public/property/search API as Reeves/Montgomery; the site's own
+# officelookup maps www.valverdecad.org → office "Valverde".
+# MVBA's Val Verde account is normally the PropID (e.g. 33464); older rows
+# carried the 12-digit Geo ID instead (631000500180 → 6310-0050-0180), which
+# is searched on geoID.
 # ═══════════════════════════════════════════════════════════════════════════
 
 def format_geo_id_valverde(account_number):
@@ -2986,341 +3027,30 @@ def format_geo_id_valverde(account_number):
     return f"{an[0:4]}-{an[4:8]}-{an[8:12]}"
 
 
-def _scrape_valverde_property(page, account_number):
-    geo_id = format_geo_id_valverde(account_number)
-    print(f"    🔍 Val Verde account: {account_number} → GEO ID: {geo_id}")
-
-    try:
-        # Use domcontentloaded (not "load") — avoids timeout waiting for slow resources
-        try:
-            page.goto(VALVERDE_SEARCH_URL, timeout=60000, wait_until="domcontentloaded")
-        except Exception as nav_err:
-            print(f"    ⚠️  First nav attempt failed ({nav_err}) — retrying")
-            try:
-                page.goto(VALVERDE_SEARCH_URL, timeout=60000, wait_until="domcontentloaded")
-            except Exception as nav_err2:
-                print(f"    ❌ Navigation failed: {nav_err2}")
-                return None
-
-        # Wait for the search type combobox to be rendered (React SPA needs time)
-        try:
-            page.wait_for_selector(
-                "[role='combobox'][aria-label='Search type']", timeout=15000
-            )
-        except Exception:
-            print(f"    ⚠️  Search form not ready — retrying page load")
-            try:
-                page.goto(VALVERDE_SEARCH_URL, timeout=60000, wait_until="domcontentloaded")
-                page.wait_for_selector(
-                    "[role='combobox'][aria-label='Search type']", timeout=15000
-                )
-            except Exception:
-                print(f"    ❌ Search form failed to load")
-                return None
-
-        page.wait_for_timeout(500)
-
-        # Select "Geographic ID" from the search type dropdown
-        # Target specifically by aria-label="Search type" to avoid hitting the year dropdown
-        selected_geo = False
-        try:
-            combobox = page.locator("[role='combobox'][aria-label='Search type']")
-            current_text = (combobox.inner_text() or "").strip()
-            if "Geographic ID" in current_text:
-                selected_geo = True
-                print(f"    ✅ Geographic ID already selected")
-            else:
-                combobox.click()
-                page.wait_for_timeout(600)
-                # Options appear in MUI listbox overlay
-                geo_opt = page.locator("[role='listbox'] [role='option']").filter(has_text="Geographic ID")
-                if geo_opt.count() == 0:
-                    geo_opt = page.locator("[role='option']").filter(has_text="Geographic ID")
-                if geo_opt.count() > 0:
-                    geo_opt.first.click()
-                    selected_geo = True
-                    page.wait_for_timeout(400)
-                    print(f"    ✅ Selected 'Geographic ID'")
-                else:
-                    page.keyboard.press("Escape")
-                    page.wait_for_timeout(300)
-                    print(f"    ⚠️  Geographic ID option not found in listbox")
-        except Exception as e:
-            page.keyboard.press("Escape")
-            page.wait_for_timeout(300)
-            print(f"    ⚠️  Dropdown error: {e}")
-
-        if not selected_geo:
-            print(f"    ⚠️  Could not select 'Geographic ID' — proceeding anyway")
-
-        # Find the actual search text input.
-        # The MUI Select has hidden native inputs (aria-hidden=true, tabindex=-1, class MuiSelect-nativeInput)
-        # The real text input has none of these attributes.
-        # Try multiple selectors from most specific to least.
-        target_input = None
-        for sel in [
-            "input.MuiInputBase-input:not(.MuiSelect-nativeInput)",
-            "input[type='text']:not([aria-hidden='true'])",
-            "input:not([aria-hidden='true']):not([tabindex='-1']):not([type='hidden'])",
-        ]:
-            loc = page.locator(sel)
-            try:
-                loc.first.wait_for(state="visible", timeout=3000)
-                target_input = loc.first
-                print(f"    🔎 Text input found via: {sel}")
-                break
-            except Exception:
-                continue
-
-        if target_input is None:
-            # Last resort: use JavaScript to find any non-hidden text input
-            js_input_found = page.evaluate("""
-                () => {
-                    var inputs = [...document.querySelectorAll('input')];
-                    var good = inputs.find(i =>
-                        i.type !== 'hidden' &&
-                        !i.getAttribute('aria-hidden') &&
-                        i.tabIndex !== -1 &&
-                        !i.classList.contains('MuiSelect-nativeInput')
-                    );
-                    if (good) { good.focus(); return true; }
-                    return false;
-                }
-            """)
-            if js_input_found:
-                print(f"    🔎 Text input focused via JS")
-                page.wait_for_timeout(200)
-                page.keyboard.press("Control+a")
-                page.keyboard.press("Delete")
-                page.keyboard.type(geo_id, delay=50)
-                print(f"    ✏️  GEO ID entered via keyboard: {geo_id}")
-            else:
-                print(f"    ⚠️  Search text input not found — skipping")
-                return None
-        else:
-            # Use force=True to bypass any intercepting overlays
-            target_input.click(force=True)
-            page.wait_for_timeout(200)
-            target_input.press("Control+a")
-            target_input.press("Delete")
-            page.wait_for_timeout(100)
-            target_input.press_sequentially(geo_id, delay=50)
-            print(f"    ✏️  GEO ID entered: {geo_id}")
-
-        page.wait_for_timeout(500)
-
-        # Click search button — MUI icon button (aria-label="Search properties", no text)
-        # Strategy 1: JS .click() — most reliable for MUI buttons
-        search_clicked = page.evaluate("""
-            () => {
-                var btn = document.querySelector('button[aria-label="Search properties"]');
-                if (!btn) btn = document.querySelector('button[aria-label*="search" i]');
-                if (btn) { btn.click(); return true; }
-                return false;
-            }
-        """)
-        if search_clicked:
-            print(f"    🖱️  Search button clicked (JS)")
-        else:
-            # Strategy 2: Playwright force click
-            try:
-                page.locator("button[aria-label='Search properties']").click(force=True, timeout=5000)
-                search_clicked = True
-                print(f"    🖱️  Search button clicked (force)")
-            except Exception:
-                # Strategy 3: Enter on the input
-                target_input.press("Enter")
-                print(f"    ⌨️  Enter pressed (fallback)")
-
-        # Wait for ag-Grid results to populate — PropID is a <button> inside col-id="pid"
-        try:
-            page.wait_for_selector('[col-id="pid"] button', timeout=10000)
-        except Exception:
-            body_text = page.inner_text("body")
-            if re.search(r'no rows|no results|no data', body_text, re.IGNORECASE):
-                print(f"    ⚠️  No results for GEO ID: {geo_id}")
-                return None
-            page.wait_for_timeout(3000)
-
-        # Click the PropID button in the first result row
-        prop_btn = page.locator('[col-id="pid"] button').first
-        if prop_btn.count() == 0:
-            print(f"    ⚠️  No PropID button found for GEO ID: {geo_id}")
-            return None
-
-        prop_id_text = (prop_btn.inner_text() or "").strip()
-        print(f"    🖱️  Clicking PropID button: {prop_id_text}")
-        prop_btn.click()
-
-        try:
-            page.wait_for_load_state("networkidle", timeout=20000)
-        except Exception:
-            page.wait_for_load_state("domcontentloaded")
-        page.wait_for_timeout(1500)
-
-        final_url = page.url
-        print(f"    🔗 Detail URL: {final_url}")
-
-        # Scroll down to ensure CURRENT VALUES section is rendered
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        page.wait_for_timeout(800)
-        page.evaluate("window.scrollTo(0, 0)")
-        page.wait_for_timeout(500)
-
-        text = page.inner_text("body")
-
-        # ── GIS Map — click Maps button → capture GIS Map href ───────────────
-        gis_map_url    = ""
-        google_map_url = ""
-        try:
-            maps_btn = page.locator("button:has-text('Maps'), a:has-text('Maps')")
-            if maps_btn.count() > 0:
-                maps_btn.first.click()
-                page.wait_for_timeout(700)
-                print(f"    🗺️  Maps dropdown opened")
-
-            gis_href = page.evaluate("""
-                () => {
-                    var all = [...document.querySelectorAll('a, [role="menuitem"], li, button')];
-                    for (var el of all) {
-                        var txt = (el.innerText || el.textContent || '').trim();
-                        if (/^GIS\s+Map$/i.test(txt)) {
-                            if (el.tagName === 'A' && el.href) return el.href;
-                            var p = el.closest('a');
-                            if (p && p.href) return p.href;
-                        }
-                    }
-                    return '';
-                }
-            """)
-            if gis_href and gis_href.startswith('http'):
-                gis_map_url = gis_href
-                print(f"    🗺️  GIS Map: {gis_map_url[:100]}")
-
-            gmaps_href = page.evaluate("""
-                () => {
-                    var all = [...document.querySelectorAll('a, [role="menuitem"], li, button')];
-                    for (var el of all) {
-                        var txt = (el.innerText || el.textContent || '').trim();
-                        if (/^Google\s+Map$/i.test(txt)) {
-                            if (el.tagName === 'A' && el.href) return el.href;
-                            var p = el.closest('a');
-                            if (p && p.href) return p.href;
-                        }
-                    }
-                    return '';
-                }
-            """)
-            if gmaps_href and gmaps_href.startswith('http'):
-                google_map_url = gmaps_href
-                print(f"    🗺️  Google Map: {google_map_url[:100]}")
-
-            # Close the dropdown by pressing Escape
-            page.keyboard.press("Escape")
-            page.wait_for_timeout(300)
-        except Exception as e:
-            print(f"    ⚠️  Maps dropdown error: {e}")
-
-        # ── Extract address and owner from DOM ────────────────────────────────
-        scraped = page.evaluate("""
-            () => {
-                var r = { address: '', owner: '' };
-                var allEls = [...document.querySelectorAll('*')];
-                for (var el of allEls) {
-                    var txt = (el.innerText || '').trim();
-                    if (!txt || el.children.length > 3) continue;
-                    var lbl = txt.toLowerCase();
-                    var next = el.nextElementSibling;
-                    var val  = next ? (next.innerText || '').trim() : '';
-                    if (!r.address && (lbl === 'situs address' || lbl === 'address' ||
-                        lbl.includes('situs'))) {
-                        if (val.length > 4) r.address = val;
-                    }
-                    if (!r.owner && (lbl === 'owner' || lbl === 'owner name')) {
-                        if (val.length > 2) r.owner = val;
-                    }
-                }
-                return r;
-            }
-        """)
-        address = scraped.get("address", "").strip().rstrip(",")
-        owner   = scraped.get("owner",   "").strip()
-
-        # Regex fallbacks on full page text
-        if not address:
-            m = re.search(r'(?:Situs\s+Address|Property\s+Address|Address)[:\s]+([^\n]{5,120})', text, re.IGNORECASE)
-            address = m.group(1).strip().rstrip(',') if m else ""
-        if not owner:
-            m = re.search(r'(?:Owner\s+Name|Owner(?!\s*ID\b))[ \t:]+([A-Z][^\n]{2,80})', text, re.IGNORECASE)
-            if m:
-                owner = re.split(r'\s{3,}|\bMailing\b|\bAddress\b', m.group(1))[0].strip()
-                if len(owner) < 3:
-                    owner = ""
-
-        if address:
-            address = re.sub(r'\s+USA\b', '', address, flags=re.IGNORECASE)
-            address = re.sub(r',?\s*(TX|Texas)\s*\d*\s*$', ', TX', address, flags=re.IGNORECASE).strip()
-            print(f"    🏠 Address: {address}")
-        if owner:
-            print(f"    👤 Owner: {owner}")
-
-        # ── CURRENT VALUES section ────────────────────────────────────────────
-        def _dollar(raw):
-            raw = re.sub(r'[,$\s]', '', raw)
-            return f"${int(raw):,}" if raw.isdigit() else ""
-
-        def _cv(label):
-            """Extract a value from the CURRENT VALUES block by label name."""
-            m = re.search(
-                label + r'\s+([\d,]+)',
-                text, re.IGNORECASE
-            )
-            return _dollar(m.group(1)) if m else ""
-
-        land_homesite    = _cv(r'Land\s+Homesite')
-        land_nonhomesite = _cv(r'Land\s+Non-Homesite')
-        imp_homesite     = _cv(r'Improvement\s+Homesite')
-        imp_nonhomesite  = _cv(r'Improvement\s+Non-Homesite')
-        market_value     = _cv(r'Net\s+Appraised') or _cv(r'Appraised') or _cv(r'\bMarket\b')
-
-        if land_homesite:    print(f"    🌿 Land Homesite: {land_homesite}")
-        if land_nonhomesite: print(f"    🌿 Land Non-Homesite: {land_nonhomesite}")
-        if imp_homesite:     print(f"    🏗️  Imp Homesite: {imp_homesite}")
-        if imp_nonhomesite:  print(f"    🏗️  Imp Non-Homesite: {imp_nonhomesite}")
-        if market_value:     print(f"    💰 Net Appraised: {market_value}")
-
-        google_maps_url = google_map_url or (build_google_maps_url(address) if address else "")
-        zillow_url      = build_zillow_url(address) if address else ""
-        realtor_url     = build_realtor_search_url(address) if address else ""
-        interactive_map = gis_map_url
-        property_map    = gis_map_url or google_maps_url
-
-        if google_maps_url:
-            print(f"    🗺️  Google Maps: {google_maps_url[:80]}")
-        if zillow_url:
-            print(f"    🏡 Zillow: {zillow_url[:80]}")
-
-        return {
-            "Property Address":           address,
-            "Owner Name":                 owner,
-            "Adjusted Value":             market_value,
-            "Appraisal District":         final_url,
-            "Property Map":               property_map,
-            "Interactive Map":            interactive_map,
-            "Satellite View":             google_maps_url,
-            "Zillow":                     zillow_url,
-            "Realtor":                    realtor_url,
-            "Improvement Homesite Value": imp_homesite,
-            "Improvement Non-Homesite":   imp_nonhomesite,
-            "Land Homesite Value":        land_homesite,
-            "Land Non-Homesite Value":    land_nonhomesite,
-            "Ag Market Valuation":        "",
-        }
-
-    except Exception as e:
-        print(f"    ❌ Val Verde scrape error: {e}")
-        import traceback; traceback.print_exc()
+def _scrape_valverde_property(page, account_number, row=None):
+    digits = re.sub(r'\D', '', account_number.strip())
+    if not digits:
+        print(f"    ⚠️  Not a Val Verde account: {account_number}")
         return None
+
+    if len(digits) == 12:
+        geo_id = format_geo_id_valverde(digits)
+        print(f"    🔍 Val Verde Geo ID: {geo_id}")
+        criteria = {"geoID": {"operator": "=", "value": geo_id}}
+        keep = lambda r: r.get("geoID") == geo_id
+    else:
+        pid = digits.lstrip("0") or "0"
+        print(f"    🔍 Val Verde PropID: {pid}")
+        criteria = {"pid": {"operator": "=", "value": pid}}
+        keep = lambda r: str(r.get("pid")) == pid
+
+    results = _trueprodigy_api_search(page, VALVERDE_BASE_URL, "Valverde", criteria, "Val Verde")
+    results = [r for r in (results or []) if keep(r)]
+    if not results:
+        print(f"    ❌ Val Verde property not found: {account_number}")
+        return None
+    return _trueprodigy_build_result(results, VALVERDE_BASE_URL, row, "Val Verde")
+
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -4469,6 +4199,114 @@ def _scrape_freestone_property(page, account_number):
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+# PANOLA CAD — panolacad.org (Home/Search engine, queried via its own API)
+# The keyword search matches the digits anywhere in any column, so searching
+# parcel "21969" also returns mineral parcels 1219697, 1321969, 2196900...
+# and the result table only shows 20 rows per page (53 hits for 21969), so
+# the real parcel can sit on a later page. The table is filled by a slow
+# POST to /Home/SearchTableV2 (10-20s), which outlasts the generic scraper's
+# waits. So call that endpoint directly with a large page size, accept only
+# the record whose parcelId EXACTLY equals the account, and open its Details
+# page — no exact match means no result, never the first row.
+# ═══════════════════════════════════════════════════════════════════════════
+
+_PANOLA_SEARCH_OBJ = {
+    "keyword": "OnlyShowNonZero:false;CustomFieldsSearch:false;CategorySearch:false;AcreSearch:false;ValueSearch:false",
+    "searchOption": "basic", "sortBy": "Parcel Id", "taxYear": "0",
+    "onlyShowNonZero": "false", "page": "1", "pageSize": "20",
+    "isEmptySearch": True, "filter": None,
+}
+_PANOLA_PAGE_ROWS = 500
+
+
+def _scrape_panola_property(page, account_number):
+    import json
+    clean = re.sub(r'\D', '', account_number.strip())
+    if not clean:
+        print(f"    ⚠️  Not a Panola Parcel ID: {account_number}")
+        return None
+    print(f"    🔍 Panola CAD Parcel ID: {clean}")
+
+    def _search_page(page_no):
+        """One page of keyword hits, or None if the site kept failing (it
+        throws intermittent 503s under load)."""
+        for attempt in range(4):
+            try:
+                if not page.url.startswith(PANOLA_BASE_URL):
+                    page.goto(f"{PANOLA_BASE_URL}/Home/Search", timeout=90000, wait_until="domcontentloaded")
+                resp = page.request.post(
+                    f"{PANOLA_BASE_URL}/Home/SearchTableV2",
+                    form={
+                        "searchObj": json.dumps(_PANOLA_SEARCH_OBJ), "keyword": clean,
+                        "page": str(page_no), "taxYear": "0", "filter": "Keyword",
+                        "rows": str(_PANOLA_PAGE_ROWS), "taxDue": "false", "PaymentStatus": "",
+                        "strSortBy": "0,asc", "PropertyType": "",
+                    },
+                    headers={"x-requested-with": "XMLHttpRequest"},
+                    timeout=90000,
+                )
+                if resp.ok:
+                    return (resp.json() or {}).get("data") or []
+                print(f"    ⚠️  Panola search HTTP {resp.status} (attempt {attempt + 1})")
+            except Exception as e:
+                print(f"    ⚠️  Panola search attempt {attempt + 1} failed: {e}")
+            page.wait_for_timeout(5000 * (attempt + 1))
+        return None
+
+    # Page through the hits (0-based page index) until the exact parcel shows
+    # up or the results run out.
+    rec, total_seen = None, 0
+    for page_no in range(10):
+        records = _search_page(page_no)
+        if records is None:
+            print(f"    ❌ Panola search failed: {account_number}")
+            return None
+        total_seen += len(records)
+        rec = next((r for r in records if str(r.get("parcelId", "")).strip() == clean), None)
+        if rec or len(records) < _PANOLA_PAGE_ROWS:
+            break
+
+    if not rec:
+        print(f"    ❌ Panola CAD: {total_seen} results for '{clean}', none had an exact Parcel ID match")
+        return None
+    detail_url = f"{PANOLA_BASE_URL}/Home/Details?parcelId={rec['parcelId']}&ownershipId={rec['ownershipId']}"
+    print(f"    🎯 Panola CAD: exact Parcel ID match: {clean} ({rec.get('name', '')})")
+
+    try:
+        page.goto(detail_url, timeout=90000, wait_until="domcontentloaded")
+        # The values table is filled by a separate /Home/PropertyValue XHR a
+        # few seconds after load — wait for its Market Value cell to have a number.
+        try:
+            page.wait_for_function("""
+                () => [...document.querySelectorAll('table tbody tr')].some(tr => {
+                    const td = tr.querySelectorAll('td');
+                    return td.length >= 2 && td[0].innerText.trim().toLowerCase() === 'market value'
+                        && /[0-9]/.test(td[td.length - 1].innerText);
+                })
+            """, timeout=60000)
+        except Exception:
+            print(f"    ⚠️  Panola CAD: values table did not load for {clean}")
+        page.wait_for_timeout(500)
+    except Exception as e:
+        print(f"    ❌ Panola detail page error: {e}")
+        return None
+    result = _extract_homesearch_detail(page, detail_url, "Panola CAD")
+
+    # "Show Map → Interactive Map" on the detail page links the parcel on the
+    # Pandai GIS viewer (href carries a stray trailing space).
+    interactive_map = ""
+    try:
+        interactive_map = (page.get_attribute("a#interactive-map", "href", timeout=3000) or "").strip()
+    except Exception:
+        pass
+    if not interactive_map.startswith("http"):
+        interactive_map = f"https://maps.pandai.com/PanolaCAD/?find={rec['parcelId']}"
+    print(f"    🗺️  Panola Interactive Map: {interactive_map}")
+    result["Interactive Map"] = interactive_map
+    return result
+
+
+# ═══════════════════════════════════════════════════════════════════════════
 # BOWIE CAD — bowieappraisal.com (True Prodigy engine, same API as Travis/
 # McLennan — confirmed by its own "Powered by: True Prodigy" footer).
 # Search: {base}/property-search → open the "Search type" dropdown (default
@@ -4596,6 +4434,184 @@ def _scrape_bowie_property(page, account_number):
         "Land Non-Homesite Value":    land_nonhomesite,
         "Ag Market Valuation":        "",
     }
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# REEVES CAD — TRUE PRODIGY ENGINE (API DIRECT)
+# Detail URL: https://www.reeves-cad.org/property-detail/{pid}/{year}
+# MVBA's Reeves account number is the CAD PID (also its 2026+ taxOfficeRef).
+# Queries the site's own public/property/search API from inside the page
+# (same approach as Ellis) rather than driving the search form. The API
+# returns one record per year, including a not-yet-certified next year whose
+# value fields are the string "N/A" — so pick the current year, else the
+# latest year that actually has numeric values.
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _reeves_clean_id(raw):
+    return re.sub(r'^[Rr]', '', raw.strip())
+
+
+def _reeves_has_values(rec):
+    return isinstance(rec.get("marketValue"), (int, float)) or isinstance(rec.get("appraisedValue"), (int, float))
+
+
+def _trueprodigy_api_search(page, base_url, office, criteria, label):
+    """Run a True Prodigy public/property/search from inside a page on the
+    CAD's own domain (the API only accepts requests from that origin).
+    Returns the results list, or None if every attempt failed."""
+    for attempt in range(3):
+        try:
+            if not page.url.startswith(base_url):
+                page.goto(f"{base_url}/property-search", timeout=60000, wait_until="domcontentloaded")
+            results = page.evaluate("""
+                async ([office, criteria]) => {
+                    const tokenResp = await fetch('https://prod-container.trueprodigyapi.com/trueprodigy/cadpublic/auth/token', {
+                        method: 'POST',
+                        headers: {'content-type': 'application/json'},
+                        body: JSON.stringify({office: office})
+                    });
+                    const tokenJson = await tokenResp.json();
+                    const token = tokenJson && tokenJson.user && tokenJson.user.token;
+                    if (!token) return null;
+                    const searchResp = await fetch('https://prod-container.trueprodigyapi.com/public/property/search', {
+                        method: 'POST',
+                        headers: {'content-type': 'application/json', 'authorization': token},
+                        body: JSON.stringify(criteria)
+                    });
+                    if (!searchResp.ok) return null;
+                    // No match comes back as an empty body, not {"results": []}
+                    const text = await searchResp.text();
+                    if (!text.trim()) return [];
+                    return JSON.parse(text).results || [];
+                }
+            """, [office, criteria])
+            if results is not None:
+                return results
+        except Exception as e:
+            print(f"    ⚠️  {label} API attempt {attempt + 1} failed: {e}")
+            page.wait_for_timeout(1500)
+    return None
+
+
+def _trueprodigy_build_result(results, base_url, row, label):
+    """Map True Prodigy search records (one per year) to the enrichment
+    columns: current year if it has values, else latest valued year."""
+    rec = next((r for r in results if str(r.get("pYear")) == CURRENT_YEAR and _reeves_has_values(r)), None)
+    if not rec:
+        valued = [r for r in results if _reeves_has_values(r)] or results
+        rec = max(valued, key=lambda r: str(r.get("pYear", "")))
+
+    pid = rec.get("pid")
+    year = rec.get("pYear", CURRENT_YEAR)
+    detail_url = f"{base_url}/property-detail/{pid}/{year}"
+
+    def _num(v):
+        return float(v) if isinstance(v, (int, float)) else 0.0
+
+    owner = (rec.get("displayName") or rec.get("name") or "").strip()
+
+    address = (rec.get("fullSitus") or "").strip()
+    address = re.sub(r'\s*,\s*TX\s*,\s*', ', TX ', address, flags=re.IGNORECASE)
+    address = re.sub(r'\s+', ' ', address).strip(', ').strip()
+    parts = [p.strip() for p in address.split(',') if p.strip()]
+    if parts and re.fullmatch(r'\d{5}(?:-\d{4})?', parts[-1]) and not any(re.match(r'TX\b', p) for p in parts):
+        parts[-1] = f"TX {parts[-1]}"
+    address = ", ".join(parts)
+    if not re.match(r'^\d', address):
+        # Situs with no house number (e.g. "CR 415, TX") isn't a usable address
+        address = ""
+
+    # Never let a weaker CAD address downgrade a stronger one already on the
+    # sheet (same guard as Ellis/El Paso).
+    existing_address = (row.get("Property Address", "") if row else "").strip()
+    if address and existing_address and _address_strength(existing_address) > _address_strength(address):
+        print(f"    🏠 {label}: keeping existing address (stronger than CAD's '{address}')")
+        address = ""
+    if address:
+        print(f"    🏠 {label} address: {address}")
+    if owner:
+        print(f"    👤 {label} owner: {owner}")
+
+    land_value  = _num(rec.get("landValue"))
+    imp_value   = _num(rec.get("improvementValue"))
+    land_hs_pct = float(rec.get("landHomesitePct") or 0) / 100
+    imp_hs_pct  = float(rec.get("structureHomesitePct") or 0) / 100
+
+    land_homesite    = _travis_money(land_value * land_hs_pct)
+    land_nonhomesite = _travis_money(land_value * (1 - land_hs_pct))
+    imp_homesite     = _travis_money(imp_value * imp_hs_pct)
+    imp_nonhomesite  = _travis_money(imp_value * (1 - imp_hs_pct))
+    market_value     = _travis_money(_num(rec.get("appraisedValue")) or _num(rec.get("marketValue")))
+
+    lat, lon = rec.get("latitude"), rec.get("longitude")
+    if lat and lon:
+        google_maps_url = f"https://maps.google.com/maps?q={lat},{lon}"
+    else:
+        google_maps_url = build_google_maps_url(address) if address else ""
+
+    zillow_url  = build_zillow_url(address) if address else ""
+    realtor_url = build_realtor_search_url(address) if address else ""
+
+    print(f"    💰 {label} {year}: land={land_nonhomesite} imp={imp_nonhomesite} market={market_value}")
+    print(f"    🔗 Canonical: {detail_url}")
+    return {
+        "Property Address":           address,
+        "Owner Name":                 owner,
+        "Adjusted Value":             market_value,
+        "Appraisal District":         detail_url,
+        "Property Map":               google_maps_url,
+        "Interactive Map":            "",
+        "Satellite View":             google_maps_url,
+        "Zillow":                     zillow_url,
+        "Realtor":                    realtor_url,
+        "Improvement Homesite Value": imp_homesite,
+        "Improvement Non-Homesite":   imp_nonhomesite,
+        "Land Homesite Value":        land_homesite,
+        "Land Non-Homesite Value":    land_nonhomesite,
+        "Ag Market Valuation":        "",
+    }
+
+
+def _scrape_reeves_property(page, account_number, row=None):
+    clean = _reeves_clean_id(account_number)
+    if not re.match(r'^\d+$', clean):
+        print(f"    ⚠️  Not a Reeves PID: {account_number}")
+        return None
+    print(f"    🔍 Reeves PID: {clean}")
+
+    results = _trueprodigy_api_search(
+        page, REEVES_BASE_URL, "Reeves", {"pid": {"operator": "=", "value": clean}}, "Reeves")
+    results = [r for r in (results or []) if str(r.get("pid")) == clean]
+    if not results:
+        print(f"    ❌ Reeves property not found: {account_number}")
+        return None
+    return _trueprodigy_build_result(results, REEVES_BASE_URL, row, "Reeves")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MONTGOMERY CAD — TRUE PRODIGY ENGINE (API DIRECT, GEO ID SEARCH)
+# Detail URL: https://mcad-tx.org/property-detail/{pid}/{year}
+# The sheriff site's 13-digit account (0094559014900) is the CAD Geo ID with
+# two leading zeros; the site's search box takes it as 9455-90-14900. Same
+# public/property/search API as Reeves, keyed on geoID instead of pid.
+# A geo ID can return one record per co-owner per year — same pid/values,
+# so the first record of the chosen year is used.
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _scrape_montgomery_property(page, account_number, row=None):
+    geo_id = format_geo_id_montgomery(account_number)
+    if not re.match(r'^\d{4}-\d{2}-\d{5}$', geo_id):
+        print(f"    ⚠️  Not a Montgomery Geo ID: {account_number}")
+        return None
+    print(f"    🔍 Montgomery Geo ID: {geo_id}")
+
+    results = _trueprodigy_api_search(
+        page, MONTGOMERY_BASE_URL, "Montgomery", {"geoID": {"operator": "=", "value": geo_id}}, "Montgomery")
+    results = [r for r in (results or []) if r.get("geoID") == geo_id]
+    if not results:
+        print(f"    ❌ Montgomery property not found: {account_number}")
+        return None
+    return _trueprodigy_build_result(results, MONTGOMERY_BASE_URL, row, "Montgomery")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -4727,6 +4743,244 @@ def _scrape_smith_property(page, account_number):
         print(f"    ❌ Smith scrape error: {e}")
         import traceback; traceback.print_exc()
         return None
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# GSA PARCEL PORTALS — Gregg (search.gcad.org) and Bell (belltx-search.gsacorp.io)
+# Same GSA engine family as Smith. URL pattern: /parcel/{Property ID zero-padded
+# to 10 digits}, e.g. Gregg sheriff "30532" and MVBA Gladewater "000061816" →
+# /parcel/0000030532, /parcel/0000061816; Bell MVBA "63690" → /parcel/0000063690.
+# Per-site differences: Gregg labels the value row "Appraised", Bell "Market";
+# Bell's Location is street-only (city taken from the "CITY OF X" entity).
+# "Value History" is a year-columned table whose first column is the next,
+# not-yet-certified year ("N/A") — take the current year's column, else the
+# newest year that has a number. The site has no homesite split, so values
+# go in the Non-Homesite columns (as the old esearch.gcad.org rows did).
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _gsa_clean_id(raw):
+    digits = re.sub(r'\D', '', raw.strip()).lstrip('0')
+    return digits.zfill(10) if digits else ""
+
+
+def _scrape_gsa_account(page, base_url, account_number, label):
+    """Fallback when no real-property parcel exists: MVBA also sells mineral /
+    personal-property accounts (e.g. 000609532 — "G - MINERALS"), which live
+    at /account/{9-digit id} with only an owner and a Market Value row (no
+    situs address, no land/improvement split)."""
+    digits = re.sub(r'\D', '', account_number.strip()).lstrip('0')
+    acct = digits.zfill(9) if digits else ""
+    if not acct:
+        return None
+    url = f"{base_url}/account/{acct}"
+    page.goto(url, timeout=45000, wait_until="domcontentloaded")
+    page.wait_for_timeout(400)
+
+    scraped = page.evaluate("""
+        () => {
+            var r = { pin: '', owner: '', years: [], market: [] };
+            var own = document.querySelector('.ownership .owners p');
+            if (own) r.owner = (own.innerText || '').split('\\n')[0].trim();
+            for (var row of document.querySelectorAll('section.summary table.grid tr')) {
+                var th = row.querySelector('th'), td = row.querySelector('td');
+                if (th && td && (th.innerText || '').trim().toLowerCase() === 'pin') r.pin = (td.innerText || '').trim();
+            }
+            var hist = document.querySelector('section.value-summary table');
+            if (hist) {
+                r.years = [...hist.querySelectorAll('thead th')].slice(1).map(th => (th.innerText || '').trim());
+                for (var row of hist.querySelectorAll('tbody tr')) {
+                    var th = row.querySelector('th');
+                    if (th && (th.innerText || '').trim().toLowerCase() === 'market value')
+                        r.market = [...row.querySelectorAll('td')].map(td => (td.innerText || '').trim());
+                }
+            }
+            return r;
+        }
+    """)
+
+    if not scraped.get("pin"):
+        print(f"    ❌ {label} property not found (no parcel or account): {account_number}")
+        return None
+
+    owner = re.sub(r'\s*\((?:Property )?Owner\)\s*$', '', (scraped.get("owner") or "").strip(), flags=re.IGNORECASE)
+    if not re.search(r'[A-Za-z0-9]', owner):
+        owner = ""
+
+    def _num(raw):
+        raw = (raw or "").replace(",", "").replace("$", "").strip()
+        try:
+            return int(round(float(raw)))
+        except Exception:
+            return None
+
+    years, market = scraped.get("years") or [], scraped.get("market") or []
+    col = next((i for i, y in enumerate(years) if y == CURRENT_YEAR and i < len(market) and _num(market[i]) is not None), None)
+    if col is None:
+        col = next((i for i in range(len(market)) if _num(market[i]) is not None), None)
+    market_value = f"${_num(market[col]):,}" if col is not None else ""
+
+    print(f"    🛢️  {label} account {acct} (PIN {scraped.get('pin')}), no real-property parcel")
+    if owner:
+        print(f"    👤 {label} owner: {owner}")
+    print(f"    💰 {label} {years[col] if col is not None else CURRENT_YEAR}: market={market_value}")
+    print(f"    🔗 Canonical: {url}")
+    return {
+        "Property Address":           "",
+        "Owner Name":                 owner,
+        "Adjusted Value":             market_value,
+        "Appraisal District":         url,
+        "Property Map":               "",
+        "Interactive Map":            "",
+        "Satellite View":             "",
+        "Zillow":                     "",
+        "Realtor":                    "",
+        "Improvement Homesite Value": "",
+        "Improvement Non-Homesite":   "",
+        "Land Homesite Value":        "",
+        "Land Non-Homesite Value":    "",
+        "Ag Market Valuation":        "",
+    }
+
+
+def _scrape_gsa_parcel(page, base_url, account_number, label):
+    clean = _gsa_clean_id(account_number)
+    if not clean:
+        print(f"    ⚠️  Could not parse {label} account: {account_number}")
+        return None
+    print(f"    🔍 {label} Property ID: {clean}")
+
+    url = f"{base_url}/parcel/{clean}"
+    try:
+        page.goto(url, timeout=45000, wait_until="domcontentloaded")
+        page.wait_for_timeout(400)
+
+        scraped = page.evaluate("""
+            () => {
+                var r = { parcelId: '', owner: '', location: '', countyGis: '', city: '', years: [], values: {} };
+                var ownDiv = document.querySelector('.ownership > div');
+                if (ownDiv) r.owner = (ownDiv.innerText || '').split('\\n')[0].trim();
+
+                for (var row of document.querySelectorAll('table.grid tr')) {
+                    var th = row.querySelector('th'), td = row.querySelector('td');
+                    if (!th || !td) continue;
+                    var label = (th.innerText || '').trim().toLowerCase();
+                    if (label === 'parcel id') r.parcelId = (td.innerText || '').trim();
+                    if (label === 'location') r.location = (td.innerText || '').trim();
+                }
+
+                var hist = document.querySelector('section.value-summary table');
+                if (hist) {
+                    r.years = [...hist.querySelectorAll('thead th')].slice(1).map(th => (th.innerText || '').trim());
+                    for (var row of hist.querySelectorAll('tbody tr')) {
+                        var th = row.querySelector('th');
+                        if (!th) continue;
+                        r.values[(th.innerText || '').trim().toLowerCase()] =
+                            [...row.querySelectorAll('td')].map(td => (td.innerText || '').trim());
+                    }
+                }
+
+                for (var row of document.querySelectorAll('table tr')) {
+                    var tds = row.querySelectorAll('td');
+                    if (tds.length < 2) continue;
+                    var m = (tds[1].innerText || '').trim().match(/^CITY OF\s+(.+)$/i);
+                    if (m) { r.city = m[1].trim(); break; }
+                }
+
+                for (var a of document.querySelectorAll('section.nav a')) {
+                    if ((a.innerText || '').trim().toLowerCase() === 'county gis') { r.countyGis = a.href; break; }
+                }
+                return r;
+            }
+        """)
+
+        if scraped.get("parcelId") != clean:
+            return _scrape_gsa_account(page, base_url, account_number, label)
+
+        # Confidential parcels have owner/location masked as "*" (values are
+        # still real) — treat the masks as blank rather than writing "* *".
+        owner = (scraped.get("owner") or "").strip()
+        if not re.search(r'[A-Za-z0-9]', owner):
+            owner = ""
+        lines = [l.strip() for l in (scraped.get("location") or "").split("\n") if l.strip()]
+        address = re.sub(r'\s+', ' ', ", ".join(lines)).strip(", ").strip()
+        if not re.search(r'[A-Za-z0-9]', address):
+            address = ""
+        city = (scraped.get("city") or "").strip()
+        if address and len(lines) == 1 and city:
+            # Street-only Location (Bell) — add the city from the "CITY OF X"
+            # taxing entity so Zillow/Maps links resolve.
+            address = f"{address}, {city.title()}, TX"
+        if owner:
+            print(f"    👤 {label} owner: {owner}")
+        if address:
+            print(f"    🏠 {label} address: {address}")
+
+        years  = scraped.get("years") or []
+        values = scraped.get("values") or {}
+
+        def _num(raw):
+            raw = (raw or "").replace(",", "").replace("$", "").strip()
+            try:
+                return int(round(float(raw)))
+            except Exception:
+                return None
+
+        # "Appraised" on Gregg, "Market" on Bell — same row
+        appraised_label = "appraised" if "appraised" in values else "market"
+        appraised = values.get(appraised_label) or []
+        col = next((i for i, y in enumerate(years)
+                    if y == CURRENT_YEAR and i < len(appraised) and _num(appraised[i]) is not None), None)
+        if col is None:
+            col = next((i for i in range(len(appraised)) if _num(appraised[i]) is not None), None)
+
+        def _money_at(label):
+            row = values.get(label) or []
+            n = _num(row[col]) if col is not None and col < len(row) else None
+            return f"${n:,}" if n is not None else ""
+
+        year         = years[col] if col is not None and col < len(years) else CURRENT_YEAR
+        improvement  = _money_at("building value")
+        land         = _money_at("land market value")
+        ag_value     = _money_at("land ag value")
+        market_value = _money_at(appraised_label)
+        zero = "$0" if market_value else ""
+        print(f"    💰 {label} {year}: land={land} imp={improvement} appraised={market_value}")
+
+        interactive_map = scraped.get("countyGis") or ""
+        google_maps_url = build_google_maps_url(address) if address else ""
+        zillow_url      = build_zillow_url(address) if address else ""
+        realtor_url     = build_realtor_search_url(address) if address else ""
+
+        print(f"    🔗 Canonical: {url}")
+        return {
+            "Property Address":           address,
+            "Owner Name":                 owner,
+            "Adjusted Value":             market_value,
+            "Appraisal District":         url,
+            "Property Map":               google_maps_url,
+            "Interactive Map":            interactive_map,
+            "Satellite View":             google_maps_url,
+            "Zillow":                     zillow_url,
+            "Realtor":                    realtor_url,
+            "Improvement Homesite Value": zero,
+            "Improvement Non-Homesite":   improvement,
+            "Land Homesite Value":        zero,
+            "Land Non-Homesite Value":    land,
+            "Ag Market Valuation":        ag_value,
+        }
+
+    except Exception as e:
+        print(f"    ❌ {label} scrape error: {e}")
+        import traceback; traceback.print_exc()
+        return None
+
+
+def _scrape_gregg_property(page, account_number):
+    return _scrape_gsa_parcel(page, GREGG_BASE_URL, account_number, "Gregg")
+
+
+def _scrape_bell_property(page, account_number):
+    return _scrape_gsa_parcel(page, BELL_BASE_URL, account_number, "Bell")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -5057,11 +5311,15 @@ def _call_county_scraper(page, county, account, row):
     elif county == "cameron":
         return _scrape_cameron_property(page, account)
     elif county == "valverde":
-        return _scrape_valverde_property(page, account)
+        return _scrape_valverde_property(page, account, row)
     elif county == "dallas":
         return _scrape_dallas_property(page, account)
     elif county == "bowie":
         return _scrape_bowie_property(page, account)
+    elif county == "reeves":
+        return _scrape_reeves_property(page, account, row)
+    elif county == "montgomery":
+        return _scrape_montgomery_property(page, account, row)
     elif county == "harrison":
         expected_owner = row.get("Owner Name", "") or row.get("Defendant", "") or ""
         return _scrape_harrison_property(page, account_plain, expected_owner=expected_owner)
@@ -5083,12 +5341,18 @@ def _call_county_scraper(page, county, account, row):
         return _scrape_jackson_property(page, account)
     elif county == "smith":
         return _scrape_smith_property(page, account)
+    elif county == "gregg":
+        return _scrape_gregg_property(page, account)
+    elif county == "bell":
+        return _scrape_bell_property(page, account)
     elif county == "elpaso":
         return _scrape_elpaso_property(page, account, row)
     elif county == "leon":
         return _scrape_leon_property(page, account)
     elif county == "freestone":
         return _scrape_freestone_property(page, account)
+    elif county == "panola":
+        return _scrape_panola_property(page, account)
     elif county == "hays":
         return _scrape_hays_property(page, account)
     elif county in HOMESEARCH_URLS:
@@ -5145,6 +5409,8 @@ def run_cad_enrichment(target_rows, _db=None, force_update=False):
         for uk, row in rows_list:
             county  = row.get("County", "").strip().lower().replace(" ", "").replace("_", "")
             account = row.get("Account Number", "").strip()
+            if county in CAD_COUNTY_ALIASES:
+                county = CAD_COUNTY_ALIASES[county]
 
             # MVBA fallback IDs look like "MVBA-COMAL-33982" when the real CAD
             # account wasn't found on the listing page. The trailing number is
@@ -5249,11 +5515,15 @@ def run_cad_enrichment(target_rows, _db=None, force_update=False):
                     elif county == "cameron":
                         result = _scrape_cameron_property(page, account)
                     elif county == "valverde":
-                        result = _scrape_valverde_property(page, account)
+                        result = _scrape_valverde_property(page, account, row)
                     elif county == "dallas":
                         result = _scrape_dallas_property(page, account)
                     elif county == "bowie":
                         result = _scrape_bowie_property(page, account)
+                    elif county == "reeves":
+                        result = _scrape_reeves_property(page, account, row)
+                    elif county == "montgomery":
+                        result = _scrape_montgomery_property(page, account, row)
                     elif county == "harrison":
                         expected_owner = row.get("Owner Name", "") or row.get("Defendant", "") or ""
                         result = _scrape_harrison_property(page, account_plain, expected_owner=expected_owner)
@@ -5275,12 +5545,18 @@ def run_cad_enrichment(target_rows, _db=None, force_update=False):
                         result = _scrape_jackson_property(page, account)
                     elif county == "smith":
                         result = _scrape_smith_property(page, account)
+                    elif county == "gregg":
+                        result = _scrape_gregg_property(page, account)
+                    elif county == "bell":
+                        result = _scrape_bell_property(page, account)
                     elif county == "elpaso":
                         result = _scrape_elpaso_property(page, account, row)
                     elif county == "leon":
                         result = _scrape_leon_property(page, account)
                     elif county == "freestone":
                         result = _scrape_freestone_property(page, account)
+                    elif county == "panola":
+                        result = _scrape_panola_property(page, account)
                     elif county == "hays":
                         result = _scrape_hays_property(page, account)
                     elif county in HOMESEARCH_URLS:
