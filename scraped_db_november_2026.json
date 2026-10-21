@@ -1304,7 +1304,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000684232000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1320,7 +1320,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000481636000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1496,7 +1496,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_703003401003000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -2016,7 +2016,7 @@
     "section": "Closed"
   },
   "SHERIFF_ELPASO_C51899908500600": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2040,7 +2040,7 @@
     "section": "Waiting"
   },
   "SHERIFF_ELPASO_F52499900404900": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -3086,5 +3086,21 @@
     "county": "BASTROP",
     "cause_number": "465-521",
     "section": "MVBA_PDF"
+  },
+  "SHERIFF_DALLAS_00000567538000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01208",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_32428500050240000": {
+    "status": "Pending",
+    "first_seen": "2026-10-21",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00693",
+    "section": "Waiting"
   }
 }
