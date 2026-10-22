@@ -1160,7 +1160,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_32469500530000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2744,7 +2744,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_GLADEWATER_000180681": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-16",
     "source": "MVBA",
     "county": "GLADEWATER",
