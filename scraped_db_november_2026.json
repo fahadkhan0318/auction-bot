@@ -3102,5 +3102,53 @@
     "county": "DALLAS",
     "cause_number": "TX-25-00693",
     "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_44016410030340000": {
+    "status": "Pending",
+    "first_seen": "2026-10-22",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00757",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_65095712310420000": {
+    "status": "Pending",
+    "first_seen": "2026-10-22",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-19-01974",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_26666500170040000": {
+    "status": "Pending",
+    "first_seen": "2026-10-22",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-24-02114",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_26555500010270000": {
+    "status": "Pending",
+    "first_seen": "2026-10-22",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01047",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_262547600E0080000": {
+    "status": "Pending",
+    "first_seen": "2026-10-22",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-01040",
+    "section": "Waiting"
+  },
+  "SHERIFF_DALLAS_65073408310020000": {
+    "status": "Pending",
+    "first_seen": "2026-10-22",
+    "source": "SHERIFF",
+    "county": "DALLAS",
+    "cause_number": "TX-25-00008",
+    "section": "Waiting"
   }
 }
