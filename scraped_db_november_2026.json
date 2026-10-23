@@ -928,7 +928,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_0447300120031000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1704,7 +1704,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MONTGOMERY_0000140000201": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -3150,5 +3150,29 @@
     "county": "DALLAS",
     "cause_number": "TX-25-00008",
     "section": "Waiting"
+  },
+  "SHERIFF_GALVESTON_600400000022000": {
+    "status": "Pending",
+    "first_seen": "2026-10-23",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25TX0012",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_518200350009000": {
+    "status": "Pending",
+    "first_seen": "2026-10-23",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "25TX0425",
+    "section": "Closed"
+  },
+  "SHERIFF_GALVESTON_001900970000000": {
+    "status": "Pending",
+    "first_seen": "2026-10-23",
+    "source": "SHERIFF",
+    "county": "GALVESTON",
+    "cause_number": "24TX0055",
+    "section": "Closed"
   }
 }
