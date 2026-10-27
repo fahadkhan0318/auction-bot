@@ -1624,7 +1624,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_438200000276000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "GALVESTON",
