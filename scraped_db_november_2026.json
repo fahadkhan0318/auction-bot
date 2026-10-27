@@ -1600,7 +1600,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_406500100006002": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -1784,7 +1784,7 @@
     "section": "Closed"
   },
   "SHERIFF_MONTGOMERY_0076220005300": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -1816,7 +1816,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MONTGOMERY_0078100564900": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -1824,7 +1824,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MONTGOMERY_0078100565200": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -2536,7 +2536,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_100731200/110731010": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
@@ -3174,5 +3174,13 @@
     "county": "GALVESTON",
     "cause_number": "24TX0055",
     "section": "Closed"
+  },
+  "MVBA_CHEROKEE_136699": {
+    "status": "Pending",
+    "first_seen": "2026-10-27",
+    "source": "MVBA",
+    "county": "CHEROKEE",
+    "cause_number": "2025050178",
+    "section": "MVBA_ONLINE"
   }
 }
