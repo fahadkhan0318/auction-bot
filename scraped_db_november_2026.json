@@ -1456,7 +1456,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_556000010087001": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -1528,7 +1528,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_351000371002000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -1840,7 +1840,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MONTGOMERY_0064320256900": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -2656,7 +2656,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_107887020": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
@@ -3104,7 +3104,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_44016410030340000": {
-    "status": "Pending",
+    "status": "Redeemed",
     "first_seen": "2026-10-22",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -3144,7 +3144,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_65073408310020000": {
-    "status": "Pending",
+    "status": "Redeemed",
     "first_seen": "2026-10-22",
     "source": "SHERIFF",
     "county": "DALLAS",
