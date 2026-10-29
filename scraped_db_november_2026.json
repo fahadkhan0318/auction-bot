@@ -1912,7 +1912,7 @@
     "section": "Waiting"
   },
   "SHERIFF_SMITH_180705000600038000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -2704,7 +2704,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CALDWELL_23200": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-10-15",
     "source": "SHERIFF",
     "county": "CALDWELL",
