@@ -960,7 +960,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_7475410030012000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -3112,7 +3112,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_65095712310420000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-22",
     "source": "SHERIFF",
     "county": "DALLAS",
