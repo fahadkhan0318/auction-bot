@@ -888,7 +888,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_8415500070000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1128,7 +1128,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_65031140310270000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2088,7 +2088,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_8187-0007-0200": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2096,7 +2096,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_7626-0005-0320": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2104,7 +2104,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_7625-0003-0300": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2120,7 +2120,7 @@
     "section": "Waiting"
   },
   "SHERIFF_NUECES_9113-0008-0290": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "NUECES",
@@ -2240,7 +2240,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_COMAL_12246": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-14",
     "source": "MVBA",
     "county": "COMAL",
@@ -2552,7 +2552,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_119714/124618/985806658/985935393": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
@@ -2592,7 +2592,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_530585000": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
@@ -2696,7 +2696,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CALDWELL_22875": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-10-15",
     "source": "SHERIFF",
     "county": "CALDWELL",
