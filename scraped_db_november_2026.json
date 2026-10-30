@@ -1752,7 +1752,7 @@
     "section": "Closed"
   },
   "SHERIFF_MONTGOMERY_0097151314700": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -3182,5 +3182,45 @@
     "county": "CHEROKEE",
     "cause_number": "2025050178",
     "section": "MVBA_ONLINE"
+  },
+  "MVBA_BELL_24DCV350653-T41": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-30",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350653",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_24DCV350653-T42": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-30",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "24DCV350653",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV352848-T48": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-30",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV352848",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV354992-T50": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-30",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV354992",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_BELL_25DCV358029-T53": {
+    "status": "Withdrawn",
+    "first_seen": "2026-10-30",
+    "source": "MVBA",
+    "county": "BELL",
+    "cause_number": "25DCV358029",
+    "section": "MVBA_PDF"
   }
 }
