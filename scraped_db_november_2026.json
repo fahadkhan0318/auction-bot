@@ -848,7 +848,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_3900000190003000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1944,7 +1944,7 @@
     "section": "Closed"
   },
   "SHERIFF_ELPASO_S43499900005700": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2152,7 +2152,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_COMAL_67473": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-14",
     "source": "MVBA",
     "county": "COMAL",
@@ -3120,7 +3120,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_26666500170040000": {
-    "status": "Pending",
+    "status": "Redeemed",
     "first_seen": "2026-10-22",
     "source": "SHERIFF",
     "county": "DALLAS",
