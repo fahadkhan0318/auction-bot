@@ -1200,7 +1200,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000448345000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -2232,7 +2232,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_COMAL_137267": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-14",
     "source": "MVBA",
     "county": "COMAL",
@@ -3128,7 +3128,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_26555500010270000": {
-    "status": "Pending",
+    "status": "P.Arrangement",
     "first_seen": "2026-10-22",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -3160,7 +3160,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_518200350009000": {
-    "status": "Pending",
+    "status": "P.Arrangement",
     "first_seen": "2026-10-23",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -3221,6 +3221,846 @@
     "source": "MVBA",
     "county": "BELL",
     "cause_number": "25DCV358029",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_143994": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T254-18",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140262": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T205-22",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140821": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T205-22",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_138267": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_138895": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140693": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_142042": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_142583": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_143864": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_144319": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_144807": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_144884": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_144907": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_147487": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_147598": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149962": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_155952": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_155985": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_235881": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_235926": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_240601": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T041-23",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140705": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140706": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140709": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140710": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140712": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140713": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140714": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140719": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140723": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140743": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140749": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140756": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140764": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140765": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140792": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T048-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140687": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T065-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_147587": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_147590": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_147607": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_147632": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149413": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149433": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149445": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149450": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149476": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149492": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149518": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149531": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149535": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149633": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149634": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149727": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149731": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149733": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149787": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149808": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149811": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149815": {
+    "status": "Withdrawn",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149819": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149822": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149835": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149839": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149874": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149953": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_149994": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_150003": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_150097": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_150253": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T116-24",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_138326": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_138669": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_138759": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140281": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140319": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140331": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140347": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140348": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140350": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140390": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140417": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140419": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140420": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140438": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140481": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140514": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140569": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140662": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140675": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140703": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140711": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140718": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140750": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_140839": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_141890": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_141949": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_141958": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_141959": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_141972": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_141987": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_141997": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_141998": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_142011": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_142012": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_142050": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
+    "section": "MVBA_PDF"
+  },
+  "MVBA_HILL_142129": {
+    "status": "Pending",
+    "first_seen": "2026-11-02",
+    "source": "MVBA",
+    "county": "HILL",
+    "cause_number": "T018-25",
     "section": "MVBA_PDF"
   }
 }
