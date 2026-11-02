@@ -968,7 +968,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_9096800210031000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1136,7 +1136,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000180529000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1208,7 +1208,7 @@
     "section": "Waiting"
   },
   "SHERIFF_DALLAS_00000698356000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1440,7 +1440,7 @@
     "section": "Closed"
   },
   "SHERIFF_GALVESTON_110500000073003": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -1512,7 +1512,7 @@
     "section": "Waiting"
   },
   "SHERIFF_GALVESTON_514000000021000": {
-    "status": "Pending",
+    "status": "Paid in Full",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "GALVESTON",
@@ -1736,7 +1736,7 @@
     "section": "Closed"
   },
   "SHERIFF_MONTGOMERY_0087200010110": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -1744,7 +1744,7 @@
     "section": "Closed"
   },
   "SHERIFF_MONTGOMERY_0097283804600": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
