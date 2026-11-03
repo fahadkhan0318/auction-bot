@@ -896,7 +896,7 @@
     "section": "Closed"
   },
   "SHERIFF_CAMERON_4100000040012000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -920,7 +920,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_2281800040042000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -936,7 +936,7 @@
     "section": "Waiting"
   },
   "SHERIFF_CAMERON_6565000210002000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-13",
     "source": "SHERIFF",
     "county": "CAMERON",
@@ -1184,7 +1184,7 @@
     "section": "Closed"
   },
   "SHERIFF_DALLAS_00000305719000000": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "DALLAS",
@@ -1800,7 +1800,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MONTGOMERY_0078100616210": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -1808,7 +1808,7 @@
     "section": "Waiting"
   },
   "SHERIFF_MONTGOMERY_0078100616240": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "MONTGOMERY",
@@ -1928,7 +1928,7 @@
     "section": "Closed"
   },
   "SHERIFF_SMITH_065015623000W001001": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "SMITH",
@@ -1952,7 +1952,7 @@
     "section": "Closed"
   },
   "SHERIFF_ELPASO_T11699900405300": {
-    "status": "Pending",
+    "status": "Cancelled",
     "first_seen": "2026-10-14",
     "source": "SHERIFF",
     "county": "ELPASO",
@@ -2544,7 +2544,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_117212000": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
@@ -2600,7 +2600,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_143277": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
@@ -2608,7 +2608,7 @@
     "section": "MVBA_ONLINE"
   },
   "MVBA_CHEROKEE_144180/144181": {
-    "status": "Pending",
+    "status": "Withdrawn",
     "first_seen": "2026-10-15",
     "source": "MVBA",
     "county": "CHEROKEE",
